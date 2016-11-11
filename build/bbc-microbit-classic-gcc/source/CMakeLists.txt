@@ -26,6 +26,6 @@ yotta_postprocess_target(EXECUTABLE recordsaveplayaudiodata)
 
 
 target_link_libraries(recordsaveplayaudiodata
-    microbit
+    microbit-dal
 )
 

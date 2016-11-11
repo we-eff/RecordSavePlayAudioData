@@ -37,10 +37,10 @@ DEALINGS IN THE SOFTWARE.
 #include "MicroBitComponent.h"
 
 // not in Pin.h, still needed
-#include "MicroBitSystemTimer.h"
-#include "TimedInterruptIn.h"
-#include "DynamicPwm.h" // needed
-#include "ErrorNo.h"    // needed
+//#include "MicroBitSystemTimer.h" // appears not to be needed
+//#include "TimedInterruptIn.h"    // appears not to be needed
+#include "DynamicPwm.h" // driver, though harmless (no deep connections)
+#include "ErrorNo.h"    // return the right error numbers
 
   ////////////////////
  // public methods //
@@ -55,6 +55,11 @@ Pin::Pin(int id, PinName name)
     // If we're unused, this is how it will stay...
     this->status = 0x00;
     this->pin = NULL;
+}
+
+void * Pin::getPin()
+{
+    return pin;
 }
 
 /**

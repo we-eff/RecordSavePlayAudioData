@@ -2,21 +2,15 @@
   "name": "recordsaveplayaudiodata",
   "version": "0.3.0",
   "description": "Record, save and play audio data on the BBC micro:bit.",
-  "author": "We Eff <we.do.eff@gmail.com>",
-  "homepage": "http://github.com/we-eff/RecordSavePlayAudioData",
-  "repository": {
-    "url": "git@github.com:we-eff/RecordSavePlayAudioData.git",
-    "type": "git"
-  },
   "license": "MIT",
   "dependencies": {
-    "microbit": "lancaster-university/microbit-samples"
+    "microbit-dal": "lancaster-university/microbit-dal"
   },
   "targetDependencies": {},
-  "private": "true",
-  "bugs": {
-    "url": "https://github.com/we-eff/RecordSavePlayAudioData/issues",
-    "email": we.do.eff@gmail.com"
-  },
-  "bin": "./source"
+  "bin": "./source",
+  "extraIncludes": [
+    "./yotta_modules/microbit-dal/inc/core",
+    "./yotta_modules/microbit-dal/inc/drivers",
+    "./yotta_modules/microbit-dal/inc/platform"
+  ]
 }

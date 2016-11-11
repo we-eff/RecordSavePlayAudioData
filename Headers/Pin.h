@@ -63,6 +63,7 @@ class Pin : public MicroBitComponent
     void disconnect();
 
     public:
+    void * getPin();
 
     // mbed PinName of this pin.
     PinName name;

@@ -29,7 +29,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/Users/Wendelin/NetbeansProjects/MicroBit/RecordSavePlayAudioData/build/bbc-microbit-classic-gcc/ym/microbit/cmake_install.cmake")
+  include("/Users/Wendelin/NetbeansProjects/MicroBit/RecordSavePlayAudioData/build/bbc-microbit-classic-gcc/ym/microbit-dal/cmake_install.cmake")
   include("/Users/Wendelin/NetbeansProjects/MicroBit/RecordSavePlayAudioData/build/bbc-microbit-classic-gcc/source/cmake_install.cmake")
 
 endif()

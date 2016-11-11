@@ -157,25 +157,6 @@ rule CXX_STATIC_LIBRARY_LINKER__microbit-dal
 #############################################
 # Rule for compiling CXX files.
 
-rule CXX_COMPILER__microbit
-  depfile = $DEP_FILE
-  deps = gcc
-  command = /usr/local/bin/arm-none-eabi-g++  $DEFINES $INCLUDES $FLAGS -MMD -MT $out -MF $DEP_FILE -o $out -c $in
-  description = Building CXX object $out
-
-
-#############################################
-# Rule for linking CXX static library.
-
-rule CXX_STATIC_LIBRARY_LINKER__microbit
-  command = $PRE_LINK && /usr/local/bin/arm-none-eabi-ar -cr $LINK_FLAGS $TARGET_FILE $in && $POST_BUILD
-  description = Linking CXX static library $TARGET_FILE
-  restat = $RESTAT
-
-
-#############################################
-# Rule for compiling CXX files.
-
 rule CXX_COMPILER__recordsaveplayaudiodata
   depfile = $DEP_FILE
   deps = gcc

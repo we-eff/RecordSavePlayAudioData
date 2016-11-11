@@ -40,14 +40,14 @@ endfunction()
 # set target-defined definitions
 set(YOTTA_BUILD_YEAR "2016") # UTC year
 set(YOTTA_BUILD_MONTH "11") # UTC month 1-12
-set(YOTTA_BUILD_DAY "9") # UTC day 1-31
+set(YOTTA_BUILD_DAY "10") # UTC day 1-31
 set(YOTTA_BUILD_HOUR "13") # UTC hour 0-24
-set(YOTTA_BUILD_MINUTE "36") # UTC minute 0-59
-set(YOTTA_BUILD_SECOND "20") # UTC second 0-61
-set(YOTTA_BUILD_UUID "2bd10e08-6342-418e-95c6-24ce88c77886") # unique random UUID for each build
-set(YOTTA_BUILD_VCS_ID "c6c81146b84a7933bc44598b4310a9e92e08c447") # git or mercurial hash
+set(YOTTA_BUILD_MINUTE "54") # UTC minute 0-59
+set(YOTTA_BUILD_SECOND "22") # UTC second 0-61
+set(YOTTA_BUILD_UUID "1e0ded01-2912-47e1-ba8b-d75237ca4d6e") # unique random UUID for each build
+set(YOTTA_BUILD_VCS_ID "dea02877fcb990d0da07ab39f93c6818d4f01ea1") # git or mercurial hash
 set(YOTTA_BUILD_VCS_CLEAN "0") # evaluates true if the version control system was clean, otherwise false
-set(YOTTA_BUILD_VCS_DESCRIPTION "c6c8114") # git describe or mercurial equivalent
+set(YOTTA_BUILD_VCS_DESCRIPTION "dea0287") # git describe or mercurial equivalent
 set(TARGET BBC_MICROBIT_CLASSIC_GCC)
 set(TARGET_LIKE_BBC_MICROBIT_CLASSIC_GCC TRUE)
 set(YOTTA_BUILD_INFO_HEADER "/Users/Wendelin/NetbeansProjects/MicroBit/RecordSavePlayAudioData/build/bbc-microbit-classic-gcc/yotta_build_info.h")
@@ -89,7 +89,6 @@ add_definitions("${YOTTA_FORCE_INCLUDE_FLAG} \"/Users/Wendelin/NetbeansProjects/
 # include root directories of all components we depend on (directly and
 # indirectly, including ourself)
 include_directories("/Users/Wendelin/NetbeansProjects/MicroBit/RecordSavePlayAudioData")
-include_directories("/Users/Wendelin/NetbeansProjects/MicroBit/RecordSavePlayAudioData/yotta_modules/microbit")
 include_directories("/Users/Wendelin/NetbeansProjects/MicroBit/RecordSavePlayAudioData/yotta_modules/microbit-dal")
 include_directories("/Users/Wendelin/NetbeansProjects/MicroBit/RecordSavePlayAudioData/yotta_modules/mbed-classic")
 include_directories("/Users/Wendelin/NetbeansProjects/MicroBit/RecordSavePlayAudioData/yotta_modules/ble")
@@ -99,8 +98,8 @@ include_directories("/Users/Wendelin/NetbeansProjects/MicroBit/RecordSavePlayAud
 
 # recurse into dependencies that aren't built elsewhere
 add_subdirectory(
-   "/Users/Wendelin/NetbeansProjects/MicroBit/RecordSavePlayAudioData/build/bbc-microbit-classic-gcc/ym/microbit"
-   "${CMAKE_BINARY_DIR}/ym/microbit"
+   "/Users/Wendelin/NetbeansProjects/MicroBit/RecordSavePlayAudioData/build/bbc-microbit-classic-gcc/ym/microbit-dal"
+   "${CMAKE_BINARY_DIR}/ym/microbit-dal"
 )
 
 
@@ -108,7 +107,9 @@ add_subdirectory(
 # And others (typically CMSIS implementations) need to export non-system header
 # files. Please don't use this facility. Please. It's much, much better to fix
 # implementations that import these headers to import them using the full path.
-include_directories("/Users/Wendelin/NetbeansProjects/MicroBit/RecordSavePlayAudioData/yotta_modules/microbit/inc")
+include_directories("/Users/Wendelin/NetbeansProjects/MicroBit/RecordSavePlayAudioData/yotta_modules/microbit-dal/inc/core")
+include_directories("/Users/Wendelin/NetbeansProjects/MicroBit/RecordSavePlayAudioData/yotta_modules/microbit-dal/inc/drivers")
+include_directories("/Users/Wendelin/NetbeansProjects/MicroBit/RecordSavePlayAudioData/yotta_modules/microbit-dal/inc/platform")
 include_directories("/Users/Wendelin/NetbeansProjects/MicroBit/RecordSavePlayAudioData/yotta_modules/microbit-dal/inc/core")
 include_directories("/Users/Wendelin/NetbeansProjects/MicroBit/RecordSavePlayAudioData/yotta_modules/microbit-dal/inc/types")
 include_directories("/Users/Wendelin/NetbeansProjects/MicroBit/RecordSavePlayAudioData/yotta_modules/microbit-dal/inc/drivers")
@@ -156,10 +157,10 @@ include_directories(${GLOBAL_INCLUDE_DIRS})
 
 # Provide versions of all the components we depend on, the corresponding
 # preprocessor definitions are generated in yotta_config.h
-set(YOTTA_MICROBIT_VERSION_STRING "2.0.0-rc4")
-set(YOTTA_MICROBIT_VERSION_MAJOR 2)
-set(YOTTA_MICROBIT_VERSION_MINOR 0)
-set(YOTTA_MICROBIT_VERSION_PATCH 0)
+set(YOTTA_MICROBIT_DAL_VERSION_STRING "2.0.0-rc4")
+set(YOTTA_MICROBIT_DAL_VERSION_MAJOR 2)
+set(YOTTA_MICROBIT_DAL_VERSION_MINOR 0)
+set(YOTTA_MICROBIT_DAL_VERSION_PATCH 0)
 set(YOTTA_RECORDSAVEPLAYAUDIODATA_VERSION_STRING "0.3.0")
 set(YOTTA_RECORDSAVEPLAYAUDIODATA_VERSION_MAJOR 0)
 set(YOTTA_RECORDSAVEPLAYAUDIODATA_VERSION_MINOR 3)

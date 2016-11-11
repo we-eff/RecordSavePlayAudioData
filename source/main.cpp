@@ -47,6 +47,11 @@ int main()
     {
         if(buttonRecord.isPressed()) // recording always stronger than playing
         {
+            if(microphonecheck12whatisthis.isPlaying())
+            {
+                microphonecheck12whatisthis.stopPlaying();
+                LEDs.displayReadySign();
+            }
             if(!microphonecheck12whatisthis.isRecording())
             {
                 microphonecheck12whatisthis.startRecording();
@@ -55,6 +60,11 @@ int main()
         }
         else if(buttonPlay.isPressed())
         {
+            if(microphonecheck12whatisthis.isRecording())
+            {
+                microphonecheck12whatisthis.stopRecording();
+                LEDs.displayReadySign();
+            }
             if(!microphonecheck12whatisthis.isPlaying())
             {
                 microphonecheck12whatisthis.startPlaying();
@@ -68,7 +78,7 @@ int main()
                 microphonecheck12whatisthis.stopRecording();
                 LEDs.displayReadySign();
             }
-            else if(microphonecheck12whatisthis.isPlaying())
+            if(microphonecheck12whatisthis.isPlaying())
             {
                 microphonecheck12whatisthis.stopPlaying();
                 LEDs.displayReadySign();

@@ -36,7 +36,6 @@ DEALINGS IN THE SOFTWARE.
 #include "Headers/Pin.h"
 #include "Ticker.h"
 #include <vector>
-#include "MicroBitPin.h"
 
   ////////////////////
  // public methods //
@@ -51,6 +50,10 @@ Audio::Audio() :
     this->setSamplingPeriod();
     IsRecording = false;
     IsPlaying = false;
+#ifdef DEBUG
+    int pwm_clock_mhz = ( ( ( ( 12000000UL ) ) * ( ( 0x00000009 & 0x1F ) + 1 ) ) / ( 0x00000002 & 0x1F ) ) / 1000000; // copied from macro expansion (see pwmout_api.c line 96)
+    Computer.printf("pwm clock fq: %i mhz\n\r", pwm_clock_mhz);
+#endif
 }
 
 /*Audio::Audio(const Audio& orig)
@@ -63,6 +66,9 @@ void Audio::startRecording()
     if(!IsRecording)
     {
         AudioData.clear(); // start a new recording
+#ifdef DEBUG
+        Computer.puts("start recording\n\r");
+#endif
         RecordInterrupt.attach_us(this, &Audio::getAnalogValues, SamplingPeriod);
         IsRecording = true;
     }
@@ -79,6 +85,9 @@ void Audio::stopRecording()
     if(IsRecording)
     {
         RecordInterrupt.detach(); // detach whatever function is attached
+#ifdef DEBUG
+        Computer.puts("stop recording\n\r");
+#endif
         IsRecording = false;
     }
         else
@@ -94,6 +103,9 @@ void Audio::startPlaying()
     if(!IsPlaying)
     {
         CurrentPositionPlay = AudioData.begin();
+#ifdef DEBUG
+        Computer.puts("start playing\n\r");
+#endif
         PlayInterrupt.attach_us(this, &Audio::setAnalogValues, SamplingPeriod);
         IsPlaying = true;
     }
@@ -110,6 +122,9 @@ void Audio::stopPlaying()
     if(IsPlaying)
     {
         PlayInterrupt.detach(); // detach whatever function is attached
+#ifdef DEBUG
+        Computer.puts("stop playing\n\r");
+#endif
         IsPlaying = false;
     }
         else

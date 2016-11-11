@@ -572,6 +572,8 @@ Discarded input sections
                 0x0000000000000000        0x2 source/CMakeFiles/recordsaveplayaudiodata.dir/Users/Wendelin/NetbeansProjects/MicroBit/RecordSavePlayAudioData/source/Pin.cpp.o
  .text._ZN17MicroBitComponentD0Ev
                 0x0000000000000000        0xc source/CMakeFiles/recordsaveplayaudiodata.dir/Users/Wendelin/NetbeansProjects/MicroBit/RecordSavePlayAudioData/source/Pin.cpp.o
+ .text._ZN3Pin6getPinEv
+                0x0000000000000000        0x4 source/CMakeFiles/recordsaveplayaudiodata.dir/Users/Wendelin/NetbeansProjects/MicroBit/RecordSavePlayAudioData/source/Pin.cpp.o
  .text._ZN3Pin7isInputEv
                 0x0000000000000000        0x8 source/CMakeFiles/recordsaveplayaudiodata.dir/Users/Wendelin/NetbeansProjects/MicroBit/RecordSavePlayAudioData/source/Pin.cpp.o
  .text._ZN3Pin8isOutputEv
@@ -670,7 +672,7 @@ Discarded input sections
                 0x0000000000000000        0xc ym/microbit-dal/source/microbit-dal.a(MicroBitDevice.cpp.o)
  .rodata        0x0000000000000000       0x19 ym/microbit-dal/source/microbit-dal.a(MicroBitDevice.cpp.o)
  .rodata.str1.1
-                0x0000000000000000       0x26 ym/microbit-dal/source/microbit-dal.a(MicroBitDevice.cpp.o)
+                0x0000000000000000        0xa ym/microbit-dal/source/microbit-dal.a(MicroBitDevice.cpp.o)
  .bss._ZL12random_value
                 0x0000000000000000        0x4 ym/microbit-dal/source/microbit-dal.a(MicroBitDevice.cpp.o)
  .bss._ZL13friendly_name
@@ -12006,7 +12008,6 @@ LOAD source/CMakeFiles/recordsaveplayaudiodata.dir/Users/Wendelin/NetbeansProjec
 LOAD source/CMakeFiles/recordsaveplayaudiodata.dir/Users/Wendelin/NetbeansProjects/MicroBit/RecordSavePlayAudioData/source/main.cpp.o
 LOAD source/CMakeFiles/recordsaveplayaudiodata.dir/Users/Wendelin/NetbeansProjects/MicroBit/RecordSavePlayAudioData/source/Audio.cpp.o
 LOAD source/CMakeFiles/recordsaveplayaudiodata.dir/Users/Wendelin/NetbeansProjects/MicroBit/RecordSavePlayAudioData/source/Display.cpp.o
-LOAD ym/microbit/source/microbit.a
 LOAD ym/microbit-dal/source/microbit-dal.a
 LOAD ym/ble/source/ble.a
 LOAD ym/ble-nrf51822/source/ble-nrf51822.a
@@ -12038,7 +12039,7 @@ END GROUP
 LOAD /usr/local/Cellar/arm-none-eabi-gcc/5.0-2016-q2-update/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m/crtend.o
 LOAD /usr/local/Cellar/arm-none-eabi-gcc/5.0-2016-q2-update/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m/crtn.o
 
-.text           0x0000000000018000     0x3e8c
+.text           0x0000000000018000     0x3f54
  *(SORT(.Vectors))
  .Vectors       0x0000000000018000       0xc0 ym/mbed-classic/existing/mbed-classic.a(startup_NRF51822.S.obj)
                 0x0000000000018000                __Vectors
@@ -12066,571 +12067,571 @@ LOAD /usr/local/Cellar/arm-none-eabi-gcc/5.0-2016-q2-update/bin/../lib/gcc/arm-n
                 0x0000000000018250       0x24 source/CMakeFiles/recordsaveplayaudiodata.dir/Users/Wendelin/NetbeansProjects/MicroBit/RecordSavePlayAudioData/source/Pin.cpp.o
                 0x0000000000018250                Pin::setAnalogValue(unsigned char)
  .text.startup.main
-                0x0000000000018274       0x98 source/CMakeFiles/recordsaveplayaudiodata.dir/Users/Wendelin/NetbeansProjects/MicroBit/RecordSavePlayAudioData/source/main.cpp.o
+                0x0000000000018274       0xb8 source/CMakeFiles/recordsaveplayaudiodata.dir/Users/Wendelin/NetbeansProjects/MicroBit/RecordSavePlayAudioData/source/main.cpp.o
                 0x0000000000018274                main
  .text._ZN5Audio15getAnalogValuesEv
-                0x000000000001830c       0xa0 source/CMakeFiles/recordsaveplayaudiodata.dir/Users/Wendelin/NetbeansProjects/MicroBit/RecordSavePlayAudioData/source/Audio.cpp.o
-                0x000000000001830c                Audio::getAnalogValues()
+                0x000000000001832c       0xa0 source/CMakeFiles/recordsaveplayaudiodata.dir/Users/Wendelin/NetbeansProjects/MicroBit/RecordSavePlayAudioData/source/Audio.cpp.o
+                0x000000000001832c                Audio::getAnalogValues()
  .text._ZN4mbed6TickerD2Ev
-                0x00000000000183ac       0x1c source/CMakeFiles/recordsaveplayaudiodata.dir/Users/Wendelin/NetbeansProjects/MicroBit/RecordSavePlayAudioData/source/Audio.cpp.o
-                0x00000000000183ac                mbed::Ticker::~Ticker()
-                0x00000000000183ac                mbed::Ticker::~Ticker()
+                0x00000000000183cc       0x1c source/CMakeFiles/recordsaveplayaudiodata.dir/Users/Wendelin/NetbeansProjects/MicroBit/RecordSavePlayAudioData/source/Audio.cpp.o
+                0x00000000000183cc                mbed::Ticker::~Ticker()
+                0x00000000000183cc                mbed::Ticker::~Ticker()
  .text._ZN5AudioD2Ev
-                0x00000000000183c8       0x2c source/CMakeFiles/recordsaveplayaudiodata.dir/Users/Wendelin/NetbeansProjects/MicroBit/RecordSavePlayAudioData/source/Audio.cpp.o
-                0x00000000000183c8                Audio::~Audio()
-                0x00000000000183c8                Audio::~Audio()
+                0x00000000000183e8       0x2c source/CMakeFiles/recordsaveplayaudiodata.dir/Users/Wendelin/NetbeansProjects/MicroBit/RecordSavePlayAudioData/source/Audio.cpp.o
+                0x00000000000183e8                Audio::~Audio()
+                0x00000000000183e8                Audio::~Audio()
  .text._ZN5AudioC2Ev
-                0x00000000000183f4       0x74 source/CMakeFiles/recordsaveplayaudiodata.dir/Users/Wendelin/NetbeansProjects/MicroBit/RecordSavePlayAudioData/source/Audio.cpp.o
-                0x00000000000183f4                Audio::Audio()
-                0x00000000000183f4                Audio::Audio()
+                0x0000000000018414       0x84 source/CMakeFiles/recordsaveplayaudiodata.dir/Users/Wendelin/NetbeansProjects/MicroBit/RecordSavePlayAudioData/source/Audio.cpp.o
+                0x0000000000018414                Audio::Audio()
+                0x0000000000018414                Audio::Audio()
  .text._ZN5Audio14startRecordingEv
-                0x0000000000018468       0x44 source/CMakeFiles/recordsaveplayaudiodata.dir/Users/Wendelin/NetbeansProjects/MicroBit/RecordSavePlayAudioData/source/Audio.cpp.o
-                0x0000000000018468                Audio::startRecording()
+                0x0000000000018498       0x54 source/CMakeFiles/recordsaveplayaudiodata.dir/Users/Wendelin/NetbeansProjects/MicroBit/RecordSavePlayAudioData/source/Audio.cpp.o
+                0x0000000000018498                Audio::startRecording()
  .text._ZN5Audio13stopRecordingEv
-                0x00000000000184ac       0x28 source/CMakeFiles/recordsaveplayaudiodata.dir/Users/Wendelin/NetbeansProjects/MicroBit/RecordSavePlayAudioData/source/Audio.cpp.o
-                0x00000000000184ac                Audio::stopRecording()
+                0x00000000000184ec       0x38 source/CMakeFiles/recordsaveplayaudiodata.dir/Users/Wendelin/NetbeansProjects/MicroBit/RecordSavePlayAudioData/source/Audio.cpp.o
+                0x00000000000184ec                Audio::stopRecording()
  .text._ZN5Audio12startPlayingEv
-                0x00000000000184d4       0x4c source/CMakeFiles/recordsaveplayaudiodata.dir/Users/Wendelin/NetbeansProjects/MicroBit/RecordSavePlayAudioData/source/Audio.cpp.o
-                0x00000000000184d4                Audio::startPlaying()
+                0x0000000000018524       0x5c source/CMakeFiles/recordsaveplayaudiodata.dir/Users/Wendelin/NetbeansProjects/MicroBit/RecordSavePlayAudioData/source/Audio.cpp.o
+                0x0000000000018524                Audio::startPlaying()
  .text._ZN5Audio11stopPlayingEv
-                0x0000000000018520       0x28 source/CMakeFiles/recordsaveplayaudiodata.dir/Users/Wendelin/NetbeansProjects/MicroBit/RecordSavePlayAudioData/source/Audio.cpp.o
-                0x0000000000018520                Audio::stopPlaying()
+                0x0000000000018580       0x38 source/CMakeFiles/recordsaveplayaudiodata.dir/Users/Wendelin/NetbeansProjects/MicroBit/RecordSavePlayAudioData/source/Audio.cpp.o
+                0x0000000000018580                Audio::stopPlaying()
  .text._ZN5Audio15setAnalogValuesEv
-                0x0000000000018548       0x38 source/CMakeFiles/recordsaveplayaudiodata.dir/Users/Wendelin/NetbeansProjects/MicroBit/RecordSavePlayAudioData/source/Audio.cpp.o
-                0x0000000000018548                Audio::setAnalogValues()
+                0x00000000000185b8       0x38 source/CMakeFiles/recordsaveplayaudiodata.dir/Users/Wendelin/NetbeansProjects/MicroBit/RecordSavePlayAudioData/source/Audio.cpp.o
+                0x00000000000185b8                Audio::setAnalogValues()
  .text._ZN7DisplayD2Ev
-                0x0000000000018580       0x18 source/CMakeFiles/recordsaveplayaudiodata.dir/Users/Wendelin/NetbeansProjects/MicroBit/RecordSavePlayAudioData/source/Display.cpp.o
-                0x0000000000018580                Display::~Display()
-                0x0000000000018580                Display::~Display()
+                0x00000000000185f0       0x18 source/CMakeFiles/recordsaveplayaudiodata.dir/Users/Wendelin/NetbeansProjects/MicroBit/RecordSavePlayAudioData/source/Display.cpp.o
+                0x00000000000185f0                Display::~Display()
+                0x00000000000185f0                Display::~Display()
  .text._ZN7DisplayC2ERK9MatrixMap
-                0x0000000000018598       0x70 source/CMakeFiles/recordsaveplayaudiodata.dir/Users/Wendelin/NetbeansProjects/MicroBit/RecordSavePlayAudioData/source/Display.cpp.o
-                0x0000000000018598                Display::Display(MatrixMap const&)
-                0x0000000000018598                Display::Display(MatrixMap const&)
+                0x0000000000018608       0x70 source/CMakeFiles/recordsaveplayaudiodata.dir/Users/Wendelin/NetbeansProjects/MicroBit/RecordSavePlayAudioData/source/Display.cpp.o
+                0x0000000000018608                Display::Display(MatrixMap const&)
+                0x0000000000018608                Display::Display(MatrixMap const&)
  .text._ZN7Display17displayRecordSignEv
-                0x0000000000018608       0x2c source/CMakeFiles/recordsaveplayaudiodata.dir/Users/Wendelin/NetbeansProjects/MicroBit/RecordSavePlayAudioData/source/Display.cpp.o
-                0x0000000000018608                Display::displayRecordSign()
+                0x0000000000018678       0x2c source/CMakeFiles/recordsaveplayaudiodata.dir/Users/Wendelin/NetbeansProjects/MicroBit/RecordSavePlayAudioData/source/Display.cpp.o
+                0x0000000000018678                Display::displayRecordSign()
  .text._ZN7Display16displayReadySignEv
-                0x0000000000018634       0x2c source/CMakeFiles/recordsaveplayaudiodata.dir/Users/Wendelin/NetbeansProjects/MicroBit/RecordSavePlayAudioData/source/Display.cpp.o
-                0x0000000000018634                Display::displayReadySign()
+                0x00000000000186a4       0x2c source/CMakeFiles/recordsaveplayaudiodata.dir/Users/Wendelin/NetbeansProjects/MicroBit/RecordSavePlayAudioData/source/Display.cpp.o
+                0x00000000000186a4                Display::displayReadySign()
  .text._Z15microbit_mallocj
-                0x0000000000018660       0x44 ym/microbit-dal/source/microbit-dal.a(MicroBitHeapAllocator.cpp.o)
-                0x0000000000018660                microbit_malloc(unsigned int)
+                0x00000000000186d0       0x44 ym/microbit-dal/source/microbit-dal.a(MicroBitHeapAllocator.cpp.o)
+                0x00000000000186d0                microbit_malloc(unsigned int)
  .text._Z13microbit_freePv
-                0x00000000000186a4       0x44 ym/microbit-dal/source/microbit-dal.a(MicroBitHeapAllocator.cpp.o)
-                0x00000000000186a4                microbit_free(void*)
+                0x0000000000018714       0x44 ym/microbit-dal/source/microbit-dal.a(MicroBitHeapAllocator.cpp.o)
+                0x0000000000018714                microbit_free(void*)
  .text._Z23system_timer_set_periodi
-                0x00000000000186e8       0x48 ym/microbit-dal/source/microbit-dal.a(MicroBitSystemTimer.cpp.o)
-                0x00000000000186e8                system_timer_set_period(int)
+                0x0000000000018758       0x48 ym/microbit-dal/source/microbit-dal.a(MicroBitSystemTimer.cpp.o)
+                0x0000000000018758                system_timer_set_period(int)
  .text._Z17system_timer_initi
-                0x0000000000018730       0x54 ym/microbit-dal/source/microbit-dal.a(MicroBitSystemTimer.cpp.o)
-                0x0000000000018730                system_timer_init(int)
+                0x00000000000187a0       0x54 ym/microbit-dal/source/microbit-dal.a(MicroBitSystemTimer.cpp.o)
+                0x00000000000187a0                system_timer_init(int)
  .text._Z11update_timev
-                0x0000000000018784       0x44 ym/microbit-dal/source/microbit-dal.a(MicroBitSystemTimer.cpp.o)
-                0x0000000000018784                update_time()
+                0x00000000000187f4       0x44 ym/microbit-dal/source/microbit-dal.a(MicroBitSystemTimer.cpp.o)
+                0x00000000000187f4                update_time()
  .text._Z17system_timer_tickv
-                0x00000000000187c8       0x24 ym/microbit-dal/source/microbit-dal.a(MicroBitSystemTimer.cpp.o)
-                0x00000000000187c8                system_timer_tick()
+                0x0000000000018838       0x24 ym/microbit-dal/source/microbit-dal.a(MicroBitSystemTimer.cpp.o)
+                0x0000000000018838                system_timer_tick()
  .text._Z26system_timer_add_componentP17MicroBitComponent
-                0x00000000000187ec       0x3c ym/microbit-dal/source/microbit-dal.a(MicroBitSystemTimer.cpp.o)
-                0x00000000000187ec                system_timer_add_component(MicroBitComponent*)
+                0x000000000001885c       0x3c ym/microbit-dal/source/microbit-dal.a(MicroBitSystemTimer.cpp.o)
+                0x000000000001885c                system_timer_add_component(MicroBitComponent*)
  .text._Z29system_timer_remove_componentP17MicroBitComponent
-                0x0000000000018828       0x1c ym/microbit-dal/source/microbit-dal.a(MicroBitSystemTimer.cpp.o)
-                0x0000000000018828                system_timer_remove_component(MicroBitComponent*)
+                0x0000000000018898       0x1c ym/microbit-dal/source/microbit-dal.a(MicroBitSystemTimer.cpp.o)
+                0x0000000000018898                system_timer_remove_component(MicroBitComponent*)
  .text._Z13gpiote_reinit7PinNameS_h
-                0x0000000000018844       0x54 ym/microbit-dal/source/microbit-dal.a(DynamicPwm.cpp.o)
-                0x0000000000018844                gpiote_reinit(PinName, PinName, unsigned char)
+                0x00000000000188b4       0x54 ym/microbit-dal/source/microbit-dal.a(DynamicPwm.cpp.o)
+                0x00000000000188b4                gpiote_reinit(PinName, PinName, unsigned char)
  .text._ZN10DynamicPwm8allocateE7PinName14PwmPersistence
-                0x0000000000018898       0xa8 ym/microbit-dal/source/microbit-dal.a(DynamicPwm.cpp.o)
-                0x0000000000018898                DynamicPwm::allocate(PinName, PwmPersistence)
+                0x0000000000018908       0xa8 ym/microbit-dal/source/microbit-dal.a(DynamicPwm.cpp.o)
+                0x0000000000018908                DynamicPwm::allocate(PinName, PwmPersistence)
  .text._ZN10DynamicPwm7releaseEv
-                0x0000000000018940       0x3c ym/microbit-dal/source/microbit-dal.a(DynamicPwm.cpp.o)
-                0x0000000000018940                DynamicPwm::release()
+                0x00000000000189b0       0x3c ym/microbit-dal/source/microbit-dal.a(DynamicPwm.cpp.o)
+                0x00000000000189b0                DynamicPwm::release()
  .text._ZN10DynamicPwm5writeEf
-                0x000000000001897c       0x28 ym/microbit-dal/source/microbit-dal.a(DynamicPwm.cpp.o)
-                0x000000000001897c                DynamicPwm::write(float)
+                0x00000000000189ec       0x28 ym/microbit-dal/source/microbit-dal.a(DynamicPwm.cpp.o)
+                0x00000000000189ec                DynamicPwm::write(float)
  .text.NVIC_SystemReset
-                0x00000000000189a4       0x18 ym/microbit-dal/source/microbit-dal.a(MicroBitDevice.cpp.o)
+                0x0000000000018a14       0x18 ym/microbit-dal/source/microbit-dal.a(MicroBitDevice.cpp.o)
  .text._Z14microbit_panici
-                0x00000000000189bc      0x168 ym/microbit-dal/source/microbit-dal.a(MicroBitDevice.cpp.o)
-                0x00000000000189bc                microbit_panic(int)
+                0x0000000000018a2c      0x168 ym/microbit-dal/source/microbit-dal.a(MicroBitDevice.cpp.o)
+                0x0000000000018a2c                microbit_panic(int)
  .text.startup._GLOBAL__sub_I__ZN12MicroBitFont11defaultFontE
-                0x0000000000018b24       0x18 ym/microbit-dal/source/microbit-dal.a(MicroBitFont.cpp.o)
+                0x0000000000018b94       0x18 ym/microbit-dal/source/microbit-dal.a(MicroBitFont.cpp.o)
  .text._ZN4mbed9RawSerialC2E7PinNameS1_
-                0x0000000000018b3c       0x14 ym/mbed-classic/existing/mbed-classic.a(RawSerial.cpp.o)
-                0x0000000000018b3c                mbed::RawSerial::RawSerial(PinName, PinName)
-                0x0000000000018b3c                mbed::RawSerial::RawSerial(PinName, PinName)
+                0x0000000000018bac       0x14 ym/mbed-classic/existing/mbed-classic.a(RawSerial.cpp.o)
+                0x0000000000018bac                mbed::RawSerial::RawSerial(PinName, PinName)
+                0x0000000000018bac                mbed::RawSerial::RawSerial(PinName, PinName)
  .text._ZN4mbed10SerialBaseC2E7PinNameS1_
-                0x0000000000018b50       0x3c ym/mbed-classic/existing/mbed-classic.a(SerialBase.cpp.o)
-                0x0000000000018b50                mbed::SerialBase::SerialBase(PinName, PinName)
-                0x0000000000018b50                mbed::SerialBase::SerialBase(PinName, PinName)
+                0x0000000000018bc0       0x3c ym/mbed-classic/existing/mbed-classic.a(SerialBase.cpp.o)
+                0x0000000000018bc0                mbed::SerialBase::SerialBase(PinName, PinName)
+                0x0000000000018bc0                mbed::SerialBase::SerialBase(PinName, PinName)
  .text._ZN4mbed10TimerEventC2Ev
-                0x0000000000018b8c       0x2c ym/mbed-classic/existing/mbed-classic.a(TimerEvent.cpp.o)
-                0x0000000000018b8c                mbed::TimerEvent::TimerEvent()
-                0x0000000000018b8c                mbed::TimerEvent::TimerEvent()
+                0x0000000000018bfc       0x2c ym/mbed-classic/existing/mbed-classic.a(TimerEvent.cpp.o)
+                0x0000000000018bfc                mbed::TimerEvent::TimerEvent()
+                0x0000000000018bfc                mbed::TimerEvent::TimerEvent()
  .text._ZN4mbed10TimerEventD2Ev
-                0x0000000000018bb8       0x18 ym/mbed-classic/existing/mbed-classic.a(TimerEvent.cpp.o)
-                0x0000000000018bb8                mbed::TimerEvent::~TimerEvent()
-                0x0000000000018bb8                mbed::TimerEvent::~TimerEvent()
- .text._sbrk    0x0000000000018bd0       0x28 ym/mbed-classic/existing/mbed-classic.a(retarget.cpp.o)
-                0x0000000000018bd0                _sbrk
+                0x0000000000018c28       0x18 ym/mbed-classic/existing/mbed-classic.a(TimerEvent.cpp.o)
+                0x0000000000018c28                mbed::TimerEvent::~TimerEvent()
+                0x0000000000018c28                mbed::TimerEvent::~TimerEvent()
+ .text._sbrk    0x0000000000018c40       0x28 ym/mbed-classic/existing/mbed-classic.a(retarget.cpp.o)
+                0x0000000000018c40                _sbrk
  .text.get_us_ticker_data
-                0x0000000000018bf8        0x8 ym/mbed-classic/existing/mbed-classic.a(us_ticker_api.c.o)
-                0x0000000000018bf8                get_us_ticker_data
+                0x0000000000018c68        0x8 ym/mbed-classic/existing/mbed-classic.a(us_ticker_api.c.o)
+                0x0000000000018c68                get_us_ticker_data
  .text.us_ticker_irq_handler
-                0x0000000000018c00       0x10 ym/mbed-classic/existing/mbed-classic.a(us_ticker_api.c.o)
-                0x0000000000018c00                us_ticker_irq_handler
- .text          0x0000000000018c10       0x48 ym/mbed-classic/existing/mbed-classic.a(startup_NRF51822.S.obj)
-                0x0000000000018c10                Reset_Handler
-                0x0000000000018c4c                NMI_Handler
-                0x0000000000018c4e                HardFault_Handler
-                0x0000000000018c50                SVC_Handler
-                0x0000000000018c52                PendSV_Handler
-                0x0000000000018c54                SysTick_Handler
-                0x0000000000018c56                RTC1_IRQHandler
-                0x0000000000018c56                CCM_AAR_IRQHandler
-                0x0000000000018c56                QDEC_IRQHandler
-                0x0000000000018c56                SWI3_IRQHandler
-                0x0000000000018c56                SWI5_IRQHandler
-                0x0000000000018c56                Default_Handler
-                0x0000000000018c56                RNG_IRQHandler
-                0x0000000000018c56                GPIOTE_IRQHandler
-                0x0000000000018c56                SWI4_IRQHandler
-                0x0000000000018c56                TEMP_IRQHandler
-                0x0000000000018c56                TIMER0_IRQHandler
-                0x0000000000018c56                SPI0_TWI0_IRQHandler
-                0x0000000000018c56                RTC0_IRQHandler
-                0x0000000000018c56                SWI1_IRQHandler
-                0x0000000000018c56                RADIO_IRQHandler
-                0x0000000000018c56                SWI0_IRQHandler
-                0x0000000000018c56                POWER_CLOCK_IRQHandler
-                0x0000000000018c56                ECB_IRQHandler
-                0x0000000000018c56                SWI2_IRQHandler
-                0x0000000000018c56                SPI1_TWI1_IRQHandler
-                0x0000000000018c56                LPCOMP_IRQHandler
-                0x0000000000018c56                WDT_IRQHandler
-                0x0000000000018c56                ADC_IRQHandler
+                0x0000000000018c70       0x10 ym/mbed-classic/existing/mbed-classic.a(us_ticker_api.c.o)
+                0x0000000000018c70                us_ticker_irq_handler
+ .text          0x0000000000018c80       0x48 ym/mbed-classic/existing/mbed-classic.a(startup_NRF51822.S.obj)
+                0x0000000000018c80                Reset_Handler
+                0x0000000000018cbc                NMI_Handler
+                0x0000000000018cbe                HardFault_Handler
+                0x0000000000018cc0                SVC_Handler
+                0x0000000000018cc2                PendSV_Handler
+                0x0000000000018cc4                SysTick_Handler
+                0x0000000000018cc6                RTC1_IRQHandler
+                0x0000000000018cc6                CCM_AAR_IRQHandler
+                0x0000000000018cc6                QDEC_IRQHandler
+                0x0000000000018cc6                SWI3_IRQHandler
+                0x0000000000018cc6                SWI5_IRQHandler
+                0x0000000000018cc6                Default_Handler
+                0x0000000000018cc6                RNG_IRQHandler
+                0x0000000000018cc6                GPIOTE_IRQHandler
+                0x0000000000018cc6                SWI4_IRQHandler
+                0x0000000000018cc6                TEMP_IRQHandler
+                0x0000000000018cc6                TIMER0_IRQHandler
+                0x0000000000018cc6                SPI0_TWI0_IRQHandler
+                0x0000000000018cc6                RTC0_IRQHandler
+                0x0000000000018cc6                SWI1_IRQHandler
+                0x0000000000018cc6                RADIO_IRQHandler
+                0x0000000000018cc6                SWI0_IRQHandler
+                0x0000000000018cc6                POWER_CLOCK_IRQHandler
+                0x0000000000018cc6                ECB_IRQHandler
+                0x0000000000018cc6                SWI2_IRQHandler
+                0x0000000000018cc6                SPI1_TWI1_IRQHandler
+                0x0000000000018cc6                LPCOMP_IRQHandler
+                0x0000000000018cc6                WDT_IRQHandler
+                0x0000000000018cc6                ADC_IRQHandler
  .text.analogin_init
-                0x0000000000018c58       0x50 ym/mbed-classic/existing/mbed-classic.a(analogin_api.c.o)
-                0x0000000000018c58                analogin_init
+                0x0000000000018cc8       0x50 ym/mbed-classic/existing/mbed-classic.a(analogin_api.c.o)
+                0x0000000000018cc8                analogin_init
  .text.analogin_read_u8
-                0x0000000000018ca8       0x48 ym/mbed-classic/existing/mbed-classic.a(analogin_api.c.o)
-                0x0000000000018ca8                analogin_read_u8
+                0x0000000000018d18       0x48 ym/mbed-classic/existing/mbed-classic.a(analogin_api.c.o)
+                0x0000000000018d18                analogin_read_u8
  .text.gpio_init
-                0x0000000000018cf0       0x30 ym/mbed-classic/existing/mbed-classic.a(gpio_api.c.o)
-                0x0000000000018cf0                gpio_init
+                0x0000000000018d60       0x30 ym/mbed-classic/existing/mbed-classic.a(gpio_api.c.o)
+                0x0000000000018d60                gpio_init
  .text.port_init
-                0x0000000000018d20       0x28 ym/mbed-classic/existing/mbed-classic.a(port_api.c.o)
-                0x0000000000018d20                port_init
+                0x0000000000018d90       0x28 ym/mbed-classic/existing/mbed-classic.a(port_api.c.o)
+                0x0000000000018d90                port_init
  .text.setModulation.part.0
-                0x0000000000018d48       0x44 ym/mbed-classic/existing/mbed-classic.a(pwmout_api.c.o)
+                0x0000000000018db8       0x44 ym/mbed-classic/existing/mbed-classic.a(pwmout_api.c.o)
  .text.TIMER2_IRQHandler
-                0x0000000000018d8c       0x64 ym/mbed-classic/existing/mbed-classic.a(pwmout_api.c.o)
-                0x0000000000018d8c                TIMER2_IRQHandler
+                0x0000000000018dfc       0x64 ym/mbed-classic/existing/mbed-classic.a(pwmout_api.c.o)
+                0x0000000000018dfc                TIMER2_IRQHandler
  .text.timer_init
-                0x0000000000018df0       0x78 ym/mbed-classic/existing/mbed-classic.a(pwmout_api.c.o)
-                0x0000000000018df0                timer_init
+                0x0000000000018e60       0x78 ym/mbed-classic/existing/mbed-classic.a(pwmout_api.c.o)
+                0x0000000000018e60                timer_init
  .text.gpiote_init
-                0x0000000000018e68       0x50 ym/mbed-classic/existing/mbed-classic.a(pwmout_api.c.o)
-                0x0000000000018e68                gpiote_init
+                0x0000000000018ed8       0x50 ym/mbed-classic/existing/mbed-classic.a(pwmout_api.c.o)
+                0x0000000000018ed8                gpiote_init
  .text.setModulation
-                0x0000000000018eb8       0x50 ym/mbed-classic/existing/mbed-classic.a(pwmout_api.c.o)
-                0x0000000000018eb8                setModulation
+                0x0000000000018f28       0x50 ym/mbed-classic/existing/mbed-classic.a(pwmout_api.c.o)
+                0x0000000000018f28                setModulation
  .text.pwmout_write
-                0x0000000000018f08       0xd0 ym/mbed-classic/existing/mbed-classic.a(pwmout_api.c.o)
-                0x0000000000018f08                pwmout_write
+                0x0000000000018f78       0xd0 ym/mbed-classic/existing/mbed-classic.a(pwmout_api.c.o)
+                0x0000000000018f78                pwmout_write
  .text.pwmout_free
-                0x0000000000018fd8       0x18 ym/mbed-classic/existing/mbed-classic.a(pwmout_api.c.o)
-                0x0000000000018fd8                pwmout_free
+                0x0000000000019048       0x18 ym/mbed-classic/existing/mbed-classic.a(pwmout_api.c.o)
+                0x0000000000019048                pwmout_free
  .text.pwmout_period_us
-                0x0000000000018ff0       0x58 ym/mbed-classic/existing/mbed-classic.a(pwmout_api.c.o)
-                0x0000000000018ff0                pwmout_period_us
+                0x0000000000019060       0x58 ym/mbed-classic/existing/mbed-classic.a(pwmout_api.c.o)
+                0x0000000000019060                pwmout_period_us
  .text.pwmout_init
-                0x0000000000019048       0xe4 ym/mbed-classic/existing/mbed-classic.a(pwmout_api.c.o)
-                0x0000000000019048                pwmout_init
+                0x00000000000190b8       0xe4 ym/mbed-classic/existing/mbed-classic.a(pwmout_api.c.o)
+                0x00000000000190b8                pwmout_init
  .text.serial_baud.part.0
-                0x000000000001912c       0x38 ym/mbed-classic/existing/mbed-classic.a(serial_api.c.o)
+                0x000000000001919c       0x38 ym/mbed-classic/existing/mbed-classic.a(serial_api.c.o)
  .text.serial_init
-                0x0000000000019164       0xb8 ym/mbed-classic/existing/mbed-classic.a(serial_api.c.o)
-                0x0000000000019164                serial_init
+                0x00000000000191d4       0xb8 ym/mbed-classic/existing/mbed-classic.a(serial_api.c.o)
+                0x00000000000191d4                serial_init
  .text.UART0_IRQHandler
-                0x000000000001921c       0x4c ym/mbed-classic/existing/mbed-classic.a(serial_api.c.o)
-                0x000000000001921c                UART0_IRQHandler
+                0x000000000001928c       0x4c ym/mbed-classic/existing/mbed-classic.a(serial_api.c.o)
+                0x000000000001928c                UART0_IRQHandler
  .text.serial_irq_handler
-                0x0000000000019268       0x18 ym/mbed-classic/existing/mbed-classic.a(serial_api.c.o)
-                0x0000000000019268                serial_irq_handler
+                0x00000000000192d8       0x18 ym/mbed-classic/existing/mbed-classic.a(serial_api.c.o)
+                0x00000000000192d8                serial_irq_handler
  .text.serial_putc
-                0x0000000000019280       0x1c ym/mbed-classic/existing/mbed-classic.a(serial_api.c.o)
-                0x0000000000019280                serial_putc
+                0x00000000000192f0       0x1c ym/mbed-classic/existing/mbed-classic.a(serial_api.c.o)
+                0x00000000000192f0                serial_putc
  .text.tmr1_getCounter64
-                0x000000000001929c       0x50 ym/mbed-classic/existing/mbed-classic.a(us_ticker.c.o)
+                0x000000000001930c       0x50 ym/mbed-classic/existing/mbed-classic.a(us_ticker.c.o)
  .text.TIMER1_IRQHandler
-                0x00000000000192ec       0x50 ym/mbed-classic/existing/mbed-classic.a(us_ticker.c.o)
-                0x00000000000192ec                TIMER1_IRQHandler
+                0x000000000001935c       0x50 ym/mbed-classic/existing/mbed-classic.a(us_ticker.c.o)
+                0x000000000001935c                TIMER1_IRQHandler
  .text.us_ticker_init
-                0x000000000001933c       0x8c ym/mbed-classic/existing/mbed-classic.a(us_ticker.c.o)
-                0x000000000001933c                us_ticker_init
+                0x00000000000193ac       0x8c ym/mbed-classic/existing/mbed-classic.a(us_ticker.c.o)
+                0x00000000000193ac                us_ticker_init
  .text.us_ticker_read
-                0x00000000000193c8       0x18 ym/mbed-classic/existing/mbed-classic.a(us_ticker.c.o)
-                0x00000000000193c8                us_ticker_read
+                0x0000000000019438       0x18 ym/mbed-classic/existing/mbed-classic.a(us_ticker.c.o)
+                0x0000000000019438                us_ticker_read
  .text.us_ticker_set_interrupt
-                0x00000000000193e0       0x54 ym/mbed-classic/existing/mbed-classic.a(us_ticker.c.o)
-                0x00000000000193e0                us_ticker_set_interrupt
+                0x0000000000019450       0x54 ym/mbed-classic/existing/mbed-classic.a(us_ticker.c.o)
+                0x0000000000019450                us_ticker_set_interrupt
  .text.pinmap_peripheral
-                0x0000000000019434       0x20 ym/mbed-classic/existing/mbed-classic.a(pinmap_common.c.o)
-                0x0000000000019434                pinmap_peripheral
+                0x00000000000194a4       0x20 ym/mbed-classic/existing/mbed-classic.a(pinmap_common.c.o)
+                0x00000000000194a4                pinmap_peripheral
  .text.SystemInit
-                0x0000000000019454       0xb0 ym/mbed-classic/existing/mbed-classic.a(system_nrf51.c.o)
-                0x0000000000019454                SystemInit
+                0x00000000000194c4       0xb0 ym/mbed-classic/existing/mbed-classic.a(system_nrf51.c.o)
+                0x00000000000194c4                SystemInit
  .text._ZSt15get_new_handlerv
-                0x0000000000019504        0xc /usr/local/Cellar/arm-none-eabi-gcc/5.0-2016-q2-update/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m/libstdc++_nano.a(new_handler.o)
-                0x0000000000019504                std::get_new_handler()
+                0x0000000000019574        0xc /usr/local/Cellar/arm-none-eabi-gcc/5.0-2016-q2-update/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m/libstdc++_nano.a(new_handler.o)
+                0x0000000000019574                std::get_new_handler()
  .text.startup._GLOBAL__sub_I__ZNSt12ctype_bynameIcEC2ERKSsj
-                0x0000000000019510       0xc4 /usr/local/Cellar/arm-none-eabi-gcc/5.0-2016-q2-update/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m/libstdc++_nano.a(locale-inst.o)
+                0x0000000000019580       0xc4 /usr/local/Cellar/arm-none-eabi-gcc/5.0-2016-q2-update/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m/libstdc++_nano.a(locale-inst.o)
  .text.startup._GLOBAL__sub_I__ZNSt12ctype_bynameIcEC2ERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEj
-                0x00000000000195d4       0x84 /usr/local/Cellar/arm-none-eabi-gcc/5.0-2016-q2-update/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m/libstdc++_nano.a(cxx11-locale-inst.o)
+                0x0000000000019644       0x84 /usr/local/Cellar/arm-none-eabi-gcc/5.0-2016-q2-update/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m/libstdc++_nano.a(cxx11-locale-inst.o)
  .text.startup._GLOBAL__sub_I__ZNSt12ctype_bynameIwEC2ERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEj
-                0x0000000000019658       0x84 /usr/local/Cellar/arm-none-eabi-gcc/5.0-2016-q2-update/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m/libstdc++_nano.a(cxx11-wlocale-inst.o)
+                0x00000000000196c8       0x84 /usr/local/Cellar/arm-none-eabi-gcc/5.0-2016-q2-update/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m/libstdc++_nano.a(cxx11-wlocale-inst.o)
  .text.startup._GLOBAL__sub_I__ZNSt12ctype_bynameIwEC2ERKSsj
-                0x00000000000196dc       0xc4 /usr/local/Cellar/arm-none-eabi-gcc/5.0-2016-q2-update/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m/libstdc++_nano.a(wlocale-inst.o)
- .text          0x00000000000197a0      0x114 /usr/local/Cellar/arm-none-eabi-gcc/5.0-2016-q2-update/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m/libgcc.a(_udivsi3.o)
-                0x00000000000197a0                __udivsi3
-                0x00000000000197a0                __aeabi_uidiv
-                0x00000000000198ac                __aeabi_uidivmod
- .text          0x00000000000198b4      0x1d4 /usr/local/Cellar/arm-none-eabi-gcc/5.0-2016-q2-update/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m/libgcc.a(_divsi3.o)
-                0x00000000000198b4                __divsi3
-                0x00000000000198b4                __aeabi_idiv
-                0x0000000000019a80                __aeabi_idivmod
- .text          0x0000000000019a88        0x4 /usr/local/Cellar/arm-none-eabi-gcc/5.0-2016-q2-update/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m/libgcc.a(_dvmd_tls.o)
-                0x0000000000019a88                __aeabi_ldiv0
-                0x0000000000019a88                __aeabi_idiv0
- .text          0x0000000000019a8c       0x74 /usr/local/Cellar/arm-none-eabi-gcc/5.0-2016-q2-update/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m/libgcc.a(_arm_cmpsf2.o)
-                0x0000000000019a8c                __aeabi_cfrcmple
-                0x0000000000019a94                __aeabi_cfcmpeq
-                0x0000000000019a94                __aeabi_cfcmple
-                0x0000000000019aa4                __aeabi_fcmpeq
-                0x0000000000019ab0                __aeabi_fcmplt
-                0x0000000000019ac4                __aeabi_fcmple
-                0x0000000000019ad8                __aeabi_fcmpgt
-                0x0000000000019aec                __aeabi_fcmpge
- .text          0x0000000000019b00       0x30 /usr/local/Cellar/arm-none-eabi-gcc/5.0-2016-q2-update/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m/libgcc.a(_fixunssfsi.o)
-                0x0000000000019b00                __fixunssfsi
-                0x0000000000019b00                __aeabi_f2uiz
- .text          0x0000000000019b30      0x234 /usr/local/Cellar/arm-none-eabi-gcc/5.0-2016-q2-update/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m/libgcc.a(divsf3.o)
-                0x0000000000019b30                __aeabi_fdiv
- .text          0x0000000000019d64       0x50 /usr/local/Cellar/arm-none-eabi-gcc/5.0-2016-q2-update/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m/libgcc.a(eqsf2.o)
-                0x0000000000019d64                __eqsf2
-                0x0000000000019d64                __nesf2
- .text          0x0000000000019db4       0x88 /usr/local/Cellar/arm-none-eabi-gcc/5.0-2016-q2-update/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m/libgcc.a(gesf2.o)
-                0x0000000000019db4                __gtsf2
-                0x0000000000019db4                __gesf2
- .text          0x0000000000019e3c       0x88 /usr/local/Cellar/arm-none-eabi-gcc/5.0-2016-q2-update/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m/libgcc.a(lesf2.o)
-                0x0000000000019e3c                __ltsf2
-                0x0000000000019e3c                __lesf2
- .text          0x0000000000019ec4      0x228 /usr/local/Cellar/arm-none-eabi-gcc/5.0-2016-q2-update/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m/libgcc.a(mulsf3.o)
-                0x0000000000019ec4                __aeabi_fmul
- .text          0x000000000001a0ec      0x30c /usr/local/Cellar/arm-none-eabi-gcc/5.0-2016-q2-update/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m/libgcc.a(subsf3.o)
-                0x000000000001a0ec                __aeabi_fsub
- .text          0x000000000001a3f8       0x44 /usr/local/Cellar/arm-none-eabi-gcc/5.0-2016-q2-update/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m/libgcc.a(fixsfsi.o)
-                0x000000000001a3f8                __aeabi_f2iz
- .text          0x000000000001a43c       0x90 /usr/local/Cellar/arm-none-eabi-gcc/5.0-2016-q2-update/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m/libgcc.a(floatsisf.o)
-                0x000000000001a43c                __aeabi_i2f
- .text          0x000000000001a4cc       0x7c /usr/local/Cellar/arm-none-eabi-gcc/5.0-2016-q2-update/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m/libgcc.a(floatunsisf.o)
-                0x000000000001a4cc                __aeabi_ui2f
- .text          0x000000000001a548       0x3c /usr/local/Cellar/arm-none-eabi-gcc/5.0-2016-q2-update/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m/libgcc.a(_clzsi2.o)
-                0x000000000001a548                __clzsi2
- .text.exit     0x000000000001a584       0x2c /usr/local/Cellar/arm-none-eabi-gcc/5.0-2016-q2-update/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-exit.o)
-                0x000000000001a584                exit
+                0x000000000001974c       0xc4 /usr/local/Cellar/arm-none-eabi-gcc/5.0-2016-q2-update/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m/libstdc++_nano.a(wlocale-inst.o)
+ .text          0x0000000000019810      0x114 /usr/local/Cellar/arm-none-eabi-gcc/5.0-2016-q2-update/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m/libgcc.a(_udivsi3.o)
+                0x0000000000019810                __udivsi3
+                0x0000000000019810                __aeabi_uidiv
+                0x000000000001991c                __aeabi_uidivmod
+ .text          0x0000000000019924      0x1d4 /usr/local/Cellar/arm-none-eabi-gcc/5.0-2016-q2-update/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m/libgcc.a(_divsi3.o)
+                0x0000000000019924                __divsi3
+                0x0000000000019924                __aeabi_idiv
+                0x0000000000019af0                __aeabi_idivmod
+ .text          0x0000000000019af8        0x4 /usr/local/Cellar/arm-none-eabi-gcc/5.0-2016-q2-update/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m/libgcc.a(_dvmd_tls.o)
+                0x0000000000019af8                __aeabi_ldiv0
+                0x0000000000019af8                __aeabi_idiv0
+ .text          0x0000000000019afc       0x74 /usr/local/Cellar/arm-none-eabi-gcc/5.0-2016-q2-update/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m/libgcc.a(_arm_cmpsf2.o)
+                0x0000000000019afc                __aeabi_cfrcmple
+                0x0000000000019b04                __aeabi_cfcmpeq
+                0x0000000000019b04                __aeabi_cfcmple
+                0x0000000000019b14                __aeabi_fcmpeq
+                0x0000000000019b20                __aeabi_fcmplt
+                0x0000000000019b34                __aeabi_fcmple
+                0x0000000000019b48                __aeabi_fcmpgt
+                0x0000000000019b5c                __aeabi_fcmpge
+ .text          0x0000000000019b70       0x30 /usr/local/Cellar/arm-none-eabi-gcc/5.0-2016-q2-update/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m/libgcc.a(_fixunssfsi.o)
+                0x0000000000019b70                __fixunssfsi
+                0x0000000000019b70                __aeabi_f2uiz
+ .text          0x0000000000019ba0      0x234 /usr/local/Cellar/arm-none-eabi-gcc/5.0-2016-q2-update/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m/libgcc.a(divsf3.o)
+                0x0000000000019ba0                __aeabi_fdiv
+ .text          0x0000000000019dd4       0x50 /usr/local/Cellar/arm-none-eabi-gcc/5.0-2016-q2-update/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m/libgcc.a(eqsf2.o)
+                0x0000000000019dd4                __eqsf2
+                0x0000000000019dd4                __nesf2
+ .text          0x0000000000019e24       0x88 /usr/local/Cellar/arm-none-eabi-gcc/5.0-2016-q2-update/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m/libgcc.a(gesf2.o)
+                0x0000000000019e24                __gtsf2
+                0x0000000000019e24                __gesf2
+ .text          0x0000000000019eac       0x88 /usr/local/Cellar/arm-none-eabi-gcc/5.0-2016-q2-update/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m/libgcc.a(lesf2.o)
+                0x0000000000019eac                __ltsf2
+                0x0000000000019eac                __lesf2
+ .text          0x0000000000019f34      0x228 /usr/local/Cellar/arm-none-eabi-gcc/5.0-2016-q2-update/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m/libgcc.a(mulsf3.o)
+                0x0000000000019f34                __aeabi_fmul
+ .text          0x000000000001a15c      0x30c /usr/local/Cellar/arm-none-eabi-gcc/5.0-2016-q2-update/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m/libgcc.a(subsf3.o)
+                0x000000000001a15c                __aeabi_fsub
+ .text          0x000000000001a468       0x44 /usr/local/Cellar/arm-none-eabi-gcc/5.0-2016-q2-update/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m/libgcc.a(fixsfsi.o)
+                0x000000000001a468                __aeabi_f2iz
+ .text          0x000000000001a4ac       0x90 /usr/local/Cellar/arm-none-eabi-gcc/5.0-2016-q2-update/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m/libgcc.a(floatsisf.o)
+                0x000000000001a4ac                __aeabi_i2f
+ .text          0x000000000001a53c       0x7c /usr/local/Cellar/arm-none-eabi-gcc/5.0-2016-q2-update/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m/libgcc.a(floatunsisf.o)
+                0x000000000001a53c                __aeabi_ui2f
+ .text          0x000000000001a5b8       0x3c /usr/local/Cellar/arm-none-eabi-gcc/5.0-2016-q2-update/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m/libgcc.a(_clzsi2.o)
+                0x000000000001a5b8                __clzsi2
+ .text.exit     0x000000000001a5f4       0x2c /usr/local/Cellar/arm-none-eabi-gcc/5.0-2016-q2-update/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-exit.o)
+                0x000000000001a5f4                exit
  .text.__libc_init_array
-                0x000000000001a5b0       0x4c /usr/local/Cellar/arm-none-eabi-gcc/5.0-2016-q2-update/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-init.o)
-                0x000000000001a5b0                __libc_init_array
- .text.malloc   0x000000000001a5fc       0x14 /usr/local/Cellar/arm-none-eabi-gcc/5.0-2016-q2-update/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-malloc.o)
-                0x000000000001a5fc                malloc
- .text.free     0x000000000001a610       0x14 /usr/local/Cellar/arm-none-eabi-gcc/5.0-2016-q2-update/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-malloc.o)
-                0x000000000001a610                free
- .text._free_r  0x000000000001a624       0x98 /usr/local/Cellar/arm-none-eabi-gcc/5.0-2016-q2-update/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-nano-freer.o)
-                0x000000000001a624                _free_r
+                0x000000000001a620       0x4c /usr/local/Cellar/arm-none-eabi-gcc/5.0-2016-q2-update/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-init.o)
+                0x000000000001a620                __libc_init_array
+ .text.malloc   0x000000000001a66c       0x14 /usr/local/Cellar/arm-none-eabi-gcc/5.0-2016-q2-update/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-malloc.o)
+                0x000000000001a66c                malloc
+ .text.free     0x000000000001a680       0x14 /usr/local/Cellar/arm-none-eabi-gcc/5.0-2016-q2-update/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-malloc.o)
+                0x000000000001a680                free
+ .text._free_r  0x000000000001a694       0x98 /usr/local/Cellar/arm-none-eabi-gcc/5.0-2016-q2-update/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-nano-freer.o)
+                0x000000000001a694                _free_r
  .text._malloc_r
-                0x000000000001a6bc       0xc0 /usr/local/Cellar/arm-none-eabi-gcc/5.0-2016-q2-update/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-nano-mallocr.o)
-                0x000000000001a6bc                _malloc_r
- .text._sbrk_r  0x000000000001a77c       0x24 /usr/local/Cellar/arm-none-eabi-gcc/5.0-2016-q2-update/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-sbrkr.o)
-                0x000000000001a77c                _sbrk_r
- .text.raise    0x000000000001a7a0       0x14 /usr/local/Cellar/arm-none-eabi-gcc/5.0-2016-q2-update/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-signal.o)
-                0x000000000001a7a0                raise
- .text._kill_r  0x000000000001a7b4       0x24 /usr/local/Cellar/arm-none-eabi-gcc/5.0-2016-q2-update/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-signalr.o)
-                0x000000000001a7b4                _kill_r
+                0x000000000001a72c       0xc0 /usr/local/Cellar/arm-none-eabi-gcc/5.0-2016-q2-update/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-nano-mallocr.o)
+                0x000000000001a72c                _malloc_r
+ .text._sbrk_r  0x000000000001a7ec       0x24 /usr/local/Cellar/arm-none-eabi-gcc/5.0-2016-q2-update/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-sbrkr.o)
+                0x000000000001a7ec                _sbrk_r
+ .text.raise    0x000000000001a810       0x14 /usr/local/Cellar/arm-none-eabi-gcc/5.0-2016-q2-update/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-signal.o)
+                0x000000000001a810                raise
+ .text._kill_r  0x000000000001a824       0x24 /usr/local/Cellar/arm-none-eabi-gcc/5.0-2016-q2-update/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-signalr.o)
+                0x000000000001a824                _kill_r
  .text.vsnprintf
-                0x000000000001a7d8       0x18 /usr/local/Cellar/arm-none-eabi-gcc/5.0-2016-q2-update/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-vsnprintf.o)
-                0x000000000001a7d8                vsniprintf
-                0x000000000001a7d8                vsnprintf
+                0x000000000001a848       0x18 /usr/local/Cellar/arm-none-eabi-gcc/5.0-2016-q2-update/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-vsnprintf.o)
+                0x000000000001a848                vsniprintf
+                0x000000000001a848                vsnprintf
  .text._vsprintf_r
-                0x000000000001a7f0       0x30 /usr/local/Cellar/arm-none-eabi-gcc/5.0-2016-q2-update/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-vsprintf.o)
-                0x000000000001a7f0                _vsiprintf_r
-                0x000000000001a7f0                _vsprintf_r
+                0x000000000001a860       0x30 /usr/local/Cellar/arm-none-eabi-gcc/5.0-2016-q2-update/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-vsprintf.o)
+                0x000000000001a860                _vsiprintf_r
+                0x000000000001a860                _vsprintf_r
  .text.vsprintf
-                0x000000000001a820       0x18 /usr/local/Cellar/arm-none-eabi-gcc/5.0-2016-q2-update/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-vsprintf.o)
-                0x000000000001a820                vsprintf
-                0x000000000001a820                vsiprintf
+                0x000000000001a890       0x18 /usr/local/Cellar/arm-none-eabi-gcc/5.0-2016-q2-update/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-vsprintf.o)
+                0x000000000001a890                vsprintf
+                0x000000000001a890                vsiprintf
  .text.__ssputs_r
-                0x000000000001a838       0xc4 /usr/local/Cellar/arm-none-eabi-gcc/5.0-2016-q2-update/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-nano-svfprintf.o)
-                0x000000000001a838                __ssputs_r
+                0x000000000001a8a8       0xc4 /usr/local/Cellar/arm-none-eabi-gcc/5.0-2016-q2-update/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-nano-svfprintf.o)
+                0x000000000001a8a8                __ssputs_r
  .text._svfprintf_r
-                0x000000000001a8fc      0x1fc /usr/local/Cellar/arm-none-eabi-gcc/5.0-2016-q2-update/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-nano-svfprintf.o)
-                0x000000000001a8fc                _svfprintf_r
-                0x000000000001a8fc                _svfiprintf_r
+                0x000000000001a96c      0x1fc /usr/local/Cellar/arm-none-eabi-gcc/5.0-2016-q2-update/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-nano-svfprintf.o)
+                0x000000000001a96c                _svfprintf_r
+                0x000000000001a96c                _svfiprintf_r
  .text._printf_i
-                0x000000000001aaf8      0x244 /usr/local/Cellar/arm-none-eabi-gcc/5.0-2016-q2-update/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-nano-vfprintf_i.o)
-                0x000000000001aaf8                _printf_i
- .text._getpid  0x000000000001ad3c       0x10 /usr/local/Cellar/arm-none-eabi-gcc/5.0-2016-q2-update/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m/libnosys.a(getpid.o)
-                0x000000000001ad3c                _getpid
- .text._kill    0x000000000001ad4c       0x10 /usr/local/Cellar/arm-none-eabi-gcc/5.0-2016-q2-update/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m/libnosys.a(kill.o)
-                0x000000000001ad4c                _kill
+                0x000000000001ab68      0x244 /usr/local/Cellar/arm-none-eabi-gcc/5.0-2016-q2-update/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-nano-vfprintf_i.o)
+                0x000000000001ab68                _printf_i
+ .text._getpid  0x000000000001adac       0x10 /usr/local/Cellar/arm-none-eabi-gcc/5.0-2016-q2-update/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m/libnosys.a(getpid.o)
+                0x000000000001adac                _getpid
+ .text._kill    0x000000000001adbc       0x10 /usr/local/Cellar/arm-none-eabi-gcc/5.0-2016-q2-update/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m/libnosys.a(kill.o)
+                0x000000000001adbc                _kill
  .text._ZN17MicroBitComponent10systemTickEv
-                0x000000000001ad5c        0x2 source/CMakeFiles/recordsaveplayaudiodata.dir/Users/Wendelin/NetbeansProjects/MicroBit/RecordSavePlayAudioData/source/Button.cpp.o
-                0x000000000001ad5c                MicroBitComponent::systemTick()
+                0x000000000001adcc        0x2 source/CMakeFiles/recordsaveplayaudiodata.dir/Users/Wendelin/NetbeansProjects/MicroBit/RecordSavePlayAudioData/source/Button.cpp.o
+                0x000000000001adcc                MicroBitComponent::systemTick()
  .text._ZN17MicroBitComponent8idleTickEv
-                0x000000000001ad5e        0x2 source/CMakeFiles/recordsaveplayaudiodata.dir/Users/Wendelin/NetbeansProjects/MicroBit/RecordSavePlayAudioData/source/Button.cpp.o
-                0x000000000001ad5e                MicroBitComponent::idleTick()
+                0x000000000001adce        0x2 source/CMakeFiles/recordsaveplayaudiodata.dir/Users/Wendelin/NetbeansProjects/MicroBit/RecordSavePlayAudioData/source/Button.cpp.o
+                0x000000000001adce                MicroBitComponent::idleTick()
  .text._ZN6ButtonD0Ev
-                0x000000000001ad60       0x12 source/CMakeFiles/recordsaveplayaudiodata.dir/Users/Wendelin/NetbeansProjects/MicroBit/RecordSavePlayAudioData/source/Button.cpp.o
-                0x000000000001ad60                Button::~Button()
+                0x000000000001add0       0x12 source/CMakeFiles/recordsaveplayaudiodata.dir/Users/Wendelin/NetbeansProjects/MicroBit/RecordSavePlayAudioData/source/Button.cpp.o
+                0x000000000001add0                Button::~Button()
  .text._ZN6Button10systemTickEv
-                0x000000000001ad72       0x44 source/CMakeFiles/recordsaveplayaudiodata.dir/Users/Wendelin/NetbeansProjects/MicroBit/RecordSavePlayAudioData/source/Button.cpp.o
-                0x000000000001ad72                Button::systemTick()
+                0x000000000001ade2       0x44 source/CMakeFiles/recordsaveplayaudiodata.dir/Users/Wendelin/NetbeansProjects/MicroBit/RecordSavePlayAudioData/source/Button.cpp.o
+                0x000000000001ade2                Button::systemTick()
  .text._ZN6Button9isPressedEv
-                0x000000000001adb6        0x8 source/CMakeFiles/recordsaveplayaudiodata.dir/Users/Wendelin/NetbeansProjects/MicroBit/RecordSavePlayAudioData/source/Button.cpp.o
-                0x000000000001adb6                Button::isPressed()
+                0x000000000001ae26        0x8 source/CMakeFiles/recordsaveplayaudiodata.dir/Users/Wendelin/NetbeansProjects/MicroBit/RecordSavePlayAudioData/source/Button.cpp.o
+                0x000000000001ae26                Button::isPressed()
  .text._ZN3PinD2Ev
-                0x000000000001adbe        0x2 source/CMakeFiles/recordsaveplayaudiodata.dir/Users/Wendelin/NetbeansProjects/MicroBit/RecordSavePlayAudioData/source/Pin.cpp.o
-                0x000000000001adbe                Pin::~Pin()
-                0x000000000001adbe                Pin::~Pin()
+                0x000000000001ae2e        0x2 source/CMakeFiles/recordsaveplayaudiodata.dir/Users/Wendelin/NetbeansProjects/MicroBit/RecordSavePlayAudioData/source/Pin.cpp.o
+                0x000000000001ae2e                Pin::~Pin()
+                0x000000000001ae2e                Pin::~Pin()
  .text._ZN3PinD0Ev
-                0x000000000001adc0        0xc source/CMakeFiles/recordsaveplayaudiodata.dir/Users/Wendelin/NetbeansProjects/MicroBit/RecordSavePlayAudioData/source/Pin.cpp.o
-                0x000000000001adc0                Pin::~Pin()
+                0x000000000001ae30        0xc source/CMakeFiles/recordsaveplayaudiodata.dir/Users/Wendelin/NetbeansProjects/MicroBit/RecordSavePlayAudioData/source/Pin.cpp.o
+                0x000000000001ae30                Pin::~Pin()
  .text._ZN3Pin14getAnalogValueEv
-                0x000000000001adcc       0x30 source/CMakeFiles/recordsaveplayaudiodata.dir/Users/Wendelin/NetbeansProjects/MicroBit/RecordSavePlayAudioData/source/Pin.cpp.o
-                0x000000000001adcc                Pin::getAnalogValue()
+                0x000000000001ae3c       0x30 source/CMakeFiles/recordsaveplayaudiodata.dir/Users/Wendelin/NetbeansProjects/MicroBit/RecordSavePlayAudioData/source/Pin.cpp.o
+                0x000000000001ae3c                Pin::getAnalogValue()
  .text._ZN3Pin19obtainAnalogChannelEv
-                0x000000000001adfc       0x34 source/CMakeFiles/recordsaveplayaudiodata.dir/Users/Wendelin/NetbeansProjects/MicroBit/RecordSavePlayAudioData/source/Pin.cpp.o
-                0x000000000001adfc                Pin::obtainAnalogChannel()
+                0x000000000001ae6c       0x34 source/CMakeFiles/recordsaveplayaudiodata.dir/Users/Wendelin/NetbeansProjects/MicroBit/RecordSavePlayAudioData/source/Pin.cpp.o
+                0x000000000001ae6c                Pin::obtainAnalogChannel()
  .text._ZN4mbed10SerialBaseD2Ev
-                0x000000000001ae30        0x2 source/CMakeFiles/recordsaveplayaudiodata.dir/Users/Wendelin/NetbeansProjects/MicroBit/RecordSavePlayAudioData/source/Audio.cpp.o
-                0x000000000001ae30                mbed::SerialBase::~SerialBase()
-                0x000000000001ae30                mbed::SerialBase::~SerialBase()
+                0x000000000001aea0        0x2 source/CMakeFiles/recordsaveplayaudiodata.dir/Users/Wendelin/NetbeansProjects/MicroBit/RecordSavePlayAudioData/source/Audio.cpp.o
+                0x000000000001aea0                mbed::SerialBase::~SerialBase()
+                0x000000000001aea0                mbed::SerialBase::~SerialBase()
  .text._ZN4mbed19FunctionPointerArg1IvvE12membercallerI5AudioEEvPvPj
-                0x000000000001ae32       0x14 source/CMakeFiles/recordsaveplayaudiodata.dir/Users/Wendelin/NetbeansProjects/MicroBit/RecordSavePlayAudioData/source/Audio.cpp.o
-                0x000000000001ae32                void mbed::FunctionPointerArg1<void, void>::membercaller<Audio>(void*, unsigned int*)
+                0x000000000001aea2       0x14 source/CMakeFiles/recordsaveplayaudiodata.dir/Users/Wendelin/NetbeansProjects/MicroBit/RecordSavePlayAudioData/source/Audio.cpp.o
+                0x000000000001aea2                void mbed::FunctionPointerArg1<void, void>::membercaller<Audio>(void*, unsigned int*)
  .text._ZN4mbed9RawSerialD2Ev
-                0x000000000001ae46        0x2 source/CMakeFiles/recordsaveplayaudiodata.dir/Users/Wendelin/NetbeansProjects/MicroBit/RecordSavePlayAudioData/source/Audio.cpp.o
-                0x000000000001ae46                mbed::RawSerial::~RawSerial()
-                0x000000000001ae46                mbed::RawSerial::~RawSerial()
+                0x000000000001aeb6        0x2 source/CMakeFiles/recordsaveplayaudiodata.dir/Users/Wendelin/NetbeansProjects/MicroBit/RecordSavePlayAudioData/source/Audio.cpp.o
+                0x000000000001aeb6                mbed::RawSerial::~RawSerial()
+                0x000000000001aeb6                mbed::RawSerial::~RawSerial()
  .text._ZN4mbed10SerialBaseD0Ev
-                0x000000000001ae48        0xc source/CMakeFiles/recordsaveplayaudiodata.dir/Users/Wendelin/NetbeansProjects/MicroBit/RecordSavePlayAudioData/source/Audio.cpp.o
-                0x000000000001ae48                mbed::SerialBase::~SerialBase()
+                0x000000000001aeb8        0xc source/CMakeFiles/recordsaveplayaudiodata.dir/Users/Wendelin/NetbeansProjects/MicroBit/RecordSavePlayAudioData/source/Audio.cpp.o
+                0x000000000001aeb8                mbed::SerialBase::~SerialBase()
  .text._ZN4mbed9RawSerialD0Ev
-                0x000000000001ae54        0xc source/CMakeFiles/recordsaveplayaudiodata.dir/Users/Wendelin/NetbeansProjects/MicroBit/RecordSavePlayAudioData/source/Audio.cpp.o
-                0x000000000001ae54                mbed::RawSerial::~RawSerial()
+                0x000000000001aec4        0xc source/CMakeFiles/recordsaveplayaudiodata.dir/Users/Wendelin/NetbeansProjects/MicroBit/RecordSavePlayAudioData/source/Audio.cpp.o
+                0x000000000001aec4                mbed::RawSerial::~RawSerial()
  .text._ZN5AudioD0Ev
-                0x000000000001ae60       0x12 source/CMakeFiles/recordsaveplayaudiodata.dir/Users/Wendelin/NetbeansProjects/MicroBit/RecordSavePlayAudioData/source/Audio.cpp.o
-                0x000000000001ae60                Audio::~Audio()
+                0x000000000001aed0       0x12 source/CMakeFiles/recordsaveplayaudiodata.dir/Users/Wendelin/NetbeansProjects/MicroBit/RecordSavePlayAudioData/source/Audio.cpp.o
+                0x000000000001aed0                Audio::~Audio()
  .text._ZN4mbed6TickerD0Ev
-                0x000000000001ae72       0x12 source/CMakeFiles/recordsaveplayaudiodata.dir/Users/Wendelin/NetbeansProjects/MicroBit/RecordSavePlayAudioData/source/Audio.cpp.o
-                0x000000000001ae72                mbed::Ticker::~Ticker()
+                0x000000000001aee2       0x12 source/CMakeFiles/recordsaveplayaudiodata.dir/Users/Wendelin/NetbeansProjects/MicroBit/RecordSavePlayAudioData/source/Audio.cpp.o
+                0x000000000001aee2                mbed::Ticker::~Ticker()
  .text._ZN7DisplayD0Ev
-                0x000000000001ae84       0x12 source/CMakeFiles/recordsaveplayaudiodata.dir/Users/Wendelin/NetbeansProjects/MicroBit/RecordSavePlayAudioData/source/Display.cpp.o
-                0x000000000001ae84                Display::~Display()
+                0x000000000001aef4       0x12 source/CMakeFiles/recordsaveplayaudiodata.dir/Users/Wendelin/NetbeansProjects/MicroBit/RecordSavePlayAudioData/source/Display.cpp.o
+                0x000000000001aef4                Display::~Display()
  .text._ZN7Display15displayPlaySignEv
-                0x000000000001ae96       0x26 source/CMakeFiles/recordsaveplayaudiodata.dir/Users/Wendelin/NetbeansProjects/MicroBit/RecordSavePlayAudioData/source/Display.cpp.o
-                0x000000000001ae96                Display::displayPlaySign()
+                0x000000000001af06       0x26 source/CMakeFiles/recordsaveplayaudiodata.dir/Users/Wendelin/NetbeansProjects/MicroBit/RecordSavePlayAudioData/source/Display.cpp.o
+                0x000000000001af06                Display::displayPlaySign()
  .text._Z15microbit_mallocjR14HeapDefinition
-                0x000000000001aebc       0x82 ym/microbit-dal/source/microbit-dal.a(MicroBitHeapAllocator.cpp.o)
-                0x000000000001aebc                microbit_malloc(unsigned int, HeapDefinition&)
+                0x000000000001af2c       0x82 ym/microbit-dal/source/microbit-dal.a(MicroBitHeapAllocator.cpp.o)
+                0x000000000001af2c                microbit_malloc(unsigned int, HeapDefinition&)
  .text._ZN10DynamicPwm8redirectE7PinName
-                0x000000000001af3e       0x16 ym/microbit-dal/source/microbit-dal.a(DynamicPwm.cpp.o)
-                0x000000000001af3e                DynamicPwm::redirect(PinName)
+                0x000000000001afae       0x16 ym/microbit-dal/source/microbit-dal.a(DynamicPwm.cpp.o)
+                0x000000000001afae                DynamicPwm::redirect(PinName)
  .text._ZN10DynamicPwm10getPinNameEv
-                0x000000000001af54        0x6 ym/microbit-dal/source/microbit-dal.a(DynamicPwm.cpp.o)
-                0x000000000001af54                DynamicPwm::getPinName()
+                0x000000000001afc4        0x6 ym/microbit-dal/source/microbit-dal.a(DynamicPwm.cpp.o)
+                0x000000000001afc4                DynamicPwm::getPinName()
  .text._ZN4mbed9RawSerial4putcEi
-                0x000000000001af5a        0x8 ym/mbed-classic/existing/mbed-classic.a(RawSerial.cpp.o)
-                0x000000000001af5a                mbed::RawSerial::putc(int)
+                0x000000000001afca        0x8 ym/mbed-classic/existing/mbed-classic.a(RawSerial.cpp.o)
+                0x000000000001afca                mbed::RawSerial::putc(int)
  .text._ZN4mbed9RawSerial4putsEPKc
-                0x000000000001af62       0x1a ym/mbed-classic/existing/mbed-classic.a(RawSerial.cpp.o)
-                0x000000000001af62                mbed::RawSerial::puts(char const*)
+                0x000000000001afd2       0x1a ym/mbed-classic/existing/mbed-classic.a(RawSerial.cpp.o)
+                0x000000000001afd2                mbed::RawSerial::puts(char const*)
  .text._ZN4mbed9RawSerial6printfEPKcz
-                0x000000000001af7c       0x5c ym/mbed-classic/existing/mbed-classic.a(RawSerial.cpp.o)
-                0x000000000001af7c                mbed::RawSerial::printf(char const*, ...)
+                0x000000000001afec       0x5c ym/mbed-classic/existing/mbed-classic.a(RawSerial.cpp.o)
+                0x000000000001afec                mbed::RawSerial::printf(char const*, ...)
  .text._ZN4mbed10SerialBase12_irq_handlerEm9SerialIrq
-                0x000000000001afd8       0x30 ym/mbed-classic/existing/mbed-classic.a(SerialBase.cpp.o)
-                0x000000000001afd8                mbed::SerialBase::_irq_handler(unsigned long, SerialIrq)
+                0x000000000001b048       0x30 ym/mbed-classic/existing/mbed-classic.a(SerialBase.cpp.o)
+                0x000000000001b048                mbed::SerialBase::_irq_handler(unsigned long, SerialIrq)
  .text._ZN4mbed10SerialBase10_base_putcEi
-                0x000000000001b008        0xe ym/mbed-classic/existing/mbed-classic.a(SerialBase.cpp.o)
-                0x000000000001b008                mbed::SerialBase::_base_putc(int)
+                0x000000000001b078        0xe ym/mbed-classic/existing/mbed-classic.a(SerialBase.cpp.o)
+                0x000000000001b078                mbed::SerialBase::_base_putc(int)
  .text._ZN4mbed6Ticker7handlerEv
-                0x000000000001b016       0x2c ym/mbed-classic/existing/mbed-classic.a(Ticker.cpp.o)
-                0x000000000001b016                mbed::Ticker::handler()
+                0x000000000001b086       0x2c ym/mbed-classic/existing/mbed-classic.a(Ticker.cpp.o)
+                0x000000000001b086                mbed::Ticker::handler()
  .text._ZN4mbed6Ticker6detachEv
-                0x000000000001b042       0x10 ym/mbed-classic/existing/mbed-classic.a(Ticker.cpp.o)
-                0x000000000001b042                mbed::Ticker::detach()
+                0x000000000001b0b2       0x10 ym/mbed-classic/existing/mbed-classic.a(Ticker.cpp.o)
+                0x000000000001b0b2                mbed::Ticker::detach()
  .text._ZN4mbed6Ticker5setupEm
-                0x000000000001b052       0x1c ym/mbed-classic/existing/mbed-classic.a(Ticker.cpp.o)
-                0x000000000001b052                mbed::Ticker::setup(unsigned long)
+                0x000000000001b0c2       0x1c ym/mbed-classic/existing/mbed-classic.a(Ticker.cpp.o)
+                0x000000000001b0c2                mbed::Ticker::setup(unsigned long)
  .text._ZN4mbed5Timer5startEv
-                0x000000000001b06e       0x18 ym/mbed-classic/existing/mbed-classic.a(Timer.cpp.o)
-                0x000000000001b06e                mbed::Timer::start()
+                0x000000000001b0de       0x18 ym/mbed-classic/existing/mbed-classic.a(Timer.cpp.o)
+                0x000000000001b0de                mbed::Timer::start()
  .text._ZN4mbed5Timer9slicetimeEv
-                0x000000000001b086       0x16 ym/mbed-classic/existing/mbed-classic.a(Timer.cpp.o)
-                0x000000000001b086                mbed::Timer::slicetime()
+                0x000000000001b0f6       0x16 ym/mbed-classic/existing/mbed-classic.a(Timer.cpp.o)
+                0x000000000001b0f6                mbed::Timer::slicetime()
  .text._ZN4mbed5Timer7read_usEv
-                0x000000000001b09c        0xc ym/mbed-classic/existing/mbed-classic.a(Timer.cpp.o)
-                0x000000000001b09c                mbed::Timer::read_us()
+                0x000000000001b10c        0xc ym/mbed-classic/existing/mbed-classic.a(Timer.cpp.o)
+                0x000000000001b10c                mbed::Timer::read_us()
  .text._ZN4mbed5Timer5resetEv
-                0x000000000001b0a8       0x12 ym/mbed-classic/existing/mbed-classic.a(Timer.cpp.o)
-                0x000000000001b0a8                mbed::Timer::reset()
+                0x000000000001b118       0x12 ym/mbed-classic/existing/mbed-classic.a(Timer.cpp.o)
+                0x000000000001b118                mbed::Timer::reset()
  .text._ZN4mbed5TimerC2Ev
-                0x000000000001b0ba       0x1c ym/mbed-classic/existing/mbed-classic.a(Timer.cpp.o)
-                0x000000000001b0ba                mbed::Timer::Timer()
-                0x000000000001b0ba                mbed::Timer::Timer()
+                0x000000000001b12a       0x1c ym/mbed-classic/existing/mbed-classic.a(Timer.cpp.o)
+                0x000000000001b12a                mbed::Timer::Timer()
+                0x000000000001b12a                mbed::Timer::Timer()
  .text._ZN4mbed10TimerEvent3irqEm
-                0x000000000001b0d6        0xa ym/mbed-classic/existing/mbed-classic.a(TimerEvent.cpp.o)
-                0x000000000001b0d6                mbed::TimerEvent::irq(unsigned long)
+                0x000000000001b146        0xa ym/mbed-classic/existing/mbed-classic.a(TimerEvent.cpp.o)
+                0x000000000001b146                mbed::TimerEvent::irq(unsigned long)
  .text._ZN4mbed10TimerEvent6insertEm
-                0x000000000001b0e0       0x10 ym/mbed-classic/existing/mbed-classic.a(TimerEvent.cpp.o)
-                0x000000000001b0e0                mbed::TimerEvent::insert(unsigned long)
+                0x000000000001b150       0x10 ym/mbed-classic/existing/mbed-classic.a(TimerEvent.cpp.o)
+                0x000000000001b150                mbed::TimerEvent::insert(unsigned long)
  .text._ZN4mbed10TimerEvent6removeEv
-                0x000000000001b0f0        0xc ym/mbed-classic/existing/mbed-classic.a(TimerEvent.cpp.o)
-                0x000000000001b0f0                mbed::TimerEvent::remove()
+                0x000000000001b160        0xc ym/mbed-classic/existing/mbed-classic.a(TimerEvent.cpp.o)
+                0x000000000001b160                mbed::TimerEvent::remove()
  .text.__cxa_pure_virtual
-                0x000000000001b0fc        0x8 ym/mbed-classic/existing/mbed-classic.a(retarget.cpp.o)
-                0x000000000001b0fc                __cxa_pure_virtual
+                0x000000000001b16c        0x8 ym/mbed-classic/existing/mbed-classic.a(retarget.cpp.o)
+                0x000000000001b16c                __cxa_pure_virtual
  .text.mbed_main
-                0x000000000001b104        0x2 ym/mbed-classic/existing/mbed-classic.a(retarget.cpp.o)
-                0x000000000001b104                mbed_main
+                0x000000000001b174        0x2 ym/mbed-classic/existing/mbed-classic.a(retarget.cpp.o)
+                0x000000000001b174                mbed_main
  .text.mbed_sdk_init
-                0x000000000001b106        0x2 ym/mbed-classic/existing/mbed-classic.a(retarget.cpp.o)
-                0x000000000001b106                mbed_sdk_init
+                0x000000000001b176        0x2 ym/mbed-classic/existing/mbed-classic.a(retarget.cpp.o)
+                0x000000000001b176                mbed_sdk_init
  .text.__wrap_main
-                0x000000000001b108       0x10 ym/mbed-classic/existing/mbed-classic.a(retarget.cpp.o)
-                0x000000000001b108                __wrap_main
- .text._exit    0x000000000001b118        0xc ym/mbed-classic/existing/mbed-classic.a(retarget.cpp.o)
-                0x000000000001b118                _exit
+                0x000000000001b178       0x10 ym/mbed-classic/existing/mbed-classic.a(retarget.cpp.o)
+                0x000000000001b178                __wrap_main
+ .text._exit    0x000000000001b188        0xc ym/mbed-classic/existing/mbed-classic.a(retarget.cpp.o)
+                0x000000000001b188                _exit
  .text.mbed_die
-                0x000000000001b124       0x66 ym/mbed-classic/existing/mbed-classic.a(board.c.o)
-                0x000000000001b124                mbed_die
- .text.error    0x000000000001b18a        0xa ym/mbed-classic/existing/mbed-classic.a(error.c.o)
-                0x000000000001b18a                error
+                0x000000000001b194       0x66 ym/mbed-classic/existing/mbed-classic.a(board.c.o)
+                0x000000000001b194                mbed_die
+ .text.error    0x000000000001b1fa        0xa ym/mbed-classic/existing/mbed-classic.a(error.c.o)
+                0x000000000001b1fa                error
  .text._gpio_init_in
-                0x000000000001b194       0x22 ym/mbed-classic/existing/mbed-classic.a(gpio.c.o)
+                0x000000000001b204       0x22 ym/mbed-classic/existing/mbed-classic.a(gpio.c.o)
  .text._gpio_init_out.part.1
-                0x000000000001b1b6       0x26 ym/mbed-classic/existing/mbed-classic.a(gpio.c.o)
+                0x000000000001b226       0x26 ym/mbed-classic/existing/mbed-classic.a(gpio.c.o)
  .text.gpio_init_in
-                0x000000000001b1dc        0xa ym/mbed-classic/existing/mbed-classic.a(gpio.c.o)
-                0x000000000001b1dc                gpio_init_in
+                0x000000000001b24c        0xa ym/mbed-classic/existing/mbed-classic.a(gpio.c.o)
+                0x000000000001b24c                gpio_init_in
  .text.gpio_init_in_ex
-                0x000000000001b1e6        0x8 ym/mbed-classic/existing/mbed-classic.a(gpio.c.o)
-                0x000000000001b1e6                gpio_init_in_ex
+                0x000000000001b256        0x8 ym/mbed-classic/existing/mbed-classic.a(gpio.c.o)
+                0x000000000001b256                gpio_init_in_ex
  .text.gpio_init_out_ex
-                0x000000000001b1ee       0x1c ym/mbed-classic/existing/mbed-classic.a(gpio.c.o)
-                0x000000000001b1ee                gpio_init_out_ex
+                0x000000000001b25e       0x1c ym/mbed-classic/existing/mbed-classic.a(gpio.c.o)
+                0x000000000001b25e                gpio_init_out_ex
  .text.gpio_init_out
-                0x000000000001b20a        0xa ym/mbed-classic/existing/mbed-classic.a(gpio.c.o)
-                0x000000000001b20a                gpio_init_out
+                0x000000000001b27a        0xa ym/mbed-classic/existing/mbed-classic.a(gpio.c.o)
+                0x000000000001b27a                gpio_init_out
  .text.ticker_set_handler
-                0x000000000001b214       0x12 ym/mbed-classic/existing/mbed-classic.a(ticker_api.c.o)
-                0x000000000001b214                ticker_set_handler
+                0x000000000001b284       0x12 ym/mbed-classic/existing/mbed-classic.a(ticker_api.c.o)
+                0x000000000001b284                ticker_set_handler
  .text.ticker_irq_handler
-                0x000000000001b226       0x44 ym/mbed-classic/existing/mbed-classic.a(ticker_api.c.o)
-                0x000000000001b226                ticker_irq_handler
+                0x000000000001b296       0x44 ym/mbed-classic/existing/mbed-classic.a(ticker_api.c.o)
+                0x000000000001b296                ticker_irq_handler
  .text.ticker_insert_event
-                0x000000000001b26a       0x38 ym/mbed-classic/existing/mbed-classic.a(ticker_api.c.o)
-                0x000000000001b26a                ticker_insert_event
+                0x000000000001b2da       0x38 ym/mbed-classic/existing/mbed-classic.a(ticker_api.c.o)
+                0x000000000001b2da                ticker_insert_event
  .text.ticker_remove_event
-                0x000000000001b2a2       0x38 ym/mbed-classic/existing/mbed-classic.a(ticker_api.c.o)
-                0x000000000001b2a2                ticker_remove_event
+                0x000000000001b312       0x38 ym/mbed-classic/existing/mbed-classic.a(ticker_api.c.o)
+                0x000000000001b312                ticker_remove_event
  .text.ticker_read
-                0x000000000001b2da        0xa ym/mbed-classic/existing/mbed-classic.a(ticker_api.c.o)
-                0x000000000001b2da                ticker_read
- .text.wait_us  0x000000000001b2e4       0x16 ym/mbed-classic/existing/mbed-classic.a(wait_api.c.o)
-                0x000000000001b2e4                wait_us
- .text.wait_ms  0x000000000001b2fa        0xe ym/mbed-classic/existing/mbed-classic.a(wait_api.c.o)
-                0x000000000001b2fa                wait_ms
+                0x000000000001b34a        0xa ym/mbed-classic/existing/mbed-classic.a(ticker_api.c.o)
+                0x000000000001b34a                ticker_read
+ .text.wait_us  0x000000000001b354       0x16 ym/mbed-classic/existing/mbed-classic.a(wait_api.c.o)
+                0x000000000001b354                wait_us
+ .text.wait_ms  0x000000000001b36a        0xe ym/mbed-classic/existing/mbed-classic.a(wait_api.c.o)
+                0x000000000001b36a                wait_ms
  .text.gpio_mode
-                0x000000000001b308        0xc ym/mbed-classic/existing/mbed-classic.a(gpio_api.c.o)
-                0x000000000001b308                gpio_mode
+                0x000000000001b378        0xc ym/mbed-classic/existing/mbed-classic.a(gpio_api.c.o)
+                0x000000000001b378                gpio_mode
  .text.gpio_dir
-                0x000000000001b314       0x1a ym/mbed-classic/existing/mbed-classic.a(gpio_api.c.o)
-                0x000000000001b314                gpio_dir
+                0x000000000001b384       0x1a ym/mbed-classic/existing/mbed-classic.a(gpio_api.c.o)
+                0x000000000001b384                gpio_dir
  .text.pin_mode
-                0x000000000001b32e       0x20 ym/mbed-classic/existing/mbed-classic.a(pinmap.c.o)
-                0x000000000001b32e                pin_mode
+                0x000000000001b39e       0x20 ym/mbed-classic/existing/mbed-classic.a(pinmap.c.o)
+                0x000000000001b39e                pin_mode
  .text.port_dir
-                0x000000000001b34e       0x48 ym/mbed-classic/existing/mbed-classic.a(port_api.c.o)
-                0x000000000001b34e                port_dir
+                0x000000000001b3be       0x48 ym/mbed-classic/existing/mbed-classic.a(port_api.c.o)
+                0x000000000001b3be                port_dir
  .text.port_write
-                0x000000000001b396       0x10 ym/mbed-classic/existing/mbed-classic.a(port_api.c.o)
-                0x000000000001b396                port_write
+                0x000000000001b406       0x10 ym/mbed-classic/existing/mbed-classic.a(port_api.c.o)
+                0x000000000001b406                port_write
  .text.us_ticker_disable_interrupt
-                0x000000000001b3a6        0x2 ym/mbed-classic/existing/mbed-classic.a(us_ticker.c.o)
-                0x000000000001b3a6                us_ticker_disable_interrupt
+                0x000000000001b416        0x2 ym/mbed-classic/existing/mbed-classic.a(us_ticker.c.o)
+                0x000000000001b416                us_ticker_disable_interrupt
  .text.us_ticker_clear_interrupt
-                0x000000000001b3a8        0x2 ym/mbed-classic/existing/mbed-classic.a(us_ticker.c.o)
-                0x000000000001b3a8                us_ticker_clear_interrupt
+                0x000000000001b418        0x2 ym/mbed-classic/existing/mbed-classic.a(us_ticker.c.o)
+                0x000000000001b418                us_ticker_clear_interrupt
  .text.pinmap_find_peripheral
-                0x000000000001b3aa       0x18 ym/mbed-classic/existing/mbed-classic.a(pinmap_common.c.o)
-                0x000000000001b3aa                pinmap_find_peripheral
- .text._ZdlPv   0x000000000001b3c2        0x8 /usr/local/Cellar/arm-none-eabi-gcc/5.0-2016-q2-update/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m/libstdc++_nano.a(del_op.o)
-                0x000000000001b3c2                operator delete(void*)
- .text._ZdaPv   0x000000000001b3ca        0x8 /usr/local/Cellar/arm-none-eabi-gcc/5.0-2016-q2-update/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m/libstdc++_nano.a(del_opv.o)
-                0x000000000001b3ca                operator delete[](void*)
- .text._Znwj    0x000000000001b3d2       0x24 /usr/local/Cellar/arm-none-eabi-gcc/5.0-2016-q2-update/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m/libstdc++_nano.a(new_op.o)
-                0x000000000001b3d2                operator new(unsigned int)
- .text._Znaj    0x000000000001b3f6        0x8 /usr/local/Cellar/arm-none-eabi-gcc/5.0-2016-q2-update/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m/libstdc++_nano.a(new_opv.o)
-                0x000000000001b3f6                operator new[](unsigned int)
+                0x000000000001b41a       0x18 ym/mbed-classic/existing/mbed-classic.a(pinmap_common.c.o)
+                0x000000000001b41a                pinmap_find_peripheral
+ .text._ZdlPv   0x000000000001b432        0x8 /usr/local/Cellar/arm-none-eabi-gcc/5.0-2016-q2-update/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m/libstdc++_nano.a(del_op.o)
+                0x000000000001b432                operator delete(void*)
+ .text._ZdaPv   0x000000000001b43a        0x8 /usr/local/Cellar/arm-none-eabi-gcc/5.0-2016-q2-update/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m/libstdc++_nano.a(del_opv.o)
+                0x000000000001b43a                operator delete[](void*)
+ .text._Znwj    0x000000000001b442       0x24 /usr/local/Cellar/arm-none-eabi-gcc/5.0-2016-q2-update/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m/libstdc++_nano.a(new_op.o)
+                0x000000000001b442                operator new(unsigned int)
+ .text._Znaj    0x000000000001b466        0x8 /usr/local/Cellar/arm-none-eabi-gcc/5.0-2016-q2-update/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m/libstdc++_nano.a(new_opv.o)
+                0x000000000001b466                operator new[](unsigned int)
  .text._ZSt20__throw_length_errorPKc
-                0x000000000001b3fe        0x6 /usr/local/Cellar/arm-none-eabi-gcc/5.0-2016-q2-update/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m/libstdc++_nano.a(functexcept.o)
-                0x000000000001b3fe                std::__throw_length_error(char const*)
- .text.abort    0x000000000001b404        0xe /usr/local/Cellar/arm-none-eabi-gcc/5.0-2016-q2-update/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-abort.o)
-                0x000000000001b404                abort
- .text.memchr   0x000000000001b412       0x16 /usr/local/Cellar/arm-none-eabi-gcc/5.0-2016-q2-update/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-memchr-stub.o)
-                0x000000000001b412                memchr
- .text.memcpy   0x000000000001b428       0x12 /usr/local/Cellar/arm-none-eabi-gcc/5.0-2016-q2-update/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-memcpy-stub.o)
-                0x000000000001b428                memcpy
- .text.memmove  0x000000000001b43a       0x2a /usr/local/Cellar/arm-none-eabi-gcc/5.0-2016-q2-update/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-memmove.o)
-                0x000000000001b43a                memmove
- .text.memset   0x000000000001b464       0x10 /usr/local/Cellar/arm-none-eabi-gcc/5.0-2016-q2-update/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-memset.o)
-                0x000000000001b464                memset
+                0x000000000001b46e        0x6 /usr/local/Cellar/arm-none-eabi-gcc/5.0-2016-q2-update/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m/libstdc++_nano.a(functexcept.o)
+                0x000000000001b46e                std::__throw_length_error(char const*)
+ .text.abort    0x000000000001b474        0xe /usr/local/Cellar/arm-none-eabi-gcc/5.0-2016-q2-update/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-abort.o)
+                0x000000000001b474                abort
+ .text.memchr   0x000000000001b482       0x16 /usr/local/Cellar/arm-none-eabi-gcc/5.0-2016-q2-update/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-memchr-stub.o)
+                0x000000000001b482                memchr
+ .text.memcpy   0x000000000001b498       0x12 /usr/local/Cellar/arm-none-eabi-gcc/5.0-2016-q2-update/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-memcpy-stub.o)
+                0x000000000001b498                memcpy
+ .text.memmove  0x000000000001b4aa       0x2a /usr/local/Cellar/arm-none-eabi-gcc/5.0-2016-q2-update/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-memmove.o)
+                0x000000000001b4aa                memmove
+ .text.memset   0x000000000001b4d4       0x10 /usr/local/Cellar/arm-none-eabi-gcc/5.0-2016-q2-update/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-memset.o)
+                0x000000000001b4d4                memset
  .text._raise_r
-                0x000000000001b474       0x54 /usr/local/Cellar/arm-none-eabi-gcc/5.0-2016-q2-update/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-signal.o)
-                0x000000000001b474                _raise_r
+                0x000000000001b4e4       0x54 /usr/local/Cellar/arm-none-eabi-gcc/5.0-2016-q2-update/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-signal.o)
+                0x000000000001b4e4                _raise_r
  .text._getpid_r
-                0x000000000001b4c8        0x8 /usr/local/Cellar/arm-none-eabi-gcc/5.0-2016-q2-update/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-signalr.o)
-                0x000000000001b4c8                _getpid_r
+                0x000000000001b538        0x8 /usr/local/Cellar/arm-none-eabi-gcc/5.0-2016-q2-update/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-signalr.o)
+                0x000000000001b538                _getpid_r
  .text._vsnprintf_r
-                0x000000000001b4d0       0x56 /usr/local/Cellar/arm-none-eabi-gcc/5.0-2016-q2-update/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-vsnprintf.o)
-                0x000000000001b4d0                _vsniprintf_r
-                0x000000000001b4d0                _vsnprintf_r
+                0x000000000001b540       0x56 /usr/local/Cellar/arm-none-eabi-gcc/5.0-2016-q2-update/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-vsnprintf.o)
+                0x000000000001b540                _vsniprintf_r
+                0x000000000001b540                _vsnprintf_r
  .text.__malloc_lock
-                0x000000000001b526        0x2 /usr/local/Cellar/arm-none-eabi-gcc/5.0-2016-q2-update/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-mlock.o)
-                0x000000000001b526                __malloc_lock
+                0x000000000001b596        0x2 /usr/local/Cellar/arm-none-eabi-gcc/5.0-2016-q2-update/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-mlock.o)
+                0x000000000001b596                __malloc_lock
  .text.__malloc_unlock
-                0x000000000001b528        0x2 /usr/local/Cellar/arm-none-eabi-gcc/5.0-2016-q2-update/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-mlock.o)
-                0x000000000001b528                __malloc_unlock
+                0x000000000001b598        0x2 /usr/local/Cellar/arm-none-eabi-gcc/5.0-2016-q2-update/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-mlock.o)
+                0x000000000001b598                __malloc_unlock
  .text._printf_common
-                0x000000000001b52a       0xdc /usr/local/Cellar/arm-none-eabi-gcc/5.0-2016-q2-update/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-nano-vfprintf_i.o)
-                0x000000000001b52a                _printf_common
+                0x000000000001b59a       0xdc /usr/local/Cellar/arm-none-eabi-gcc/5.0-2016-q2-update/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-nano-vfprintf_i.o)
+                0x000000000001b59a                _printf_common
  .text._realloc_r
-                0x000000000001b606       0x4c /usr/local/Cellar/arm-none-eabi-gcc/5.0-2016-q2-update/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-nano-reallocr.o)
-                0x000000000001b606                _realloc_r
+                0x000000000001b676       0x4c /usr/local/Cellar/arm-none-eabi-gcc/5.0-2016-q2-update/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-nano-reallocr.o)
+                0x000000000001b676                _realloc_r
  .text._malloc_usable_size_r
-                0x000000000001b652       0x16 /usr/local/Cellar/arm-none-eabi-gcc/5.0-2016-q2-update/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-nano-msizer.o)
-                0x000000000001b652                _malloc_usable_size_r
+                0x000000000001b6c2       0x16 /usr/local/Cellar/arm-none-eabi-gcc/5.0-2016-q2-update/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-nano-msizer.o)
+                0x000000000001b6c2                _malloc_usable_size_r
  *(SORT(.init))
- .init          0x000000000001b668        0x4 /usr/local/Cellar/arm-none-eabi-gcc/5.0-2016-q2-update/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m/crti.o
-                0x000000000001b668                _init
- .init          0x000000000001b66c        0x8 /usr/local/Cellar/arm-none-eabi-gcc/5.0-2016-q2-update/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m/crtn.o
+ .init          0x000000000001b6d8        0x4 /usr/local/Cellar/arm-none-eabi-gcc/5.0-2016-q2-update/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m/crti.o
+                0x000000000001b6d8                _init
+ .init          0x000000000001b6dc        0x8 /usr/local/Cellar/arm-none-eabi-gcc/5.0-2016-q2-update/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m/crtn.o
  *(SORT(.fini))
- .fini          0x000000000001b674        0x4 /usr/local/Cellar/arm-none-eabi-gcc/5.0-2016-q2-update/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m/crti.o
-                0x000000000001b674                _fini
- .fini          0x000000000001b678        0x8 /usr/local/Cellar/arm-none-eabi-gcc/5.0-2016-q2-update/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m/crtn.o
+ .fini          0x000000000001b6e4        0x4 /usr/local/Cellar/arm-none-eabi-gcc/5.0-2016-q2-update/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m/crti.o
+                0x000000000001b6e4                _fini
+ .fini          0x000000000001b6e8        0x8 /usr/local/Cellar/arm-none-eabi-gcc/5.0-2016-q2-update/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m/crtn.o
  *crtbegin.o(SORT(.ctors))
  *crtbegin?.o(SORT(.ctors))
  *(SORT(EXCLUDE_FILE(*crtend.o *crtend?.o) .ctors))
@@ -12643,111 +12644,110 @@ LOAD /usr/local/Cellar/arm-none-eabi-gcc/5.0-2016-q2-update/bin/../lib/gcc/arm-n
  *(SORT(.dtors))
  *(SORT(.rodata*))
  .rodata._ZTV6Button
-                0x000000000001b680       0x18 source/CMakeFiles/recordsaveplayaudiodata.dir/Users/Wendelin/NetbeansProjects/MicroBit/RecordSavePlayAudioData/source/Button.cpp.o
-                0x000000000001b680                vtable for Button
+                0x000000000001b6f0       0x18 source/CMakeFiles/recordsaveplayaudiodata.dir/Users/Wendelin/NetbeansProjects/MicroBit/RecordSavePlayAudioData/source/Button.cpp.o
+                0x000000000001b6f0                vtable for Button
  .rodata._ZTV3Pin
-                0x000000000001b698       0x18 source/CMakeFiles/recordsaveplayaudiodata.dir/Users/Wendelin/NetbeansProjects/MicroBit/RecordSavePlayAudioData/source/Pin.cpp.o
-                0x000000000001b698                vtable for Pin
+                0x000000000001b708       0x18 source/CMakeFiles/recordsaveplayaudiodata.dir/Users/Wendelin/NetbeansProjects/MicroBit/RecordSavePlayAudioData/source/Pin.cpp.o
+                0x000000000001b708                vtable for Pin
  .rodata._ZL17microbitMatrixMap
-                0x000000000001b6b0       0x18 source/CMakeFiles/recordsaveplayaudiodata.dir/Users/Wendelin/NetbeansProjects/MicroBit/RecordSavePlayAudioData/source/main.cpp.o
+                0x000000000001b720       0x18 source/CMakeFiles/recordsaveplayaudiodata.dir/Users/Wendelin/NetbeansProjects/MicroBit/RecordSavePlayAudioData/source/main.cpp.o
  .rodata._ZTV5Audio
-                0x000000000001b6c8       0x10 source/CMakeFiles/recordsaveplayaudiodata.dir/Users/Wendelin/NetbeansProjects/MicroBit/RecordSavePlayAudioData/source/Audio.cpp.o
-                0x000000000001b6c8                vtable for Audio
+                0x000000000001b738       0x10 source/CMakeFiles/recordsaveplayaudiodata.dir/Users/Wendelin/NetbeansProjects/MicroBit/RecordSavePlayAudioData/source/Audio.cpp.o
+                0x000000000001b738                vtable for Audio
  .rodata._ZTV7Display
-                0x000000000001b6d8       0x10 source/CMakeFiles/recordsaveplayaudiodata.dir/Users/Wendelin/NetbeansProjects/MicroBit/RecordSavePlayAudioData/source/Display.cpp.o
-                0x000000000001b6d8                vtable for Display
+                0x000000000001b748       0x10 source/CMakeFiles/recordsaveplayaudiodata.dir/Users/Wendelin/NetbeansProjects/MicroBit/RecordSavePlayAudioData/source/Display.cpp.o
+                0x000000000001b748                vtable for Display
  .rodata._ZTVN4mbed9RawSerialE
-                0x000000000001b6e8       0x10 ym/mbed-classic/existing/mbed-classic.a(RawSerial.cpp.o)
-                0x000000000001b6e8                vtable for mbed::RawSerial
+                0x000000000001b758       0x10 ym/mbed-classic/existing/mbed-classic.a(RawSerial.cpp.o)
+                0x000000000001b758                vtable for mbed::RawSerial
  .rodata._ZTVN4mbed10SerialBaseE
-                0x000000000001b6f8       0x10 ym/mbed-classic/existing/mbed-classic.a(SerialBase.cpp.o)
-                0x000000000001b6f8                vtable for mbed::SerialBase
+                0x000000000001b768       0x10 ym/mbed-classic/existing/mbed-classic.a(SerialBase.cpp.o)
+                0x000000000001b768                vtable for mbed::SerialBase
  .rodata._ZTVN4mbed6TickerE
-                0x000000000001b708       0x14 ym/mbed-classic/existing/mbed-classic.a(Ticker.cpp.o)
-                0x000000000001b708                vtable for mbed::Ticker
+                0x000000000001b778       0x14 ym/mbed-classic/existing/mbed-classic.a(Ticker.cpp.o)
+                0x000000000001b778                vtable for mbed::Ticker
  .rodata._ZTVN4mbed10TimerEventE
-                0x000000000001b71c       0x14 ym/mbed-classic/existing/mbed-classic.a(TimerEvent.cpp.o)
-                0x000000000001b71c                vtable for mbed::TimerEvent
+                0x000000000001b78c       0x14 ym/mbed-classic/existing/mbed-classic.a(TimerEvent.cpp.o)
+                0x000000000001b78c                vtable for mbed::TimerEvent
  .rodata.us_interface
-                0x000000000001b730       0x14 ym/mbed-classic/existing/mbed-classic.a(us_ticker_api.c.o)
+                0x000000000001b7a0       0x14 ym/mbed-classic/existing/mbed-classic.a(us_ticker_api.c.o)
  .rodata.us_data
-                0x000000000001b744        0x8 ym/mbed-classic/existing/mbed-classic.a(us_ticker_api.c.o)
+                0x000000000001b7b4        0x8 ym/mbed-classic/existing/mbed-classic.a(us_ticker_api.c.o)
  .rodata.PinMap_ADC
-                0x000000000001b74c       0x54 ym/mbed-classic/existing/mbed-classic.a(analogin_api.c.o)
+                0x000000000001b7bc       0x54 ym/mbed-classic/existing/mbed-classic.a(analogin_api.c.o)
  .rodata.PinMap_PWM
-                0x000000000001b7a0      0x168 ym/mbed-classic/existing/mbed-classic.a(pwmout_api.c.o)
+                0x000000000001b810      0x168 ym/mbed-classic/existing/mbed-classic.a(pwmout_api.c.o)
  .rodata.acceptedSpeeds
-                0x000000000001b908       0x88 ym/mbed-classic/existing/mbed-classic.a(serial_api.c.o)
- .rodata        0x000000000001b990       0x80 /usr/local/Cellar/arm-none-eabi-gcc/5.0-2016-q2-update/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m/libgcc.a(divsf3.o)
- .rodata        0x000000000001ba10       0x40 /usr/local/Cellar/arm-none-eabi-gcc/5.0-2016-q2-update/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m/libgcc.a(mulsf3.o)
+                0x000000000001b978       0x88 ym/mbed-classic/existing/mbed-classic.a(serial_api.c.o)
+ .rodata        0x000000000001ba00       0x80 /usr/local/Cellar/arm-none-eabi-gcc/5.0-2016-q2-update/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m/libgcc.a(divsf3.o)
+ .rodata        0x000000000001ba80       0x40 /usr/local/Cellar/arm-none-eabi-gcc/5.0-2016-q2-update/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m/libgcc.a(mulsf3.o)
  .rodata.__sf_fake_stdin
-                0x000000000001ba50       0x20 /usr/local/Cellar/arm-none-eabi-gcc/5.0-2016-q2-update/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-findfp.o)
-                0x000000000001ba50                __sf_fake_stdin
+                0x000000000001bac0       0x20 /usr/local/Cellar/arm-none-eabi-gcc/5.0-2016-q2-update/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-findfp.o)
+                0x000000000001bac0                __sf_fake_stdin
  .rodata.__sf_fake_stdout
-                0x000000000001ba70       0x20 /usr/local/Cellar/arm-none-eabi-gcc/5.0-2016-q2-update/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-findfp.o)
-                0x000000000001ba70                __sf_fake_stdout
+                0x000000000001bae0       0x20 /usr/local/Cellar/arm-none-eabi-gcc/5.0-2016-q2-update/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-findfp.o)
+                0x000000000001bae0                __sf_fake_stdout
  .rodata.__sf_fake_stderr
-                0x000000000001ba90       0x20 /usr/local/Cellar/arm-none-eabi-gcc/5.0-2016-q2-update/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-findfp.o)
-                0x000000000001ba90                __sf_fake_stderr
+                0x000000000001bb00       0x20 /usr/local/Cellar/arm-none-eabi-gcc/5.0-2016-q2-update/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-findfp.o)
+                0x000000000001bb00                __sf_fake_stderr
  .rodata._global_impure_ptr
-                0x000000000001bab0        0x4 /usr/local/Cellar/arm-none-eabi-gcc/5.0-2016-q2-update/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-impure.o)
-                0x000000000001bab0                _global_impure_ptr
+                0x000000000001bb20        0x4 /usr/local/Cellar/arm-none-eabi-gcc/5.0-2016-q2-update/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-impure.o)
+                0x000000000001bb20                _global_impure_ptr
  .rodata._ZL18microbitDisplayMap
-                0x000000000001bab4       0x36 source/CMakeFiles/recordsaveplayaudiodata.dir/Users/Wendelin/NetbeansProjects/MicroBit/RecordSavePlayAudioData/source/main.cpp.o
+                0x000000000001bb24       0x36 source/CMakeFiles/recordsaveplayaudiodata.dir/Users/Wendelin/NetbeansProjects/MicroBit/RecordSavePlayAudioData/source/main.cpp.o
  .rodata.str1.1
-                0x000000000001baea       0xb0 source/CMakeFiles/recordsaveplayaudiodata.dir/Users/Wendelin/NetbeansProjects/MicroBit/RecordSavePlayAudioData/source/Audio.cpp.o
+                0x000000000001bb5a      0x109 source/CMakeFiles/recordsaveplayaudiodata.dir/Users/Wendelin/NetbeansProjects/MicroBit/RecordSavePlayAudioData/source/Audio.cpp.o
  .rodata._ZL18microbitDisplayMap
-                0x000000000001bb9a       0x36 ym/microbit-dal/source/microbit-dal.a(MicroBitDevice.cpp.o)
+                0x000000000001bc63       0x36 ym/microbit-dal/source/microbit-dal.a(MicroBitDevice.cpp.o)
  .rodata._ZL9panicFace
-                0x000000000001bbd0        0x5 ym/microbit-dal/source/microbit-dal.a(MicroBitDevice.cpp.o)
+                0x000000000001bc99        0x5 ym/microbit-dal/source/microbit-dal.a(MicroBitDevice.cpp.o)
  .rodata._ZL10pendolino3
-                0x000000000001bbd5      0x1db ym/microbit-dal/source/microbit-dal.a(MicroBitFont.cpp.o)
+                0x000000000001bc9e      0x1db ym/microbit-dal/source/microbit-dal.a(MicroBitFont.cpp.o)
  .rodata.str1.1
-                0x000000000001bdb0       0x42 ym/mbed-classic/existing/mbed-classic.a(pwmout_api.c.o)
+                0x000000000001be79       0x42 ym/mbed-classic/existing/mbed-classic.a(pwmout_api.c.o)
  .rodata.str1.1
-                0x000000000001bdf2       0x60 ym/mbed-classic/existing/mbed-classic.a(pinmap_common.c.o)
+                0x000000000001bebb       0x60 ym/mbed-classic/existing/mbed-classic.a(pinmap_common.c.o)
  .rodata.str1.1
-                0x000000000001be52        0x2 /usr/local/Cellar/arm-none-eabi-gcc/5.0-2016-q2-update/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-impure.o)
+                0x000000000001bf1b        0x2 /usr/local/Cellar/arm-none-eabi-gcc/5.0-2016-q2-update/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-impure.o)
  .rodata.str1.1
-                0x000000000001be54       0x11 /usr/local/Cellar/arm-none-eabi-gcc/5.0-2016-q2-update/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-nano-svfprintf.o)
+                0x000000000001bf1d       0x11 /usr/local/Cellar/arm-none-eabi-gcc/5.0-2016-q2-update/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-nano-svfprintf.o)
  .rodata.str1.1
-                0x000000000001be65       0x22 /usr/local/Cellar/arm-none-eabi-gcc/5.0-2016-q2-update/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-nano-vfprintf_i.o)
+                0x000000000001bf2e       0x22 /usr/local/Cellar/arm-none-eabi-gcc/5.0-2016-q2-update/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-nano-vfprintf_i.o)
  *(SORT(.eh_frame*))
- *fill*         0x000000000001be87        0x1 
- .eh_frame      0x000000000001be88        0x0 /usr/local/Cellar/arm-none-eabi-gcc/5.0-2016-q2-update/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m/crtbegin.o
- .eh_frame      0x000000000001be88        0x4 /usr/local/Cellar/arm-none-eabi-gcc/5.0-2016-q2-update/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m/crtend.o
+ .eh_frame      0x000000000001bf50        0x0 /usr/local/Cellar/arm-none-eabi-gcc/5.0-2016-q2-update/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m/crtbegin.o
+ .eh_frame      0x000000000001bf50        0x4 /usr/local/Cellar/arm-none-eabi-gcc/5.0-2016-q2-update/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m/crtend.o
 
-.glue_7         0x000000000001be8c        0x0
- .glue_7        0x000000000001be8c        0x0 linker stubs
+.glue_7         0x000000000001bf54        0x0
+ .glue_7        0x000000000001bf54        0x0 linker stubs
 
-.glue_7t        0x000000000001be8c        0x0
- .glue_7t       0x000000000001be8c        0x0 linker stubs
+.glue_7t        0x000000000001bf54        0x0
+ .glue_7t       0x000000000001bf54        0x0 linker stubs
 
-.vfp11_veneer   0x000000000001be8c        0x0
- .vfp11_veneer  0x000000000001be8c        0x0 linker stubs
+.vfp11_veneer   0x000000000001bf54        0x0
+ .vfp11_veneer  0x000000000001bf54        0x0 linker stubs
 
-.v4_bx          0x000000000001be8c        0x0
- .v4_bx         0x000000000001be8c        0x0 linker stubs
+.v4_bx          0x000000000001bf54        0x0
+ .v4_bx         0x000000000001bf54        0x0 linker stubs
 
-.iplt           0x000000000001be8c        0x0
- .iplt          0x000000000001be8c        0x0 /usr/local/Cellar/arm-none-eabi-gcc/5.0-2016-q2-update/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m/crtbegin.o
+.iplt           0x000000000001bf54        0x0
+ .iplt          0x000000000001bf54        0x0 /usr/local/Cellar/arm-none-eabi-gcc/5.0-2016-q2-update/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m/crtbegin.o
 
 .ARM.extab
  *(SORT(.ARM.extab*) SORT(.gnu.linkonce.armextab.*))
-                0x000000000001be8c                __exidx_start = .
+                0x000000000001bf54                __exidx_start = .
 
-.ARM.exidx      0x000000000001be8c        0x8
+.ARM.exidx      0x000000000001bf54        0x8
  *(SORT(.ARM.exidx*) SORT(.gnu.linkonce.armexidx.*))
- .ARM.exidx     0x000000000001be8c        0x8 /usr/local/Cellar/arm-none-eabi-gcc/5.0-2016-q2-update/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m/crt0.o
- .ARM.exidx     0x000000000001be94        0x0 ym/mbed-classic/existing/mbed-classic.a(startup_NRF51822.S.obj)
+ .ARM.exidx     0x000000000001bf54        0x8 /usr/local/Cellar/arm-none-eabi-gcc/5.0-2016-q2-update/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m/crt0.o
+ .ARM.exidx     0x000000000001bf5c        0x0 ym/mbed-classic/existing/mbed-classic.a(startup_NRF51822.S.obj)
                                           0x8 (size before relaxing)
-                0x000000000001be94                __exidx_end = .
-                0x000000000001be94                __etext = .
+                0x000000000001bf5c                __exidx_end = .
+                0x000000000001bf5c                __etext = .
 
-.rel.dyn        0x000000000001be94        0x0
- .rel.iplt      0x000000000001be94        0x0 /usr/local/Cellar/arm-none-eabi-gcc/5.0-2016-q2-update/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m/crtbegin.o
+.rel.dyn        0x000000000001bf5c        0x0
+ .rel.iplt      0x000000000001bf5c        0x0 /usr/local/Cellar/arm-none-eabi-gcc/5.0-2016-q2-update/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m/crtbegin.o
 
-.data           0x0000000020002000       0x94 load address 0x000000000001be94
+.data           0x0000000020002000       0x94 load address 0x000000000001bf5c
                 0x0000000020002000                __data_start__ = .
  *(SORT(vtable))
  *(SORT(.data*))
@@ -12796,10 +12796,10 @@ LOAD /usr/local/Cellar/arm-none-eabi-gcc/5.0-2016-q2-update/bin/../lib/gcc/arm-n
                 0x0000000020002094                . = ALIGN (0x4)
                 0x0000000020002094                __data_end__ = .
 
-.igot.plt       0x0000000020002094        0x0 load address 0x000000000001bf28
+.igot.plt       0x0000000020002094        0x0 load address 0x000000000001bff0
  .igot.plt      0x0000000020002094        0x0 /usr/local/Cellar/arm-none-eabi-gcc/5.0-2016-q2-update/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m/crtbegin.o
 
-.bss            0x0000000020002098      0x160 load address 0x000000000001bf30
+.bss            0x0000000020002098      0x160 load address 0x000000000001bff8
                 0x0000000020002098                . = ALIGN (0x4)
                 0x0000000020002098                __bss_start__ = .
  *(SORT(.bss*))
@@ -13213,377 +13213,377 @@ OUTPUT(source/recordsaveplayaudiodata elf32-littlearm)
  .comment       0x000000000000006e       0x6f ym/mbed-classic/existing/mbed-classic.a(pinmap_common.c.o)
  .comment       0x000000000000006e       0x6f ym/mbed-classic/existing/mbed-classic.a(system_nrf51.c.o)
 
-.debug_info     0x0000000000000000    0x25781
+.debug_info     0x0000000000000000    0x25937
  .debug_info    0x0000000000000000     0x1b8a source/CMakeFiles/recordsaveplayaudiodata.dir/Users/Wendelin/NetbeansProjects/MicroBit/RecordSavePlayAudioData/source/Button.cpp.o
- .debug_info    0x0000000000001b8a     0x21b8 source/CMakeFiles/recordsaveplayaudiodata.dir/Users/Wendelin/NetbeansProjects/MicroBit/RecordSavePlayAudioData/source/Pin.cpp.o
- .debug_info    0x0000000000003d42     0x1782 source/CMakeFiles/recordsaveplayaudiodata.dir/Users/Wendelin/NetbeansProjects/MicroBit/RecordSavePlayAudioData/source/main.cpp.o
- .debug_info    0x00000000000054c4     0x5d4f source/CMakeFiles/recordsaveplayaudiodata.dir/Users/Wendelin/NetbeansProjects/MicroBit/RecordSavePlayAudioData/source/Audio.cpp.o
- .debug_info    0x000000000000b213     0x1c63 source/CMakeFiles/recordsaveplayaudiodata.dir/Users/Wendelin/NetbeansProjects/MicroBit/RecordSavePlayAudioData/source/Display.cpp.o
- .debug_info    0x000000000000ce76     0x18fd ym/microbit-dal/source/microbit-dal.a(MicroBitHeapAllocator.cpp.o)
- .debug_info    0x000000000000e773     0x1bd0 ym/microbit-dal/source/microbit-dal.a(MicroBitSystemTimer.cpp.o)
- .debug_info    0x0000000000010343     0x222f ym/microbit-dal/source/microbit-dal.a(DynamicPwm.cpp.o)
- .debug_info    0x0000000000012572     0x2555 ym/microbit-dal/source/microbit-dal.a(MicroBitDevice.cpp.o)
- .debug_info    0x0000000000014ac7     0x1306 ym/microbit-dal/source/microbit-dal.a(MicroBitFont.cpp.o)
- .debug_info    0x0000000000015dcd     0x1fc6 ym/mbed-classic/existing/mbed-classic.a(RawSerial.cpp.o)
- .debug_info    0x0000000000017d93     0x1fe8 ym/mbed-classic/existing/mbed-classic.a(SerialBase.cpp.o)
- .debug_info    0x0000000000019d7b      0x74c ym/mbed-classic/existing/mbed-classic.a(Ticker.cpp.o)
- .debug_info    0x000000000001a4c7     0x1631 ym/mbed-classic/existing/mbed-classic.a(Timer.cpp.o)
- .debug_info    0x000000000001baf8      0x5fb ym/mbed-classic/existing/mbed-classic.a(TimerEvent.cpp.o)
- .debug_info    0x000000000001c0f3     0x2ade ym/mbed-classic/existing/mbed-classic.a(retarget.cpp.o)
- .debug_info    0x000000000001ebd1      0x5b7 ym/mbed-classic/existing/mbed-classic.a(board.c.o)
- .debug_info    0x000000000001f188       0xcd ym/mbed-classic/existing/mbed-classic.a(error.c.o)
- .debug_info    0x000000000001f255      0x8a6 ym/mbed-classic/existing/mbed-classic.a(gpio.c.o)
- .debug_info    0x000000000001fafb      0x410 ym/mbed-classic/existing/mbed-classic.a(ticker_api.c.o)
- .debug_info    0x000000000001ff0b      0x266 ym/mbed-classic/existing/mbed-classic.a(us_ticker_api.c.o)
- .debug_info    0x0000000000020171      0x150 ym/mbed-classic/existing/mbed-classic.a(wait_api.c.o)
- .debug_info    0x00000000000202c1      0x13b ym/mbed-classic/existing/mbed-classic.a(startup_NRF51822.S.obj)
- .debug_info    0x00000000000203fc      0x676 ym/mbed-classic/existing/mbed-classic.a(analogin_api.c.o)
- .debug_info    0x0000000000020a72      0x55e ym/mbed-classic/existing/mbed-classic.a(gpio_api.c.o)
- .debug_info    0x0000000000020fd0      0x48e ym/mbed-classic/existing/mbed-classic.a(pinmap.c.o)
- .debug_info    0x000000000002145e      0x6c2 ym/mbed-classic/existing/mbed-classic.a(port_api.c.o)
- .debug_info    0x0000000000021b20     0x1609 ym/mbed-classic/existing/mbed-classic.a(pwmout_api.c.o)
- .debug_info    0x0000000000023129     0x11a9 ym/mbed-classic/existing/mbed-classic.a(serial_api.c.o)
- .debug_info    0x00000000000242d2      0xb17 ym/mbed-classic/existing/mbed-classic.a(us_ticker.c.o)
- .debug_info    0x0000000000024de9      0x5aa ym/mbed-classic/existing/mbed-classic.a(pinmap_common.c.o)
- .debug_info    0x0000000000025393      0x3ee ym/mbed-classic/existing/mbed-classic.a(system_nrf51.c.o)
+ .debug_info    0x0000000000001b8a     0x2200 source/CMakeFiles/recordsaveplayaudiodata.dir/Users/Wendelin/NetbeansProjects/MicroBit/RecordSavePlayAudioData/source/Pin.cpp.o
+ .debug_info    0x0000000000003d8a     0x17e8 source/CMakeFiles/recordsaveplayaudiodata.dir/Users/Wendelin/NetbeansProjects/MicroBit/RecordSavePlayAudioData/source/main.cpp.o
+ .debug_info    0x0000000000005572     0x5e57 source/CMakeFiles/recordsaveplayaudiodata.dir/Users/Wendelin/NetbeansProjects/MicroBit/RecordSavePlayAudioData/source/Audio.cpp.o
+ .debug_info    0x000000000000b3c9     0x1c63 source/CMakeFiles/recordsaveplayaudiodata.dir/Users/Wendelin/NetbeansProjects/MicroBit/RecordSavePlayAudioData/source/Display.cpp.o
+ .debug_info    0x000000000000d02c     0x18fd ym/microbit-dal/source/microbit-dal.a(MicroBitHeapAllocator.cpp.o)
+ .debug_info    0x000000000000e929     0x1bd0 ym/microbit-dal/source/microbit-dal.a(MicroBitSystemTimer.cpp.o)
+ .debug_info    0x00000000000104f9     0x222f ym/microbit-dal/source/microbit-dal.a(DynamicPwm.cpp.o)
+ .debug_info    0x0000000000012728     0x2555 ym/microbit-dal/source/microbit-dal.a(MicroBitDevice.cpp.o)
+ .debug_info    0x0000000000014c7d     0x1306 ym/microbit-dal/source/microbit-dal.a(MicroBitFont.cpp.o)
+ .debug_info    0x0000000000015f83     0x1fc6 ym/mbed-classic/existing/mbed-classic.a(RawSerial.cpp.o)
+ .debug_info    0x0000000000017f49     0x1fe8 ym/mbed-classic/existing/mbed-classic.a(SerialBase.cpp.o)
+ .debug_info    0x0000000000019f31      0x74c ym/mbed-classic/existing/mbed-classic.a(Ticker.cpp.o)
+ .debug_info    0x000000000001a67d     0x1631 ym/mbed-classic/existing/mbed-classic.a(Timer.cpp.o)
+ .debug_info    0x000000000001bcae      0x5fb ym/mbed-classic/existing/mbed-classic.a(TimerEvent.cpp.o)
+ .debug_info    0x000000000001c2a9     0x2ade ym/mbed-classic/existing/mbed-classic.a(retarget.cpp.o)
+ .debug_info    0x000000000001ed87      0x5b7 ym/mbed-classic/existing/mbed-classic.a(board.c.o)
+ .debug_info    0x000000000001f33e       0xcd ym/mbed-classic/existing/mbed-classic.a(error.c.o)
+ .debug_info    0x000000000001f40b      0x8a6 ym/mbed-classic/existing/mbed-classic.a(gpio.c.o)
+ .debug_info    0x000000000001fcb1      0x410 ym/mbed-classic/existing/mbed-classic.a(ticker_api.c.o)
+ .debug_info    0x00000000000200c1      0x266 ym/mbed-classic/existing/mbed-classic.a(us_ticker_api.c.o)
+ .debug_info    0x0000000000020327      0x150 ym/mbed-classic/existing/mbed-classic.a(wait_api.c.o)
+ .debug_info    0x0000000000020477      0x13b ym/mbed-classic/existing/mbed-classic.a(startup_NRF51822.S.obj)
+ .debug_info    0x00000000000205b2      0x676 ym/mbed-classic/existing/mbed-classic.a(analogin_api.c.o)
+ .debug_info    0x0000000000020c28      0x55e ym/mbed-classic/existing/mbed-classic.a(gpio_api.c.o)
+ .debug_info    0x0000000000021186      0x48e ym/mbed-classic/existing/mbed-classic.a(pinmap.c.o)
+ .debug_info    0x0000000000021614      0x6c2 ym/mbed-classic/existing/mbed-classic.a(port_api.c.o)
+ .debug_info    0x0000000000021cd6     0x1609 ym/mbed-classic/existing/mbed-classic.a(pwmout_api.c.o)
+ .debug_info    0x00000000000232df     0x11a9 ym/mbed-classic/existing/mbed-classic.a(serial_api.c.o)
+ .debug_info    0x0000000000024488      0xb17 ym/mbed-classic/existing/mbed-classic.a(us_ticker.c.o)
+ .debug_info    0x0000000000024f9f      0x5aa ym/mbed-classic/existing/mbed-classic.a(pinmap_common.c.o)
+ .debug_info    0x0000000000025549      0x3ee ym/mbed-classic/existing/mbed-classic.a(system_nrf51.c.o)
 
-.debug_abbrev   0x0000000000000000     0x693c
+.debug_abbrev   0x0000000000000000     0x6958
  .debug_abbrev  0x0000000000000000      0x498 source/CMakeFiles/recordsaveplayaudiodata.dir/Users/Wendelin/NetbeansProjects/MicroBit/RecordSavePlayAudioData/source/Button.cpp.o
  .debug_abbrev  0x0000000000000498      0x5e2 source/CMakeFiles/recordsaveplayaudiodata.dir/Users/Wendelin/NetbeansProjects/MicroBit/RecordSavePlayAudioData/source/Pin.cpp.o
  .debug_abbrev  0x0000000000000a7a      0x33d source/CMakeFiles/recordsaveplayaudiodata.dir/Users/Wendelin/NetbeansProjects/MicroBit/RecordSavePlayAudioData/source/main.cpp.o
- .debug_abbrev  0x0000000000000db7      0x921 source/CMakeFiles/recordsaveplayaudiodata.dir/Users/Wendelin/NetbeansProjects/MicroBit/RecordSavePlayAudioData/source/Audio.cpp.o
- .debug_abbrev  0x00000000000016d8      0x4af source/CMakeFiles/recordsaveplayaudiodata.dir/Users/Wendelin/NetbeansProjects/MicroBit/RecordSavePlayAudioData/source/Display.cpp.o
- .debug_abbrev  0x0000000000001b87      0x49e ym/microbit-dal/source/microbit-dal.a(MicroBitHeapAllocator.cpp.o)
- .debug_abbrev  0x0000000000002025      0x525 ym/microbit-dal/source/microbit-dal.a(MicroBitSystemTimer.cpp.o)
- .debug_abbrev  0x000000000000254a      0x5c2 ym/microbit-dal/source/microbit-dal.a(DynamicPwm.cpp.o)
- .debug_abbrev  0x0000000000002b0c      0x65d ym/microbit-dal/source/microbit-dal.a(MicroBitDevice.cpp.o)
- .debug_abbrev  0x0000000000003169      0x36e ym/microbit-dal/source/microbit-dal.a(MicroBitFont.cpp.o)
- .debug_abbrev  0x00000000000034d7      0x4d7 ym/mbed-classic/existing/mbed-classic.a(RawSerial.cpp.o)
- .debug_abbrev  0x00000000000039ae      0x4c0 ym/mbed-classic/existing/mbed-classic.a(SerialBase.cpp.o)
- .debug_abbrev  0x0000000000003e6e      0x2ce ym/mbed-classic/existing/mbed-classic.a(Ticker.cpp.o)
- .debug_abbrev  0x000000000000413c      0x33d ym/mbed-classic/existing/mbed-classic.a(Timer.cpp.o)
- .debug_abbrev  0x0000000000004479      0x2c5 ym/mbed-classic/existing/mbed-classic.a(TimerEvent.cpp.o)
- .debug_abbrev  0x000000000000473e      0x744 ym/mbed-classic/existing/mbed-classic.a(retarget.cpp.o)
- .debug_abbrev  0x0000000000004e82      0x158 ym/mbed-classic/existing/mbed-classic.a(board.c.o)
- .debug_abbrev  0x0000000000004fda       0x93 ym/mbed-classic/existing/mbed-classic.a(error.c.o)
- .debug_abbrev  0x000000000000506d      0x1b9 ym/mbed-classic/existing/mbed-classic.a(gpio.c.o)
- .debug_abbrev  0x0000000000005226      0x19d ym/mbed-classic/existing/mbed-classic.a(ticker_api.c.o)
- .debug_abbrev  0x00000000000053c3      0x10d ym/mbed-classic/existing/mbed-classic.a(us_ticker_api.c.o)
- .debug_abbrev  0x00000000000054d0       0xbd ym/mbed-classic/existing/mbed-classic.a(wait_api.c.o)
- .debug_abbrev  0x000000000000558d       0x14 ym/mbed-classic/existing/mbed-classic.a(startup_NRF51822.S.obj)
- .debug_abbrev  0x00000000000055a1      0x1c5 ym/mbed-classic/existing/mbed-classic.a(analogin_api.c.o)
- .debug_abbrev  0x0000000000005766      0x178 ym/mbed-classic/existing/mbed-classic.a(gpio_api.c.o)
- .debug_abbrev  0x00000000000058de      0x14e ym/mbed-classic/existing/mbed-classic.a(pinmap.c.o)
- .debug_abbrev  0x0000000000005a2c      0x210 ym/mbed-classic/existing/mbed-classic.a(port_api.c.o)
- .debug_abbrev  0x0000000000005c3c      0x420 ym/mbed-classic/existing/mbed-classic.a(pwmout_api.c.o)
- .debug_abbrev  0x000000000000605c      0x3bf ym/mbed-classic/existing/mbed-classic.a(serial_api.c.o)
- .debug_abbrev  0x000000000000641b      0x2c6 ym/mbed-classic/existing/mbed-classic.a(us_ticker.c.o)
- .debug_abbrev  0x00000000000066e1      0x126 ym/mbed-classic/existing/mbed-classic.a(pinmap_common.c.o)
- .debug_abbrev  0x0000000000006807      0x135 ym/mbed-classic/existing/mbed-classic.a(system_nrf51.c.o)
+ .debug_abbrev  0x0000000000000db7      0x93d source/CMakeFiles/recordsaveplayaudiodata.dir/Users/Wendelin/NetbeansProjects/MicroBit/RecordSavePlayAudioData/source/Audio.cpp.o
+ .debug_abbrev  0x00000000000016f4      0x4af source/CMakeFiles/recordsaveplayaudiodata.dir/Users/Wendelin/NetbeansProjects/MicroBit/RecordSavePlayAudioData/source/Display.cpp.o
+ .debug_abbrev  0x0000000000001ba3      0x49e ym/microbit-dal/source/microbit-dal.a(MicroBitHeapAllocator.cpp.o)
+ .debug_abbrev  0x0000000000002041      0x525 ym/microbit-dal/source/microbit-dal.a(MicroBitSystemTimer.cpp.o)
+ .debug_abbrev  0x0000000000002566      0x5c2 ym/microbit-dal/source/microbit-dal.a(DynamicPwm.cpp.o)
+ .debug_abbrev  0x0000000000002b28      0x65d ym/microbit-dal/source/microbit-dal.a(MicroBitDevice.cpp.o)
+ .debug_abbrev  0x0000000000003185      0x36e ym/microbit-dal/source/microbit-dal.a(MicroBitFont.cpp.o)
+ .debug_abbrev  0x00000000000034f3      0x4d7 ym/mbed-classic/existing/mbed-classic.a(RawSerial.cpp.o)
+ .debug_abbrev  0x00000000000039ca      0x4c0 ym/mbed-classic/existing/mbed-classic.a(SerialBase.cpp.o)
+ .debug_abbrev  0x0000000000003e8a      0x2ce ym/mbed-classic/existing/mbed-classic.a(Ticker.cpp.o)
+ .debug_abbrev  0x0000000000004158      0x33d ym/mbed-classic/existing/mbed-classic.a(Timer.cpp.o)
+ .debug_abbrev  0x0000000000004495      0x2c5 ym/mbed-classic/existing/mbed-classic.a(TimerEvent.cpp.o)
+ .debug_abbrev  0x000000000000475a      0x744 ym/mbed-classic/existing/mbed-classic.a(retarget.cpp.o)
+ .debug_abbrev  0x0000000000004e9e      0x158 ym/mbed-classic/existing/mbed-classic.a(board.c.o)
+ .debug_abbrev  0x0000000000004ff6       0x93 ym/mbed-classic/existing/mbed-classic.a(error.c.o)
+ .debug_abbrev  0x0000000000005089      0x1b9 ym/mbed-classic/existing/mbed-classic.a(gpio.c.o)
+ .debug_abbrev  0x0000000000005242      0x19d ym/mbed-classic/existing/mbed-classic.a(ticker_api.c.o)
+ .debug_abbrev  0x00000000000053df      0x10d ym/mbed-classic/existing/mbed-classic.a(us_ticker_api.c.o)
+ .debug_abbrev  0x00000000000054ec       0xbd ym/mbed-classic/existing/mbed-classic.a(wait_api.c.o)
+ .debug_abbrev  0x00000000000055a9       0x14 ym/mbed-classic/existing/mbed-classic.a(startup_NRF51822.S.obj)
+ .debug_abbrev  0x00000000000055bd      0x1c5 ym/mbed-classic/existing/mbed-classic.a(analogin_api.c.o)
+ .debug_abbrev  0x0000000000005782      0x178 ym/mbed-classic/existing/mbed-classic.a(gpio_api.c.o)
+ .debug_abbrev  0x00000000000058fa      0x14e ym/mbed-classic/existing/mbed-classic.a(pinmap.c.o)
+ .debug_abbrev  0x0000000000005a48      0x210 ym/mbed-classic/existing/mbed-classic.a(port_api.c.o)
+ .debug_abbrev  0x0000000000005c58      0x420 ym/mbed-classic/existing/mbed-classic.a(pwmout_api.c.o)
+ .debug_abbrev  0x0000000000006078      0x3bf ym/mbed-classic/existing/mbed-classic.a(serial_api.c.o)
+ .debug_abbrev  0x0000000000006437      0x2c6 ym/mbed-classic/existing/mbed-classic.a(us_ticker.c.o)
+ .debug_abbrev  0x00000000000066fd      0x126 ym/mbed-classic/existing/mbed-classic.a(pinmap_common.c.o)
+ .debug_abbrev  0x0000000000006823      0x135 ym/mbed-classic/existing/mbed-classic.a(system_nrf51.c.o)
 
-.debug_loc      0x0000000000000000     0x5acf
+.debug_loc      0x0000000000000000     0x5a7a
  .debug_loc     0x0000000000000000      0x1ce source/CMakeFiles/recordsaveplayaudiodata.dir/Users/Wendelin/NetbeansProjects/MicroBit/RecordSavePlayAudioData/source/Button.cpp.o
- .debug_loc     0x00000000000001ce      0x243 source/CMakeFiles/recordsaveplayaudiodata.dir/Users/Wendelin/NetbeansProjects/MicroBit/RecordSavePlayAudioData/source/Pin.cpp.o
- .debug_loc     0x0000000000000411      0xb91 source/CMakeFiles/recordsaveplayaudiodata.dir/Users/Wendelin/NetbeansProjects/MicroBit/RecordSavePlayAudioData/source/Audio.cpp.o
- .debug_loc     0x0000000000000fa2      0x774 source/CMakeFiles/recordsaveplayaudiodata.dir/Users/Wendelin/NetbeansProjects/MicroBit/RecordSavePlayAudioData/source/Display.cpp.o
- .debug_loc     0x0000000000001716      0x418 ym/microbit-dal/source/microbit-dal.a(MicroBitHeapAllocator.cpp.o)
- .debug_loc     0x0000000000001b2e      0x204 ym/microbit-dal/source/microbit-dal.a(MicroBitSystemTimer.cpp.o)
- .debug_loc     0x0000000000001d32      0x4c2 ym/microbit-dal/source/microbit-dal.a(DynamicPwm.cpp.o)
- .debug_loc     0x00000000000021f4      0x65a ym/microbit-dal/source/microbit-dal.a(MicroBitDevice.cpp.o)
- .debug_loc     0x000000000000284e       0x2a ym/microbit-dal/source/microbit-dal.a(MicroBitFont.cpp.o)
- .debug_loc     0x0000000000002878      0x1f3 ym/mbed-classic/existing/mbed-classic.a(RawSerial.cpp.o)
- .debug_loc     0x0000000000002a6b      0x41a ym/mbed-classic/existing/mbed-classic.a(SerialBase.cpp.o)
- .debug_loc     0x0000000000002e85      0x140 ym/mbed-classic/existing/mbed-classic.a(Ticker.cpp.o)
- .debug_loc     0x0000000000002fc5      0x1ba ym/mbed-classic/existing/mbed-classic.a(Timer.cpp.o)
- .debug_loc     0x000000000000317f      0x198 ym/mbed-classic/existing/mbed-classic.a(TimerEvent.cpp.o)
- .debug_loc     0x0000000000003317      0xaeb ym/mbed-classic/existing/mbed-classic.a(retarget.cpp.o)
- .debug_loc     0x0000000000003e02      0x14c ym/mbed-classic/existing/mbed-classic.a(board.c.o)
- .debug_loc     0x0000000000003f4e      0x530 ym/mbed-classic/existing/mbed-classic.a(gpio.c.o)
- .debug_loc     0x000000000000447e      0x333 ym/mbed-classic/existing/mbed-classic.a(ticker_api.c.o)
- .debug_loc     0x00000000000047b1       0x83 ym/mbed-classic/existing/mbed-classic.a(wait_api.c.o)
- .debug_loc     0x0000000000004834      0x11c ym/mbed-classic/existing/mbed-classic.a(analogin_api.c.o)
- .debug_loc     0x0000000000004950       0x42 ym/mbed-classic/existing/mbed-classic.a(gpio_api.c.o)
- .debug_loc     0x0000000000004992       0x6d ym/mbed-classic/existing/mbed-classic.a(pinmap.c.o)
- .debug_loc     0x00000000000049ff      0x1ec ym/mbed-classic/existing/mbed-classic.a(port_api.c.o)
- .debug_loc     0x0000000000004beb      0x702 ym/mbed-classic/existing/mbed-classic.a(pwmout_api.c.o)
- .debug_loc     0x00000000000052ed      0x4d9 ym/mbed-classic/existing/mbed-classic.a(serial_api.c.o)
- .debug_loc     0x00000000000057c6       0xda ym/mbed-classic/existing/mbed-classic.a(us_ticker.c.o)
- .debug_loc     0x00000000000058a0      0x22f ym/mbed-classic/existing/mbed-classic.a(pinmap_common.c.o)
+ .debug_loc     0x00000000000001ce      0x264 source/CMakeFiles/recordsaveplayaudiodata.dir/Users/Wendelin/NetbeansProjects/MicroBit/RecordSavePlayAudioData/source/Pin.cpp.o
+ .debug_loc     0x0000000000000432      0xb1b source/CMakeFiles/recordsaveplayaudiodata.dir/Users/Wendelin/NetbeansProjects/MicroBit/RecordSavePlayAudioData/source/Audio.cpp.o
+ .debug_loc     0x0000000000000f4d      0x774 source/CMakeFiles/recordsaveplayaudiodata.dir/Users/Wendelin/NetbeansProjects/MicroBit/RecordSavePlayAudioData/source/Display.cpp.o
+ .debug_loc     0x00000000000016c1      0x418 ym/microbit-dal/source/microbit-dal.a(MicroBitHeapAllocator.cpp.o)
+ .debug_loc     0x0000000000001ad9      0x204 ym/microbit-dal/source/microbit-dal.a(MicroBitSystemTimer.cpp.o)
+ .debug_loc     0x0000000000001cdd      0x4c2 ym/microbit-dal/source/microbit-dal.a(DynamicPwm.cpp.o)
+ .debug_loc     0x000000000000219f      0x65a ym/microbit-dal/source/microbit-dal.a(MicroBitDevice.cpp.o)
+ .debug_loc     0x00000000000027f9       0x2a ym/microbit-dal/source/microbit-dal.a(MicroBitFont.cpp.o)
+ .debug_loc     0x0000000000002823      0x1f3 ym/mbed-classic/existing/mbed-classic.a(RawSerial.cpp.o)
+ .debug_loc     0x0000000000002a16      0x41a ym/mbed-classic/existing/mbed-classic.a(SerialBase.cpp.o)
+ .debug_loc     0x0000000000002e30      0x140 ym/mbed-classic/existing/mbed-classic.a(Ticker.cpp.o)
+ .debug_loc     0x0000000000002f70      0x1ba ym/mbed-classic/existing/mbed-classic.a(Timer.cpp.o)
+ .debug_loc     0x000000000000312a      0x198 ym/mbed-classic/existing/mbed-classic.a(TimerEvent.cpp.o)
+ .debug_loc     0x00000000000032c2      0xaeb ym/mbed-classic/existing/mbed-classic.a(retarget.cpp.o)
+ .debug_loc     0x0000000000003dad      0x14c ym/mbed-classic/existing/mbed-classic.a(board.c.o)
+ .debug_loc     0x0000000000003ef9      0x530 ym/mbed-classic/existing/mbed-classic.a(gpio.c.o)
+ .debug_loc     0x0000000000004429      0x333 ym/mbed-classic/existing/mbed-classic.a(ticker_api.c.o)
+ .debug_loc     0x000000000000475c       0x83 ym/mbed-classic/existing/mbed-classic.a(wait_api.c.o)
+ .debug_loc     0x00000000000047df      0x11c ym/mbed-classic/existing/mbed-classic.a(analogin_api.c.o)
+ .debug_loc     0x00000000000048fb       0x42 ym/mbed-classic/existing/mbed-classic.a(gpio_api.c.o)
+ .debug_loc     0x000000000000493d       0x6d ym/mbed-classic/existing/mbed-classic.a(pinmap.c.o)
+ .debug_loc     0x00000000000049aa      0x1ec ym/mbed-classic/existing/mbed-classic.a(port_api.c.o)
+ .debug_loc     0x0000000000004b96      0x702 ym/mbed-classic/existing/mbed-classic.a(pwmout_api.c.o)
+ .debug_loc     0x0000000000005298      0x4d9 ym/mbed-classic/existing/mbed-classic.a(serial_api.c.o)
+ .debug_loc     0x0000000000005771       0xda ym/mbed-classic/existing/mbed-classic.a(us_ticker.c.o)
+ .debug_loc     0x000000000000584b      0x22f ym/mbed-classic/existing/mbed-classic.a(pinmap_common.c.o)
 
-.debug_aranges  0x0000000000000000      0xaf0
+.debug_aranges  0x0000000000000000      0xaf8
  .debug_aranges
                 0x0000000000000000       0x60 source/CMakeFiles/recordsaveplayaudiodata.dir/Users/Wendelin/NetbeansProjects/MicroBit/RecordSavePlayAudioData/source/Button.cpp.o
  .debug_aranges
-                0x0000000000000060       0x80 source/CMakeFiles/recordsaveplayaudiodata.dir/Users/Wendelin/NetbeansProjects/MicroBit/RecordSavePlayAudioData/source/Pin.cpp.o
+                0x0000000000000060       0x88 source/CMakeFiles/recordsaveplayaudiodata.dir/Users/Wendelin/NetbeansProjects/MicroBit/RecordSavePlayAudioData/source/Pin.cpp.o
  .debug_aranges
-                0x00000000000000e0       0x20 source/CMakeFiles/recordsaveplayaudiodata.dir/Users/Wendelin/NetbeansProjects/MicroBit/RecordSavePlayAudioData/source/main.cpp.o
+                0x00000000000000e8       0x20 source/CMakeFiles/recordsaveplayaudiodata.dir/Users/Wendelin/NetbeansProjects/MicroBit/RecordSavePlayAudioData/source/main.cpp.o
  .debug_aranges
-                0x0000000000000100       0xc8 source/CMakeFiles/recordsaveplayaudiodata.dir/Users/Wendelin/NetbeansProjects/MicroBit/RecordSavePlayAudioData/source/Audio.cpp.o
+                0x0000000000000108       0xc8 source/CMakeFiles/recordsaveplayaudiodata.dir/Users/Wendelin/NetbeansProjects/MicroBit/RecordSavePlayAudioData/source/Audio.cpp.o
  .debug_aranges
-                0x00000000000001c8       0x50 source/CMakeFiles/recordsaveplayaudiodata.dir/Users/Wendelin/NetbeansProjects/MicroBit/RecordSavePlayAudioData/source/Display.cpp.o
+                0x00000000000001d0       0x50 source/CMakeFiles/recordsaveplayaudiodata.dir/Users/Wendelin/NetbeansProjects/MicroBit/RecordSavePlayAudioData/source/Display.cpp.o
  .debug_aranges
-                0x0000000000000218       0x48 ym/microbit-dal/source/microbit-dal.a(MicroBitHeapAllocator.cpp.o)
+                0x0000000000000220       0x48 ym/microbit-dal/source/microbit-dal.a(MicroBitHeapAllocator.cpp.o)
  .debug_aranges
-                0x0000000000000260       0x60 ym/microbit-dal/source/microbit-dal.a(MicroBitSystemTimer.cpp.o)
+                0x0000000000000268       0x60 ym/microbit-dal/source/microbit-dal.a(MicroBitSystemTimer.cpp.o)
  .debug_aranges
-                0x00000000000002c0       0x78 ym/microbit-dal/source/microbit-dal.a(DynamicPwm.cpp.o)
+                0x00000000000002c8       0x78 ym/microbit-dal/source/microbit-dal.a(DynamicPwm.cpp.o)
  .debug_aranges
-                0x0000000000000338       0x80 ym/microbit-dal/source/microbit-dal.a(MicroBitDevice.cpp.o)
+                0x0000000000000340       0x80 ym/microbit-dal/source/microbit-dal.a(MicroBitDevice.cpp.o)
  .debug_aranges
-                0x00000000000003b8       0x40 ym/microbit-dal/source/microbit-dal.a(MicroBitFont.cpp.o)
+                0x00000000000003c0       0x40 ym/microbit-dal/source/microbit-dal.a(MicroBitFont.cpp.o)
  .debug_aranges
-                0x00000000000003f8       0x60 ym/mbed-classic/existing/mbed-classic.a(RawSerial.cpp.o)
+                0x0000000000000400       0x60 ym/mbed-classic/existing/mbed-classic.a(RawSerial.cpp.o)
  .debug_aranges
-                0x0000000000000458       0x78 ym/mbed-classic/existing/mbed-classic.a(SerialBase.cpp.o)
+                0x0000000000000460       0x78 ym/mbed-classic/existing/mbed-classic.a(SerialBase.cpp.o)
  .debug_aranges
-                0x00000000000004d0       0x40 ym/mbed-classic/existing/mbed-classic.a(Ticker.cpp.o)
+                0x00000000000004d8       0x40 ym/mbed-classic/existing/mbed-classic.a(Ticker.cpp.o)
  .debug_aranges
-                0x0000000000000510       0x68 ym/mbed-classic/existing/mbed-classic.a(Timer.cpp.o)
+                0x0000000000000518       0x68 ym/mbed-classic/existing/mbed-classic.a(Timer.cpp.o)
  .debug_aranges
-                0x0000000000000578       0x50 ym/mbed-classic/existing/mbed-classic.a(TimerEvent.cpp.o)
+                0x0000000000000580       0x50 ym/mbed-classic/existing/mbed-classic.a(TimerEvent.cpp.o)
  .debug_aranges
-                0x00000000000005c8      0x110 ym/mbed-classic/existing/mbed-classic.a(retarget.cpp.o)
+                0x00000000000005d0      0x110 ym/mbed-classic/existing/mbed-classic.a(retarget.cpp.o)
  .debug_aranges
-                0x00000000000006d8       0x20 ym/mbed-classic/existing/mbed-classic.a(board.c.o)
+                0x00000000000006e0       0x20 ym/mbed-classic/existing/mbed-classic.a(board.c.o)
  .debug_aranges
-                0x00000000000006f8       0x20 ym/mbed-classic/existing/mbed-classic.a(error.c.o)
+                0x0000000000000700       0x20 ym/mbed-classic/existing/mbed-classic.a(error.c.o)
  .debug_aranges
-                0x0000000000000718       0x50 ym/mbed-classic/existing/mbed-classic.a(gpio.c.o)
+                0x0000000000000720       0x50 ym/mbed-classic/existing/mbed-classic.a(gpio.c.o)
  .debug_aranges
-                0x0000000000000768       0x48 ym/mbed-classic/existing/mbed-classic.a(ticker_api.c.o)
+                0x0000000000000770       0x48 ym/mbed-classic/existing/mbed-classic.a(ticker_api.c.o)
  .debug_aranges
-                0x00000000000007b0       0x28 ym/mbed-classic/existing/mbed-classic.a(us_ticker_api.c.o)
+                0x00000000000007b8       0x28 ym/mbed-classic/existing/mbed-classic.a(us_ticker_api.c.o)
  .debug_aranges
-                0x00000000000007d8       0x30 ym/mbed-classic/existing/mbed-classic.a(wait_api.c.o)
+                0x00000000000007e0       0x30 ym/mbed-classic/existing/mbed-classic.a(wait_api.c.o)
  .debug_aranges
-                0x0000000000000808       0x20 ym/mbed-classic/existing/mbed-classic.a(startup_NRF51822.S.obj)
+                0x0000000000000810       0x20 ym/mbed-classic/existing/mbed-classic.a(startup_NRF51822.S.obj)
  .debug_aranges
-                0x0000000000000828       0x38 ym/mbed-classic/existing/mbed-classic.a(analogin_api.c.o)
+                0x0000000000000830       0x38 ym/mbed-classic/existing/mbed-classic.a(analogin_api.c.o)
  .debug_aranges
-                0x0000000000000860       0x30 ym/mbed-classic/existing/mbed-classic.a(gpio_api.c.o)
+                0x0000000000000868       0x30 ym/mbed-classic/existing/mbed-classic.a(gpio_api.c.o)
  .debug_aranges
-                0x0000000000000890       0x28 ym/mbed-classic/existing/mbed-classic.a(pinmap.c.o)
+                0x0000000000000898       0x28 ym/mbed-classic/existing/mbed-classic.a(pinmap.c.o)
  .debug_aranges
-                0x00000000000008b8       0x48 ym/mbed-classic/existing/mbed-classic.a(port_api.c.o)
+                0x00000000000008c0       0x48 ym/mbed-classic/existing/mbed-classic.a(port_api.c.o)
  .debug_aranges
-                0x0000000000000900       0x90 ym/mbed-classic/existing/mbed-classic.a(pwmout_api.c.o)
+                0x0000000000000908       0x90 ym/mbed-classic/existing/mbed-classic.a(pwmout_api.c.o)
  .debug_aranges
-                0x0000000000000990       0x98 ym/mbed-classic/existing/mbed-classic.a(serial_api.c.o)
+                0x0000000000000998       0x98 ym/mbed-classic/existing/mbed-classic.a(serial_api.c.o)
  .debug_aranges
-                0x0000000000000a28       0x58 ym/mbed-classic/existing/mbed-classic.a(us_ticker.c.o)
+                0x0000000000000a30       0x58 ym/mbed-classic/existing/mbed-classic.a(us_ticker.c.o)
  .debug_aranges
-                0x0000000000000a80       0x48 ym/mbed-classic/existing/mbed-classic.a(pinmap_common.c.o)
+                0x0000000000000a88       0x48 ym/mbed-classic/existing/mbed-classic.a(pinmap_common.c.o)
  .debug_aranges
-                0x0000000000000ac8       0x28 ym/mbed-classic/existing/mbed-classic.a(system_nrf51.c.o)
+                0x0000000000000ad0       0x28 ym/mbed-classic/existing/mbed-classic.a(system_nrf51.c.o)
 
-.debug_ranges   0x0000000000000000      0xf08
+.debug_ranges   0x0000000000000000      0xf30
  .debug_ranges  0x0000000000000000       0x90 source/CMakeFiles/recordsaveplayaudiodata.dir/Users/Wendelin/NetbeansProjects/MicroBit/RecordSavePlayAudioData/source/Button.cpp.o
- .debug_ranges  0x0000000000000090       0xb8 source/CMakeFiles/recordsaveplayaudiodata.dir/Users/Wendelin/NetbeansProjects/MicroBit/RecordSavePlayAudioData/source/Pin.cpp.o
- .debug_ranges  0x0000000000000148       0x10 source/CMakeFiles/recordsaveplayaudiodata.dir/Users/Wendelin/NetbeansProjects/MicroBit/RecordSavePlayAudioData/source/main.cpp.o
- .debug_ranges  0x0000000000000158      0x1e8 source/CMakeFiles/recordsaveplayaudiodata.dir/Users/Wendelin/NetbeansProjects/MicroBit/RecordSavePlayAudioData/source/Audio.cpp.o
- .debug_ranges  0x0000000000000340       0xd8 source/CMakeFiles/recordsaveplayaudiodata.dir/Users/Wendelin/NetbeansProjects/MicroBit/RecordSavePlayAudioData/source/Display.cpp.o
- .debug_ranges  0x0000000000000418       0x50 ym/microbit-dal/source/microbit-dal.a(MicroBitHeapAllocator.cpp.o)
- .debug_ranges  0x0000000000000468       0xc0 ym/microbit-dal/source/microbit-dal.a(MicroBitSystemTimer.cpp.o)
- .debug_ranges  0x0000000000000528       0xe0 ym/microbit-dal/source/microbit-dal.a(DynamicPwm.cpp.o)
- .debug_ranges  0x0000000000000608      0x158 ym/microbit-dal/source/microbit-dal.a(MicroBitDevice.cpp.o)
- .debug_ranges  0x0000000000000760       0x60 ym/microbit-dal/source/microbit-dal.a(MicroBitFont.cpp.o)
- .debug_ranges  0x00000000000007c0       0x50 ym/mbed-classic/existing/mbed-classic.a(RawSerial.cpp.o)
- .debug_ranges  0x0000000000000810       0x80 ym/mbed-classic/existing/mbed-classic.a(SerialBase.cpp.o)
- .debug_ranges  0x0000000000000890       0x48 ym/mbed-classic/existing/mbed-classic.a(Ticker.cpp.o)
- .debug_ranges  0x00000000000008d8       0x58 ym/mbed-classic/existing/mbed-classic.a(Timer.cpp.o)
- .debug_ranges  0x0000000000000930       0x40 ym/mbed-classic/existing/mbed-classic.a(TimerEvent.cpp.o)
- .debug_ranges  0x0000000000000970      0x130 ym/mbed-classic/existing/mbed-classic.a(retarget.cpp.o)
- .debug_ranges  0x0000000000000aa0       0x40 ym/mbed-classic/existing/mbed-classic.a(board.c.o)
- .debug_ranges  0x0000000000000ae0       0x10 ym/mbed-classic/existing/mbed-classic.a(error.c.o)
- .debug_ranges  0x0000000000000af0       0x40 ym/mbed-classic/existing/mbed-classic.a(gpio.c.o)
- .debug_ranges  0x0000000000000b30       0x50 ym/mbed-classic/existing/mbed-classic.a(ticker_api.c.o)
- .debug_ranges  0x0000000000000b80       0x18 ym/mbed-classic/existing/mbed-classic.a(us_ticker_api.c.o)
- .debug_ranges  0x0000000000000b98       0x20 ym/mbed-classic/existing/mbed-classic.a(wait_api.c.o)
- .debug_ranges  0x0000000000000bb8       0x28 ym/mbed-classic/existing/mbed-classic.a(analogin_api.c.o)
- .debug_ranges  0x0000000000000be0       0x20 ym/mbed-classic/existing/mbed-classic.a(gpio_api.c.o)
- .debug_ranges  0x0000000000000c00       0x18 ym/mbed-classic/existing/mbed-classic.a(pinmap.c.o)
- .debug_ranges  0x0000000000000c18       0x38 ym/mbed-classic/existing/mbed-classic.a(port_api.c.o)
- .debug_ranges  0x0000000000000c50       0xb0 ym/mbed-classic/existing/mbed-classic.a(pwmout_api.c.o)
- .debug_ranges  0x0000000000000d00       0xd8 ym/mbed-classic/existing/mbed-classic.a(serial_api.c.o)
- .debug_ranges  0x0000000000000dd8       0xc0 ym/mbed-classic/existing/mbed-classic.a(us_ticker.c.o)
- .debug_ranges  0x0000000000000e98       0x38 ym/mbed-classic/existing/mbed-classic.a(pinmap_common.c.o)
- .debug_ranges  0x0000000000000ed0       0x38 ym/mbed-classic/existing/mbed-classic.a(system_nrf51.c.o)
+ .debug_ranges  0x0000000000000090       0xc0 source/CMakeFiles/recordsaveplayaudiodata.dir/Users/Wendelin/NetbeansProjects/MicroBit/RecordSavePlayAudioData/source/Pin.cpp.o
+ .debug_ranges  0x0000000000000150       0x10 source/CMakeFiles/recordsaveplayaudiodata.dir/Users/Wendelin/NetbeansProjects/MicroBit/RecordSavePlayAudioData/source/main.cpp.o
+ .debug_ranges  0x0000000000000160      0x208 source/CMakeFiles/recordsaveplayaudiodata.dir/Users/Wendelin/NetbeansProjects/MicroBit/RecordSavePlayAudioData/source/Audio.cpp.o
+ .debug_ranges  0x0000000000000368       0xd8 source/CMakeFiles/recordsaveplayaudiodata.dir/Users/Wendelin/NetbeansProjects/MicroBit/RecordSavePlayAudioData/source/Display.cpp.o
+ .debug_ranges  0x0000000000000440       0x50 ym/microbit-dal/source/microbit-dal.a(MicroBitHeapAllocator.cpp.o)
+ .debug_ranges  0x0000000000000490       0xc0 ym/microbit-dal/source/microbit-dal.a(MicroBitSystemTimer.cpp.o)
+ .debug_ranges  0x0000000000000550       0xe0 ym/microbit-dal/source/microbit-dal.a(DynamicPwm.cpp.o)
+ .debug_ranges  0x0000000000000630      0x158 ym/microbit-dal/source/microbit-dal.a(MicroBitDevice.cpp.o)
+ .debug_ranges  0x0000000000000788       0x60 ym/microbit-dal/source/microbit-dal.a(MicroBitFont.cpp.o)
+ .debug_ranges  0x00000000000007e8       0x50 ym/mbed-classic/existing/mbed-classic.a(RawSerial.cpp.o)
+ .debug_ranges  0x0000000000000838       0x80 ym/mbed-classic/existing/mbed-classic.a(SerialBase.cpp.o)
+ .debug_ranges  0x00000000000008b8       0x48 ym/mbed-classic/existing/mbed-classic.a(Ticker.cpp.o)
+ .debug_ranges  0x0000000000000900       0x58 ym/mbed-classic/existing/mbed-classic.a(Timer.cpp.o)
+ .debug_ranges  0x0000000000000958       0x40 ym/mbed-classic/existing/mbed-classic.a(TimerEvent.cpp.o)
+ .debug_ranges  0x0000000000000998      0x130 ym/mbed-classic/existing/mbed-classic.a(retarget.cpp.o)
+ .debug_ranges  0x0000000000000ac8       0x40 ym/mbed-classic/existing/mbed-classic.a(board.c.o)
+ .debug_ranges  0x0000000000000b08       0x10 ym/mbed-classic/existing/mbed-classic.a(error.c.o)
+ .debug_ranges  0x0000000000000b18       0x40 ym/mbed-classic/existing/mbed-classic.a(gpio.c.o)
+ .debug_ranges  0x0000000000000b58       0x50 ym/mbed-classic/existing/mbed-classic.a(ticker_api.c.o)
+ .debug_ranges  0x0000000000000ba8       0x18 ym/mbed-classic/existing/mbed-classic.a(us_ticker_api.c.o)
+ .debug_ranges  0x0000000000000bc0       0x20 ym/mbed-classic/existing/mbed-classic.a(wait_api.c.o)
+ .debug_ranges  0x0000000000000be0       0x28 ym/mbed-classic/existing/mbed-classic.a(analogin_api.c.o)
+ .debug_ranges  0x0000000000000c08       0x20 ym/mbed-classic/existing/mbed-classic.a(gpio_api.c.o)
+ .debug_ranges  0x0000000000000c28       0x18 ym/mbed-classic/existing/mbed-classic.a(pinmap.c.o)
+ .debug_ranges  0x0000000000000c40       0x38 ym/mbed-classic/existing/mbed-classic.a(port_api.c.o)
+ .debug_ranges  0x0000000000000c78       0xb0 ym/mbed-classic/existing/mbed-classic.a(pwmout_api.c.o)
+ .debug_ranges  0x0000000000000d28       0xd8 ym/mbed-classic/existing/mbed-classic.a(serial_api.c.o)
+ .debug_ranges  0x0000000000000e00       0xc0 ym/mbed-classic/existing/mbed-classic.a(us_ticker.c.o)
+ .debug_ranges  0x0000000000000ec0       0x38 ym/mbed-classic/existing/mbed-classic.a(pinmap_common.c.o)
+ .debug_ranges  0x0000000000000ef8       0x38 ym/mbed-classic/existing/mbed-classic.a(system_nrf51.c.o)
 
-.debug_line     0x0000000000000000     0xacc8
+.debug_line     0x0000000000000000     0xacf2
  .debug_line    0x0000000000000000      0x79a source/CMakeFiles/recordsaveplayaudiodata.dir/Users/Wendelin/NetbeansProjects/MicroBit/RecordSavePlayAudioData/source/Button.cpp.o
- .debug_line    0x000000000000079a      0x928 source/CMakeFiles/recordsaveplayaudiodata.dir/Users/Wendelin/NetbeansProjects/MicroBit/RecordSavePlayAudioData/source/Pin.cpp.o
- .debug_line    0x00000000000010c2      0x6e2 source/CMakeFiles/recordsaveplayaudiodata.dir/Users/Wendelin/NetbeansProjects/MicroBit/RecordSavePlayAudioData/source/main.cpp.o
- .debug_line    0x00000000000017a4      0xd0e source/CMakeFiles/recordsaveplayaudiodata.dir/Users/Wendelin/NetbeansProjects/MicroBit/RecordSavePlayAudioData/source/Audio.cpp.o
- .debug_line    0x00000000000024b2      0x82d source/CMakeFiles/recordsaveplayaudiodata.dir/Users/Wendelin/NetbeansProjects/MicroBit/RecordSavePlayAudioData/source/Display.cpp.o
- .debug_line    0x0000000000002cdf      0x79f ym/microbit-dal/source/microbit-dal.a(MicroBitHeapAllocator.cpp.o)
- .debug_line    0x000000000000347e      0x670 ym/microbit-dal/source/microbit-dal.a(MicroBitSystemTimer.cpp.o)
- .debug_line    0x0000000000003aee      0x979 ym/microbit-dal/source/microbit-dal.a(DynamicPwm.cpp.o)
- .debug_line    0x0000000000004467      0xb78 ym/microbit-dal/source/microbit-dal.a(MicroBitDevice.cpp.o)
- .debug_line    0x0000000000004fdf      0x459 ym/microbit-dal/source/microbit-dal.a(MicroBitFont.cpp.o)
- .debug_line    0x0000000000005438      0x722 ym/mbed-classic/existing/mbed-classic.a(RawSerial.cpp.o)
- .debug_line    0x0000000000005b5a      0x782 ym/mbed-classic/existing/mbed-classic.a(SerialBase.cpp.o)
- .debug_line    0x00000000000062dc      0x2e3 ym/mbed-classic/existing/mbed-classic.a(Ticker.cpp.o)
- .debug_line    0x00000000000065bf      0x510 ym/mbed-classic/existing/mbed-classic.a(Timer.cpp.o)
- .debug_line    0x0000000000006acf      0x2d0 ym/mbed-classic/existing/mbed-classic.a(TimerEvent.cpp.o)
- .debug_line    0x0000000000006d9f      0xa53 ym/mbed-classic/existing/mbed-classic.a(retarget.cpp.o)
- .debug_line    0x00000000000077f2      0x3e3 ym/mbed-classic/existing/mbed-classic.a(board.c.o)
- .debug_line    0x0000000000007bd5       0xf9 ym/mbed-classic/existing/mbed-classic.a(error.c.o)
- .debug_line    0x0000000000007cce      0x3ac ym/mbed-classic/existing/mbed-classic.a(gpio.c.o)
- .debug_line    0x000000000000807a      0x31e ym/mbed-classic/existing/mbed-classic.a(ticker_api.c.o)
- .debug_line    0x0000000000008398      0x1ed ym/mbed-classic/existing/mbed-classic.a(us_ticker_api.c.o)
- .debug_line    0x0000000000008585      0x205 ym/mbed-classic/existing/mbed-classic.a(wait_api.c.o)
- .debug_line    0x000000000000878a      0x10b ym/mbed-classic/existing/mbed-classic.a(startup_NRF51822.S.obj)
- .debug_line    0x0000000000008895      0x3ea ym/mbed-classic/existing/mbed-classic.a(analogin_api.c.o)
- .debug_line    0x0000000000008c7f      0x37e ym/mbed-classic/existing/mbed-classic.a(gpio_api.c.o)
- .debug_line    0x0000000000008ffd      0x2ea ym/mbed-classic/existing/mbed-classic.a(pinmap.c.o)
- .debug_line    0x00000000000092e7      0x3e9 ym/mbed-classic/existing/mbed-classic.a(port_api.c.o)
- .debug_line    0x00000000000096d0      0x662 ym/mbed-classic/existing/mbed-classic.a(pwmout_api.c.o)
- .debug_line    0x0000000000009d32      0x5cb ym/mbed-classic/existing/mbed-classic.a(serial_api.c.o)
- .debug_line    0x000000000000a2fd      0x48a ym/mbed-classic/existing/mbed-classic.a(us_ticker.c.o)
- .debug_line    0x000000000000a787      0x36c ym/mbed-classic/existing/mbed-classic.a(pinmap_common.c.o)
- .debug_line    0x000000000000aaf3      0x1d5 ym/mbed-classic/existing/mbed-classic.a(system_nrf51.c.o)
+ .debug_line    0x000000000000079a      0x93c source/CMakeFiles/recordsaveplayaudiodata.dir/Users/Wendelin/NetbeansProjects/MicroBit/RecordSavePlayAudioData/source/Pin.cpp.o
+ .debug_line    0x00000000000010d6      0x6eb source/CMakeFiles/recordsaveplayaudiodata.dir/Users/Wendelin/NetbeansProjects/MicroBit/RecordSavePlayAudioData/source/main.cpp.o
+ .debug_line    0x00000000000017c1      0xd1b source/CMakeFiles/recordsaveplayaudiodata.dir/Users/Wendelin/NetbeansProjects/MicroBit/RecordSavePlayAudioData/source/Audio.cpp.o
+ .debug_line    0x00000000000024dc      0x82d source/CMakeFiles/recordsaveplayaudiodata.dir/Users/Wendelin/NetbeansProjects/MicroBit/RecordSavePlayAudioData/source/Display.cpp.o
+ .debug_line    0x0000000000002d09      0x79f ym/microbit-dal/source/microbit-dal.a(MicroBitHeapAllocator.cpp.o)
+ .debug_line    0x00000000000034a8      0x670 ym/microbit-dal/source/microbit-dal.a(MicroBitSystemTimer.cpp.o)
+ .debug_line    0x0000000000003b18      0x979 ym/microbit-dal/source/microbit-dal.a(DynamicPwm.cpp.o)
+ .debug_line    0x0000000000004491      0xb78 ym/microbit-dal/source/microbit-dal.a(MicroBitDevice.cpp.o)
+ .debug_line    0x0000000000005009      0x459 ym/microbit-dal/source/microbit-dal.a(MicroBitFont.cpp.o)
+ .debug_line    0x0000000000005462      0x722 ym/mbed-classic/existing/mbed-classic.a(RawSerial.cpp.o)
+ .debug_line    0x0000000000005b84      0x782 ym/mbed-classic/existing/mbed-classic.a(SerialBase.cpp.o)
+ .debug_line    0x0000000000006306      0x2e3 ym/mbed-classic/existing/mbed-classic.a(Ticker.cpp.o)
+ .debug_line    0x00000000000065e9      0x510 ym/mbed-classic/existing/mbed-classic.a(Timer.cpp.o)
+ .debug_line    0x0000000000006af9      0x2d0 ym/mbed-classic/existing/mbed-classic.a(TimerEvent.cpp.o)
+ .debug_line    0x0000000000006dc9      0xa53 ym/mbed-classic/existing/mbed-classic.a(retarget.cpp.o)
+ .debug_line    0x000000000000781c      0x3e3 ym/mbed-classic/existing/mbed-classic.a(board.c.o)
+ .debug_line    0x0000000000007bff       0xf9 ym/mbed-classic/existing/mbed-classic.a(error.c.o)
+ .debug_line    0x0000000000007cf8      0x3ac ym/mbed-classic/existing/mbed-classic.a(gpio.c.o)
+ .debug_line    0x00000000000080a4      0x31e ym/mbed-classic/existing/mbed-classic.a(ticker_api.c.o)
+ .debug_line    0x00000000000083c2      0x1ed ym/mbed-classic/existing/mbed-classic.a(us_ticker_api.c.o)
+ .debug_line    0x00000000000085af      0x205 ym/mbed-classic/existing/mbed-classic.a(wait_api.c.o)
+ .debug_line    0x00000000000087b4      0x10b ym/mbed-classic/existing/mbed-classic.a(startup_NRF51822.S.obj)
+ .debug_line    0x00000000000088bf      0x3ea ym/mbed-classic/existing/mbed-classic.a(analogin_api.c.o)
+ .debug_line    0x0000000000008ca9      0x37e ym/mbed-classic/existing/mbed-classic.a(gpio_api.c.o)
+ .debug_line    0x0000000000009027      0x2ea ym/mbed-classic/existing/mbed-classic.a(pinmap.c.o)
+ .debug_line    0x0000000000009311      0x3e9 ym/mbed-classic/existing/mbed-classic.a(port_api.c.o)
+ .debug_line    0x00000000000096fa      0x662 ym/mbed-classic/existing/mbed-classic.a(pwmout_api.c.o)
+ .debug_line    0x0000000000009d5c      0x5cb ym/mbed-classic/existing/mbed-classic.a(serial_api.c.o)
+ .debug_line    0x000000000000a327      0x48a ym/mbed-classic/existing/mbed-classic.a(us_ticker.c.o)
+ .debug_line    0x000000000000a7b1      0x36c ym/mbed-classic/existing/mbed-classic.a(pinmap_common.c.o)
+ .debug_line    0x000000000000ab1d      0x1d5 ym/mbed-classic/existing/mbed-classic.a(system_nrf51.c.o)
 
-.debug_str      0x0000000000000000     0x83d9
+.debug_str      0x0000000000000000     0x83ff
  .debug_str     0x0000000000000000      0xd2b source/CMakeFiles/recordsaveplayaudiodata.dir/Users/Wendelin/NetbeansProjects/MicroBit/RecordSavePlayAudioData/source/Button.cpp.o
                                         0xe84 (size before relaxing)
- .debug_str     0x0000000000000d2b      0x6e0 source/CMakeFiles/recordsaveplayaudiodata.dir/Users/Wendelin/NetbeansProjects/MicroBit/RecordSavePlayAudioData/source/Pin.cpp.o
-                                       0x12db (size before relaxing)
- .debug_str     0x000000000000140b      0x335 source/CMakeFiles/recordsaveplayaudiodata.dir/Users/Wendelin/NetbeansProjects/MicroBit/RecordSavePlayAudioData/source/main.cpp.o
+ .debug_str     0x0000000000000d2b      0x6f8 source/CMakeFiles/recordsaveplayaudiodata.dir/Users/Wendelin/NetbeansProjects/MicroBit/RecordSavePlayAudioData/source/Pin.cpp.o
+                                       0x12f3 (size before relaxing)
+ .debug_str     0x0000000000001423      0x335 source/CMakeFiles/recordsaveplayaudiodata.dir/Users/Wendelin/NetbeansProjects/MicroBit/RecordSavePlayAudioData/source/main.cpp.o
                                         0xd58 (size before relaxing)
- .debug_str     0x0000000000001740     0x33d9 source/CMakeFiles/recordsaveplayaudiodata.dir/Users/Wendelin/NetbeansProjects/MicroBit/RecordSavePlayAudioData/source/Audio.cpp.o
-                                       0x44c2 (size before relaxing)
- .debug_str     0x0000000000004b19      0x225 source/CMakeFiles/recordsaveplayaudiodata.dir/Users/Wendelin/NetbeansProjects/MicroBit/RecordSavePlayAudioData/source/Display.cpp.o
+ .debug_str     0x0000000000001758     0x33e7 source/CMakeFiles/recordsaveplayaudiodata.dir/Users/Wendelin/NetbeansProjects/MicroBit/RecordSavePlayAudioData/source/Audio.cpp.o
+                                       0x44e8 (size before relaxing)
+ .debug_str     0x0000000000004b3f      0x225 source/CMakeFiles/recordsaveplayaudiodata.dir/Users/Wendelin/NetbeansProjects/MicroBit/RecordSavePlayAudioData/source/Display.cpp.o
                                         0xdee (size before relaxing)
- .debug_str     0x0000000000004d3e      0x373 ym/microbit-dal/source/microbit-dal.a(MicroBitHeapAllocator.cpp.o)
+ .debug_str     0x0000000000004d64      0x373 ym/microbit-dal/source/microbit-dal.a(MicroBitHeapAllocator.cpp.o)
                                         0xe05 (size before relaxing)
- .debug_str     0x00000000000050b1      0x3c8 ym/microbit-dal/source/microbit-dal.a(MicroBitSystemTimer.cpp.o)
+ .debug_str     0x00000000000050d7      0x3c8 ym/microbit-dal/source/microbit-dal.a(MicroBitSystemTimer.cpp.o)
                                        0x11bb (size before relaxing)
- .debug_str     0x0000000000005479      0x2bb ym/microbit-dal/source/microbit-dal.a(DynamicPwm.cpp.o)
+ .debug_str     0x000000000000549f      0x2bb ym/microbit-dal/source/microbit-dal.a(DynamicPwm.cpp.o)
                                        0x12c9 (size before relaxing)
- .debug_str     0x0000000000005734      0x991 ym/microbit-dal/source/microbit-dal.a(MicroBitDevice.cpp.o)
+ .debug_str     0x000000000000575a      0x991 ym/microbit-dal/source/microbit-dal.a(MicroBitDevice.cpp.o)
                                        0x183d (size before relaxing)
- .debug_str     0x00000000000060c5      0x215 ym/microbit-dal/source/microbit-dal.a(MicroBitFont.cpp.o)
+ .debug_str     0x00000000000060eb      0x215 ym/microbit-dal/source/microbit-dal.a(MicroBitFont.cpp.o)
                                         0x9f9 (size before relaxing)
- .debug_str     0x00000000000062da       0xf9 ym/mbed-classic/existing/mbed-classic.a(RawSerial.cpp.o)
+ .debug_str     0x0000000000006300       0xf9 ym/mbed-classic/existing/mbed-classic.a(RawSerial.cpp.o)
                                        0x120f (size before relaxing)
- .debug_str     0x00000000000063d3      0x1b0 ym/mbed-classic/existing/mbed-classic.a(SerialBase.cpp.o)
+ .debug_str     0x00000000000063f9      0x1b0 ym/mbed-classic/existing/mbed-classic.a(SerialBase.cpp.o)
                                        0x11b2 (size before relaxing)
- .debug_str     0x0000000000006583      0x10e ym/mbed-classic/existing/mbed-classic.a(Ticker.cpp.o)
+ .debug_str     0x00000000000065a9      0x10e ym/mbed-classic/existing/mbed-classic.a(Ticker.cpp.o)
                                         0x6c8 (size before relaxing)
- .debug_str     0x0000000000006691       0xb7 ym/mbed-classic/existing/mbed-classic.a(Timer.cpp.o)
+ .debug_str     0x00000000000066b7       0xb7 ym/mbed-classic/existing/mbed-classic.a(Timer.cpp.o)
                                         0xb0c (size before relaxing)
- .debug_str     0x0000000000006748      0x1fd ym/mbed-classic/existing/mbed-classic.a(TimerEvent.cpp.o)
+ .debug_str     0x000000000000676e      0x1fd ym/mbed-classic/existing/mbed-classic.a(TimerEvent.cpp.o)
                                         0x58c (size before relaxing)
- .debug_str     0x0000000000006945      0x7af ym/mbed-classic/existing/mbed-classic.a(retarget.cpp.o)
+ .debug_str     0x000000000000696b      0x7af ym/mbed-classic/existing/mbed-classic.a(retarget.cpp.o)
                                        0x1416 (size before relaxing)
- .debug_str     0x00000000000070f4      0x164 ym/mbed-classic/existing/mbed-classic.a(board.c.o)
+ .debug_str     0x000000000000711a      0x164 ym/mbed-classic/existing/mbed-classic.a(board.c.o)
                                         0x410 (size before relaxing)
- .debug_str     0x0000000000007258       0x6c ym/mbed-classic/existing/mbed-classic.a(error.c.o)
+ .debug_str     0x000000000000727e       0x6c ym/mbed-classic/existing/mbed-classic.a(error.c.o)
                                         0x23e (size before relaxing)
- .debug_str     0x00000000000072c4       0xe8 ym/mbed-classic/existing/mbed-classic.a(gpio.c.o)
+ .debug_str     0x00000000000072ea       0xe8 ym/mbed-classic/existing/mbed-classic.a(gpio.c.o)
                                         0x4c1 (size before relaxing)
- .debug_str     0x00000000000073ac       0x90 ym/mbed-classic/existing/mbed-classic.a(ticker_api.c.o)
+ .debug_str     0x00000000000073d2       0x90 ym/mbed-classic/existing/mbed-classic.a(ticker_api.c.o)
                                         0x361 (size before relaxing)
- .debug_str     0x000000000000743c       0xa6 ym/mbed-classic/existing/mbed-classic.a(us_ticker_api.c.o)
+ .debug_str     0x0000000000007462       0xa6 ym/mbed-classic/existing/mbed-classic.a(us_ticker_api.c.o)
                                         0x31b (size before relaxing)
- .debug_str     0x00000000000074e2       0x83 ym/mbed-classic/existing/mbed-classic.a(wait_api.c.o)
+ .debug_str     0x0000000000007508       0x83 ym/mbed-classic/existing/mbed-classic.a(wait_api.c.o)
                                         0x20d (size before relaxing)
- .debug_str     0x0000000000007565       0xed ym/mbed-classic/existing/mbed-classic.a(analogin_api.c.o)
+ .debug_str     0x000000000000758b       0xed ym/mbed-classic/existing/mbed-classic.a(analogin_api.c.o)
                                         0x543 (size before relaxing)
- .debug_str     0x0000000000007652       0x9f ym/mbed-classic/existing/mbed-classic.a(gpio_api.c.o)
+ .debug_str     0x0000000000007678       0x9f ym/mbed-classic/existing/mbed-classic.a(gpio_api.c.o)
                                         0x4bc (size before relaxing)
- .debug_str     0x00000000000076f1       0xac ym/mbed-classic/existing/mbed-classic.a(pinmap.c.o)
+ .debug_str     0x0000000000007717       0xac ym/mbed-classic/existing/mbed-classic.a(pinmap.c.o)
                                         0x467 (size before relaxing)
- .debug_str     0x000000000000779d       0xc2 ym/mbed-classic/existing/mbed-classic.a(port_api.c.o)
+ .debug_str     0x00000000000077c3       0xc2 ym/mbed-classic/existing/mbed-classic.a(port_api.c.o)
                                         0x4ef (size before relaxing)
- .debug_str     0x000000000000785f      0x462 ym/mbed-classic/existing/mbed-classic.a(pwmout_api.c.o)
+ .debug_str     0x0000000000007885      0x462 ym/mbed-classic/existing/mbed-classic.a(pwmout_api.c.o)
                                         0xa3c (size before relaxing)
- .debug_str     0x0000000000007cc1      0x1b7 ym/mbed-classic/existing/mbed-classic.a(serial_api.c.o)
+ .debug_str     0x0000000000007ce7      0x1b7 ym/mbed-classic/existing/mbed-classic.a(serial_api.c.o)
                                         0xa5b (size before relaxing)
- .debug_str     0x0000000000007e78      0x33e ym/mbed-classic/existing/mbed-classic.a(us_ticker.c.o)
+ .debug_str     0x0000000000007e9e      0x33e ym/mbed-classic/existing/mbed-classic.a(us_ticker.c.o)
                                         0x7f5 (size before relaxing)
- .debug_str     0x00000000000081b6       0xcb ym/mbed-classic/existing/mbed-classic.a(pinmap_common.c.o)
+ .debug_str     0x00000000000081dc       0xcb ym/mbed-classic/existing/mbed-classic.a(pinmap_common.c.o)
                                         0x46a (size before relaxing)
- .debug_str     0x0000000000008281      0x158 ym/mbed-classic/existing/mbed-classic.a(system_nrf51.c.o)
+ .debug_str     0x00000000000082a7      0x158 ym/mbed-classic/existing/mbed-classic.a(system_nrf51.c.o)
                                         0x42e (size before relaxing)
 
-.debug_frame    0x0000000000000000     0x8744
+.debug_frame    0x0000000000000000     0x8768
  .debug_frame   0x0000000000000000       0xcc source/CMakeFiles/recordsaveplayaudiodata.dir/Users/Wendelin/NetbeansProjects/MicroBit/RecordSavePlayAudioData/source/Button.cpp.o
- .debug_frame   0x00000000000000cc      0x120 source/CMakeFiles/recordsaveplayaudiodata.dir/Users/Wendelin/NetbeansProjects/MicroBit/RecordSavePlayAudioData/source/Pin.cpp.o
- .debug_frame   0x00000000000001ec       0x2c source/CMakeFiles/recordsaveplayaudiodata.dir/Users/Wendelin/NetbeansProjects/MicroBit/RecordSavePlayAudioData/source/main.cpp.o
- .debug_frame   0x0000000000000218      0x204 source/CMakeFiles/recordsaveplayaudiodata.dir/Users/Wendelin/NetbeansProjects/MicroBit/RecordSavePlayAudioData/source/Audio.cpp.o
- .debug_frame   0x000000000000041c       0xbc source/CMakeFiles/recordsaveplayaudiodata.dir/Users/Wendelin/NetbeansProjects/MicroBit/RecordSavePlayAudioData/source/Display.cpp.o
- .debug_frame   0x00000000000004d8       0xb0 ym/microbit-dal/source/microbit-dal.a(MicroBitHeapAllocator.cpp.o)
- .debug_frame   0x0000000000000588       0xf0 ym/microbit-dal/source/microbit-dal.a(MicroBitSystemTimer.cpp.o)
- .debug_frame   0x0000000000000678      0x144 ym/microbit-dal/source/microbit-dal.a(DynamicPwm.cpp.o)
- .debug_frame   0x00000000000007bc      0x138 ym/microbit-dal/source/microbit-dal.a(MicroBitDevice.cpp.o)
- .debug_frame   0x00000000000008f4       0x6c ym/microbit-dal/source/microbit-dal.a(MicroBitFont.cpp.o)
- .debug_frame   0x0000000000000960       0xe8 ym/mbed-classic/existing/mbed-classic.a(RawSerial.cpp.o)
- .debug_frame   0x0000000000000a48      0x138 ym/mbed-classic/existing/mbed-classic.a(SerialBase.cpp.o)
- .debug_frame   0x0000000000000b80       0x8c ym/mbed-classic/existing/mbed-classic.a(Ticker.cpp.o)
- .debug_frame   0x0000000000000c0c      0x100 ym/mbed-classic/existing/mbed-classic.a(Timer.cpp.o)
- .debug_frame   0x0000000000000d0c       0xb8 ym/mbed-classic/existing/mbed-classic.a(TimerEvent.cpp.o)
- .debug_frame   0x0000000000000dc4      0x320 ym/mbed-classic/existing/mbed-classic.a(retarget.cpp.o)
- .debug_frame   0x00000000000010e4       0x28 ym/mbed-classic/existing/mbed-classic.a(board.c.o)
- .debug_frame   0x000000000000110c       0x2c ym/mbed-classic/existing/mbed-classic.a(error.c.o)
- .debug_frame   0x0000000000001138       0xc8 ym/mbed-classic/existing/mbed-classic.a(gpio.c.o)
- .debug_frame   0x0000000000001200       0xa4 ym/mbed-classic/existing/mbed-classic.a(ticker_api.c.o)
- .debug_frame   0x00000000000012a4       0x38 ym/mbed-classic/existing/mbed-classic.a(us_ticker_api.c.o)
- .debug_frame   0x00000000000012dc       0x5c ym/mbed-classic/existing/mbed-classic.a(wait_api.c.o)
- .debug_frame   0x0000000000001338       0x74 ym/mbed-classic/existing/mbed-classic.a(analogin_api.c.o)
- .debug_frame   0x00000000000013ac       0x48 ym/mbed-classic/existing/mbed-classic.a(gpio_api.c.o)
- .debug_frame   0x00000000000013f4       0x38 ym/mbed-classic/existing/mbed-classic.a(pinmap.c.o)
- .debug_frame   0x000000000000142c       0x94 ym/mbed-classic/existing/mbed-classic.a(port_api.c.o)
- .debug_frame   0x00000000000014c0      0x188 ym/mbed-classic/existing/mbed-classic.a(pwmout_api.c.o)
- .debug_frame   0x0000000000001648      0x158 ym/mbed-classic/existing/mbed-classic.a(serial_api.c.o)
- .debug_frame   0x00000000000017a0       0xe4 ym/mbed-classic/existing/mbed-classic.a(us_ticker.c.o)
- .debug_frame   0x0000000000001884       0x90 ym/mbed-classic/existing/mbed-classic.a(pinmap_common.c.o)
- .debug_frame   0x0000000000001914       0x38 ym/mbed-classic/existing/mbed-classic.a(system_nrf51.c.o)
- .debug_frame   0x000000000000194c       0x28 /usr/local/Cellar/arm-none-eabi-gcc/5.0-2016-q2-update/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m/libstdc++_nano.a(del_op.o)
- .debug_frame   0x0000000000001974       0x28 /usr/local/Cellar/arm-none-eabi-gcc/5.0-2016-q2-update/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m/libstdc++_nano.a(del_opv.o)
- .debug_frame   0x000000000000199c       0x28 /usr/local/Cellar/arm-none-eabi-gcc/5.0-2016-q2-update/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m/libstdc++_nano.a(new_op.o)
- .debug_frame   0x00000000000019c4       0x28 /usr/local/Cellar/arm-none-eabi-gcc/5.0-2016-q2-update/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m/libstdc++_nano.a(new_opv.o)
- .debug_frame   0x00000000000019ec      0x1e8 /usr/local/Cellar/arm-none-eabi-gcc/5.0-2016-q2-update/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m/libstdc++_nano.a(functexcept.o)
- .debug_frame   0x0000000000001bd4       0x30 /usr/local/Cellar/arm-none-eabi-gcc/5.0-2016-q2-update/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m/libstdc++_nano.a(new_handler.o)
- .debug_frame   0x0000000000001c04     0x1eb0 /usr/local/Cellar/arm-none-eabi-gcc/5.0-2016-q2-update/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m/libstdc++_nano.a(locale-inst.o)
- .debug_frame   0x0000000000003ab4     0x12b0 /usr/local/Cellar/arm-none-eabi-gcc/5.0-2016-q2-update/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m/libstdc++_nano.a(cxx11-locale-inst.o)
- .debug_frame   0x0000000000004d64     0x12d8 /usr/local/Cellar/arm-none-eabi-gcc/5.0-2016-q2-update/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m/libstdc++_nano.a(cxx11-wlocale-inst.o)
- .debug_frame   0x000000000000603c     0x1eb0 /usr/local/Cellar/arm-none-eabi-gcc/5.0-2016-q2-update/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m/libstdc++_nano.a(wlocale-inst.o)
- .debug_frame   0x0000000000007eec       0x20 /usr/local/Cellar/arm-none-eabi-gcc/5.0-2016-q2-update/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m/libgcc.a(_udivsi3.o)
- .debug_frame   0x0000000000007f0c       0x20 /usr/local/Cellar/arm-none-eabi-gcc/5.0-2016-q2-update/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m/libgcc.a(_divsi3.o)
- .debug_frame   0x0000000000007f2c       0x28 /usr/local/Cellar/arm-none-eabi-gcc/5.0-2016-q2-update/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m/libgcc.a(_fixunssfsi.o)
- .debug_frame   0x0000000000007f54       0x3c /usr/local/Cellar/arm-none-eabi-gcc/5.0-2016-q2-update/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m/libgcc.a(divsf3.o)
- .debug_frame   0x0000000000007f90       0x2c /usr/local/Cellar/arm-none-eabi-gcc/5.0-2016-q2-update/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m/libgcc.a(eqsf2.o)
- .debug_frame   0x0000000000007fbc       0x30 /usr/local/Cellar/arm-none-eabi-gcc/5.0-2016-q2-update/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m/libgcc.a(gesf2.o)
- .debug_frame   0x0000000000007fec       0x30 /usr/local/Cellar/arm-none-eabi-gcc/5.0-2016-q2-update/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m/libgcc.a(lesf2.o)
- .debug_frame   0x000000000000801c       0x38 /usr/local/Cellar/arm-none-eabi-gcc/5.0-2016-q2-update/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m/libgcc.a(mulsf3.o)
- .debug_frame   0x0000000000008054       0x30 /usr/local/Cellar/arm-none-eabi-gcc/5.0-2016-q2-update/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m/libgcc.a(subsf3.o)
- .debug_frame   0x0000000000008084       0x20 /usr/local/Cellar/arm-none-eabi-gcc/5.0-2016-q2-update/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m/libgcc.a(fixsfsi.o)
- .debug_frame   0x00000000000080a4       0x2c /usr/local/Cellar/arm-none-eabi-gcc/5.0-2016-q2-update/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m/libgcc.a(floatsisf.o)
- .debug_frame   0x00000000000080d0       0x2c /usr/local/Cellar/arm-none-eabi-gcc/5.0-2016-q2-update/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m/libgcc.a(floatunsisf.o)
- .debug_frame   0x00000000000080fc       0x28 /usr/local/Cellar/arm-none-eabi-gcc/5.0-2016-q2-update/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-abort.o)
- .debug_frame   0x0000000000008124       0x28 /usr/local/Cellar/arm-none-eabi-gcc/5.0-2016-q2-update/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-exit.o)
- .debug_frame   0x000000000000814c      0x140 /usr/local/Cellar/arm-none-eabi-gcc/5.0-2016-q2-update/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-findfp.o)
- .debug_frame   0x000000000000828c       0x2c /usr/local/Cellar/arm-none-eabi-gcc/5.0-2016-q2-update/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-init.o)
- .debug_frame   0x00000000000082b8       0x40 /usr/local/Cellar/arm-none-eabi-gcc/5.0-2016-q2-update/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-malloc.o)
- .debug_frame   0x00000000000082f8       0x20 /usr/local/Cellar/arm-none-eabi-gcc/5.0-2016-q2-update/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-memchr-stub.o)
- .debug_frame   0x0000000000008318       0x28 /usr/local/Cellar/arm-none-eabi-gcc/5.0-2016-q2-update/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-memcpy-stub.o)
- .debug_frame   0x0000000000008340       0x28 /usr/local/Cellar/arm-none-eabi-gcc/5.0-2016-q2-update/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-memmove.o)
- .debug_frame   0x0000000000008368       0x20 /usr/local/Cellar/arm-none-eabi-gcc/5.0-2016-q2-update/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-memset.o)
- .debug_frame   0x0000000000008388       0x2c /usr/local/Cellar/arm-none-eabi-gcc/5.0-2016-q2-update/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-nano-freer.o)
- .debug_frame   0x00000000000083b4       0x2c /usr/local/Cellar/arm-none-eabi-gcc/5.0-2016-q2-update/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-nano-mallocr.o)
- .debug_frame   0x00000000000083e0       0x2c /usr/local/Cellar/arm-none-eabi-gcc/5.0-2016-q2-update/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-sbrkr.o)
- .debug_frame   0x000000000000840c       0xe0 /usr/local/Cellar/arm-none-eabi-gcc/5.0-2016-q2-update/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-signal.o)
- .debug_frame   0x00000000000084ec       0x44 /usr/local/Cellar/arm-none-eabi-gcc/5.0-2016-q2-update/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-signalr.o)
- .debug_frame   0x0000000000008530       0x48 /usr/local/Cellar/arm-none-eabi-gcc/5.0-2016-q2-update/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-vsnprintf.o)
- .debug_frame   0x0000000000008578       0x44 /usr/local/Cellar/arm-none-eabi-gcc/5.0-2016-q2-update/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-vsprintf.o)
- .debug_frame   0x00000000000085bc       0x30 /usr/local/Cellar/arm-none-eabi-gcc/5.0-2016-q2-update/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-mlock.o)
- .debug_frame   0x00000000000085ec       0x74 /usr/local/Cellar/arm-none-eabi-gcc/5.0-2016-q2-update/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-nano-svfprintf.o)
- .debug_frame   0x0000000000008660       0x54 /usr/local/Cellar/arm-none-eabi-gcc/5.0-2016-q2-update/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-nano-vfprintf_i.o)
- .debug_frame   0x00000000000086b4       0x30 /usr/local/Cellar/arm-none-eabi-gcc/5.0-2016-q2-update/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-nano-reallocr.o)
- .debug_frame   0x00000000000086e4       0x20 /usr/local/Cellar/arm-none-eabi-gcc/5.0-2016-q2-update/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-nano-msizer.o)
- .debug_frame   0x0000000000008704       0x20 /usr/local/Cellar/arm-none-eabi-gcc/5.0-2016-q2-update/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m/libnosys.a(getpid.o)
- .debug_frame   0x0000000000008724       0x20 /usr/local/Cellar/arm-none-eabi-gcc/5.0-2016-q2-update/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m/libnosys.a(kill.o)
+ .debug_frame   0x00000000000000cc      0x130 source/CMakeFiles/recordsaveplayaudiodata.dir/Users/Wendelin/NetbeansProjects/MicroBit/RecordSavePlayAudioData/source/Pin.cpp.o
+ .debug_frame   0x00000000000001fc       0x30 source/CMakeFiles/recordsaveplayaudiodata.dir/Users/Wendelin/NetbeansProjects/MicroBit/RecordSavePlayAudioData/source/main.cpp.o
+ .debug_frame   0x000000000000022c      0x214 source/CMakeFiles/recordsaveplayaudiodata.dir/Users/Wendelin/NetbeansProjects/MicroBit/RecordSavePlayAudioData/source/Audio.cpp.o
+ .debug_frame   0x0000000000000440       0xbc source/CMakeFiles/recordsaveplayaudiodata.dir/Users/Wendelin/NetbeansProjects/MicroBit/RecordSavePlayAudioData/source/Display.cpp.o
+ .debug_frame   0x00000000000004fc       0xb0 ym/microbit-dal/source/microbit-dal.a(MicroBitHeapAllocator.cpp.o)
+ .debug_frame   0x00000000000005ac       0xf0 ym/microbit-dal/source/microbit-dal.a(MicroBitSystemTimer.cpp.o)
+ .debug_frame   0x000000000000069c      0x144 ym/microbit-dal/source/microbit-dal.a(DynamicPwm.cpp.o)
+ .debug_frame   0x00000000000007e0      0x138 ym/microbit-dal/source/microbit-dal.a(MicroBitDevice.cpp.o)
+ .debug_frame   0x0000000000000918       0x6c ym/microbit-dal/source/microbit-dal.a(MicroBitFont.cpp.o)
+ .debug_frame   0x0000000000000984       0xe8 ym/mbed-classic/existing/mbed-classic.a(RawSerial.cpp.o)
+ .debug_frame   0x0000000000000a6c      0x138 ym/mbed-classic/existing/mbed-classic.a(SerialBase.cpp.o)
+ .debug_frame   0x0000000000000ba4       0x8c ym/mbed-classic/existing/mbed-classic.a(Ticker.cpp.o)
+ .debug_frame   0x0000000000000c30      0x100 ym/mbed-classic/existing/mbed-classic.a(Timer.cpp.o)
+ .debug_frame   0x0000000000000d30       0xb8 ym/mbed-classic/existing/mbed-classic.a(TimerEvent.cpp.o)
+ .debug_frame   0x0000000000000de8      0x320 ym/mbed-classic/existing/mbed-classic.a(retarget.cpp.o)
+ .debug_frame   0x0000000000001108       0x28 ym/mbed-classic/existing/mbed-classic.a(board.c.o)
+ .debug_frame   0x0000000000001130       0x2c ym/mbed-classic/existing/mbed-classic.a(error.c.o)
+ .debug_frame   0x000000000000115c       0xc8 ym/mbed-classic/existing/mbed-classic.a(gpio.c.o)
+ .debug_frame   0x0000000000001224       0xa4 ym/mbed-classic/existing/mbed-classic.a(ticker_api.c.o)
+ .debug_frame   0x00000000000012c8       0x38 ym/mbed-classic/existing/mbed-classic.a(us_ticker_api.c.o)
+ .debug_frame   0x0000000000001300       0x5c ym/mbed-classic/existing/mbed-classic.a(wait_api.c.o)
+ .debug_frame   0x000000000000135c       0x74 ym/mbed-classic/existing/mbed-classic.a(analogin_api.c.o)
+ .debug_frame   0x00000000000013d0       0x48 ym/mbed-classic/existing/mbed-classic.a(gpio_api.c.o)
+ .debug_frame   0x0000000000001418       0x38 ym/mbed-classic/existing/mbed-classic.a(pinmap.c.o)
+ .debug_frame   0x0000000000001450       0x94 ym/mbed-classic/existing/mbed-classic.a(port_api.c.o)
+ .debug_frame   0x00000000000014e4      0x188 ym/mbed-classic/existing/mbed-classic.a(pwmout_api.c.o)
+ .debug_frame   0x000000000000166c      0x158 ym/mbed-classic/existing/mbed-classic.a(serial_api.c.o)
+ .debug_frame   0x00000000000017c4       0xe4 ym/mbed-classic/existing/mbed-classic.a(us_ticker.c.o)
+ .debug_frame   0x00000000000018a8       0x90 ym/mbed-classic/existing/mbed-classic.a(pinmap_common.c.o)
+ .debug_frame   0x0000000000001938       0x38 ym/mbed-classic/existing/mbed-classic.a(system_nrf51.c.o)
+ .debug_frame   0x0000000000001970       0x28 /usr/local/Cellar/arm-none-eabi-gcc/5.0-2016-q2-update/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m/libstdc++_nano.a(del_op.o)
+ .debug_frame   0x0000000000001998       0x28 /usr/local/Cellar/arm-none-eabi-gcc/5.0-2016-q2-update/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m/libstdc++_nano.a(del_opv.o)
+ .debug_frame   0x00000000000019c0       0x28 /usr/local/Cellar/arm-none-eabi-gcc/5.0-2016-q2-update/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m/libstdc++_nano.a(new_op.o)
+ .debug_frame   0x00000000000019e8       0x28 /usr/local/Cellar/arm-none-eabi-gcc/5.0-2016-q2-update/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m/libstdc++_nano.a(new_opv.o)
+ .debug_frame   0x0000000000001a10      0x1e8 /usr/local/Cellar/arm-none-eabi-gcc/5.0-2016-q2-update/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m/libstdc++_nano.a(functexcept.o)
+ .debug_frame   0x0000000000001bf8       0x30 /usr/local/Cellar/arm-none-eabi-gcc/5.0-2016-q2-update/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m/libstdc++_nano.a(new_handler.o)
+ .debug_frame   0x0000000000001c28     0x1eb0 /usr/local/Cellar/arm-none-eabi-gcc/5.0-2016-q2-update/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m/libstdc++_nano.a(locale-inst.o)
+ .debug_frame   0x0000000000003ad8     0x12b0 /usr/local/Cellar/arm-none-eabi-gcc/5.0-2016-q2-update/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m/libstdc++_nano.a(cxx11-locale-inst.o)
+ .debug_frame   0x0000000000004d88     0x12d8 /usr/local/Cellar/arm-none-eabi-gcc/5.0-2016-q2-update/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m/libstdc++_nano.a(cxx11-wlocale-inst.o)
+ .debug_frame   0x0000000000006060     0x1eb0 /usr/local/Cellar/arm-none-eabi-gcc/5.0-2016-q2-update/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m/libstdc++_nano.a(wlocale-inst.o)
+ .debug_frame   0x0000000000007f10       0x20 /usr/local/Cellar/arm-none-eabi-gcc/5.0-2016-q2-update/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m/libgcc.a(_udivsi3.o)
+ .debug_frame   0x0000000000007f30       0x20 /usr/local/Cellar/arm-none-eabi-gcc/5.0-2016-q2-update/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m/libgcc.a(_divsi3.o)
+ .debug_frame   0x0000000000007f50       0x28 /usr/local/Cellar/arm-none-eabi-gcc/5.0-2016-q2-update/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m/libgcc.a(_fixunssfsi.o)
+ .debug_frame   0x0000000000007f78       0x3c /usr/local/Cellar/arm-none-eabi-gcc/5.0-2016-q2-update/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m/libgcc.a(divsf3.o)
+ .debug_frame   0x0000000000007fb4       0x2c /usr/local/Cellar/arm-none-eabi-gcc/5.0-2016-q2-update/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m/libgcc.a(eqsf2.o)
+ .debug_frame   0x0000000000007fe0       0x30 /usr/local/Cellar/arm-none-eabi-gcc/5.0-2016-q2-update/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m/libgcc.a(gesf2.o)
+ .debug_frame   0x0000000000008010       0x30 /usr/local/Cellar/arm-none-eabi-gcc/5.0-2016-q2-update/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m/libgcc.a(lesf2.o)
+ .debug_frame   0x0000000000008040       0x38 /usr/local/Cellar/arm-none-eabi-gcc/5.0-2016-q2-update/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m/libgcc.a(mulsf3.o)
+ .debug_frame   0x0000000000008078       0x30 /usr/local/Cellar/arm-none-eabi-gcc/5.0-2016-q2-update/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m/libgcc.a(subsf3.o)
+ .debug_frame   0x00000000000080a8       0x20 /usr/local/Cellar/arm-none-eabi-gcc/5.0-2016-q2-update/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m/libgcc.a(fixsfsi.o)
+ .debug_frame   0x00000000000080c8       0x2c /usr/local/Cellar/arm-none-eabi-gcc/5.0-2016-q2-update/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m/libgcc.a(floatsisf.o)
+ .debug_frame   0x00000000000080f4       0x2c /usr/local/Cellar/arm-none-eabi-gcc/5.0-2016-q2-update/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m/libgcc.a(floatunsisf.o)
+ .debug_frame   0x0000000000008120       0x28 /usr/local/Cellar/arm-none-eabi-gcc/5.0-2016-q2-update/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-abort.o)
+ .debug_frame   0x0000000000008148       0x28 /usr/local/Cellar/arm-none-eabi-gcc/5.0-2016-q2-update/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-exit.o)
+ .debug_frame   0x0000000000008170      0x140 /usr/local/Cellar/arm-none-eabi-gcc/5.0-2016-q2-update/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-findfp.o)
+ .debug_frame   0x00000000000082b0       0x2c /usr/local/Cellar/arm-none-eabi-gcc/5.0-2016-q2-update/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-init.o)
+ .debug_frame   0x00000000000082dc       0x40 /usr/local/Cellar/arm-none-eabi-gcc/5.0-2016-q2-update/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-malloc.o)
+ .debug_frame   0x000000000000831c       0x20 /usr/local/Cellar/arm-none-eabi-gcc/5.0-2016-q2-update/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-memchr-stub.o)
+ .debug_frame   0x000000000000833c       0x28 /usr/local/Cellar/arm-none-eabi-gcc/5.0-2016-q2-update/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-memcpy-stub.o)
+ .debug_frame   0x0000000000008364       0x28 /usr/local/Cellar/arm-none-eabi-gcc/5.0-2016-q2-update/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-memmove.o)
+ .debug_frame   0x000000000000838c       0x20 /usr/local/Cellar/arm-none-eabi-gcc/5.0-2016-q2-update/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-memset.o)
+ .debug_frame   0x00000000000083ac       0x2c /usr/local/Cellar/arm-none-eabi-gcc/5.0-2016-q2-update/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-nano-freer.o)
+ .debug_frame   0x00000000000083d8       0x2c /usr/local/Cellar/arm-none-eabi-gcc/5.0-2016-q2-update/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-nano-mallocr.o)
+ .debug_frame   0x0000000000008404       0x2c /usr/local/Cellar/arm-none-eabi-gcc/5.0-2016-q2-update/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-sbrkr.o)
+ .debug_frame   0x0000000000008430       0xe0 /usr/local/Cellar/arm-none-eabi-gcc/5.0-2016-q2-update/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-signal.o)
+ .debug_frame   0x0000000000008510       0x44 /usr/local/Cellar/arm-none-eabi-gcc/5.0-2016-q2-update/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-signalr.o)
+ .debug_frame   0x0000000000008554       0x48 /usr/local/Cellar/arm-none-eabi-gcc/5.0-2016-q2-update/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-vsnprintf.o)
+ .debug_frame   0x000000000000859c       0x44 /usr/local/Cellar/arm-none-eabi-gcc/5.0-2016-q2-update/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-vsprintf.o)
+ .debug_frame   0x00000000000085e0       0x30 /usr/local/Cellar/arm-none-eabi-gcc/5.0-2016-q2-update/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-mlock.o)
+ .debug_frame   0x0000000000008610       0x74 /usr/local/Cellar/arm-none-eabi-gcc/5.0-2016-q2-update/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-nano-svfprintf.o)
+ .debug_frame   0x0000000000008684       0x54 /usr/local/Cellar/arm-none-eabi-gcc/5.0-2016-q2-update/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-nano-vfprintf_i.o)
+ .debug_frame   0x00000000000086d8       0x30 /usr/local/Cellar/arm-none-eabi-gcc/5.0-2016-q2-update/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-nano-reallocr.o)
+ .debug_frame   0x0000000000008708       0x20 /usr/local/Cellar/arm-none-eabi-gcc/5.0-2016-q2-update/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-nano-msizer.o)
+ .debug_frame   0x0000000000008728       0x20 /usr/local/Cellar/arm-none-eabi-gcc/5.0-2016-q2-update/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m/libnosys.a(getpid.o)
+ .debug_frame   0x0000000000008748       0x20 /usr/local/Cellar/arm-none-eabi-gcc/5.0-2016-q2-update/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m/libnosys.a(kill.o)
 
 .stab           0x0000000000000000       0x3c
  .stab          0x0000000000000000       0x24 /usr/local/Cellar/arm-none-eabi-gcc/5.0-2016-q2-update/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m/libnosys.a(getpid.o)
