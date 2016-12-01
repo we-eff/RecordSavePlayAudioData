@@ -37,14 +37,14 @@ DEALINGS IN THE SOFTWARE.
 #include "Ticker.h"
 #include <vector>
 
-#define DEBUG
+#undef DEBUG
 
 #ifdef DEBUG
 #include "RawSerial.h"
 #define MICROBIT_SERIAL_DEFAULT_BAUD_RATE   115200
 #endif
 
-#define DEFAULT_SAMPLING_FQ 2 //40000000 // 40 kHz
+#define DEFAULT_SAMPLING_FQ 32000 //40000 // 40 kHz
 #define US_PER_S 1000000 // 10^6
 
 typedef std::vector<uint8_t> TCont; // ADC has a resolution of 12 bits and a tolerance of about 2 bits --> 8 bits sufficient (and memory-efficient!)

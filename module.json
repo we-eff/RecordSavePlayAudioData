@@ -12,5 +12,10 @@
     "./yotta_modules/microbit-dal/inc/core",
     "./yotta_modules/microbit-dal/inc/drivers",
     "./yotta_modules/microbit-dal/inc/platform"
-  ]
+  ],
+  "microbit-dal": {
+    "bluetooth": {
+      "enabled": 0
+    }
+  }
 }

@@ -1,0 +1,25 @@
+{
+  "name": "microbit-dal-recordsaveplayaudiodata",
+  "version": "0.0.0",
+  "license": "MIT",
+  "description": "The runtime library for the BBC micro:bit, developed by Lancaster University, edited by We Eff to fit needs for the project RecordSavePlayAudioData.",
+  "keywords": [
+    "mbed-classic",
+    "microbit",
+    "runtime",
+    "library",
+    "lancaster",
+    "University"
+  ],
+  "author": "We Eff <we.do.eff@gmail.com>",
+  "homepage": "https://github.com/we-eff/microbit-dal-recordsaveplayaudiodata/",
+  "dependencies": {
+    "mbed-classic": "lancaster-university/mbed-classic#microbit_hfclk+mb5",
+    "nrf51-sdk": "lancaster-university/nrf51-sdk#v2.2.0+mb4"
+  },
+  "extraIncludes": [
+    "inc/core",
+    "inc/drivers/DynamicPWM.h",
+    "inc/platform"
+  ]
+}

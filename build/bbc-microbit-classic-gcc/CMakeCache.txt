@@ -187,12 +187,6 @@ CMAKE_TOOLCHAIN_FILE:FILEPATH=/Users/Wendelin/NetbeansProjects/MicroBit/RecordSa
 CMAKE_VERBOSE_MAKEFILE:BOOL=FALSE
 
 //Value Computed by CMake
-RecordSavePlayAudioData_BINARY_DIR:STATIC=/Users/Wendelin/NetbeansProjects/MicroBit/RecordSavePlayAudioData/build/bbc-microbit-classic-gcc
-
-//Value Computed by CMake
-RecordSavePlayAudioData_SOURCE_DIR:STATIC=/Users/Wendelin/NetbeansProjects/MicroBit/RecordSavePlayAudioData/build/bbc-microbit-classic-gcc
-
-//Value Computed by CMake
 ble-nrf51822_BINARY_DIR:STATIC=/Users/Wendelin/NetbeansProjects/MicroBit/RecordSavePlayAudioData/build/bbc-microbit-classic-gcc/ym/ble-nrf51822
 
 //Dependencies for the target
@@ -227,21 +221,6 @@ microbit-dal_LIB_DEPENDS:STATIC=general;mbed-classic;general;ble;general;ble-nrf
 
 //Value Computed by CMake
 microbit-dal_SOURCE_DIR:STATIC=/Users/Wendelin/NetbeansProjects/MicroBit/RecordSavePlayAudioData/build/bbc-microbit-classic-gcc/ym/microbit-dal
-
-//Value Computed by CMake
-microbit-samples_BINARY_DIR:STATIC=/Users/Wendelin/NetbeansProjects/MicroBit/RecordSavePlayAudioData/build/bbc-microbit-classic-gcc
-
-//Value Computed by CMake
-microbit-samples_SOURCE_DIR:STATIC=/Users/Wendelin/NetbeansProjects/MicroBit/RecordSavePlayAudioData/build/bbc-microbit-classic-gcc
-
-//Value Computed by CMake
-microbit_BINARY_DIR:STATIC=/Users/Wendelin/NetbeansProjects/MicroBit/RecordSavePlayAudioData/build/bbc-microbit-classic-gcc/ym/microbit
-
-//Dependencies for the target
-microbit_LIB_DEPENDS:STATIC=general;microbit-dal;
-
-//Value Computed by CMake
-microbit_SOURCE_DIR:STATIC=/Users/Wendelin/NetbeansProjects/MicroBit/RecordSavePlayAudioData/build/bbc-microbit-classic-gcc/ym/microbit
 
 //Value Computed by CMake
 nrf51-sdk_BINARY_DIR:STATIC=/Users/Wendelin/NetbeansProjects/MicroBit/RecordSavePlayAudioData/build/bbc-microbit-classic-gcc/ym/nrf51-sdk

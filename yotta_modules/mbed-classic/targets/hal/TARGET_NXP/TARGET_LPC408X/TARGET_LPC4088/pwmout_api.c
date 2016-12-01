@@ -96,7 +96,7 @@ void pwmout_init(pwmout_t* obj, PinName pin) {
     pwm_clock_mhz = PeripheralClock / 1000000;
     
     // default to 20ms: standard for servos, and fine for e.g. brightness control
-    pwmout_period_ms(obj, 20);
+    pwmout_period_ms(obj, 5);
     pwmout_write    (obj, 0);
     
     // Wire pinout

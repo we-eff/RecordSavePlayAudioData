@@ -2209,6 +2209,197 @@
               <in>RefCounted.cpp</in>
             </df>
           </df>
+          <df name="yotta_modules">
+            <df name="ble">
+              <df name="source">
+                <df name="services">
+                  <in>UARTService.cpp</in>
+                  <in>URIBeaconConfigService.cpp</in>
+                </df>
+                <in>BLE.cpp</in>
+                <in>DiscoveredCharacteristic.cpp</in>
+                <in>GapScanningParams.cpp</in>
+              </df>
+            </df>
+            <df name="ble-nrf51822">
+              <df name="source">
+                <df name="btle">
+                  <df name="custom">
+                    <in>custom_helper.cpp</in>
+                  </df>
+                  <in>btle.cpp</in>
+                  <in>btle_advertising.cpp</in>
+                  <in>btle_discovery.cpp</in>
+                  <in>btle_gap.cpp</in>
+                  <in>btle_security.cpp</in>
+                </df>
+                <in>nRF5xCharacteristicDescriptorDiscoverer.cpp</in>
+                <in>nRF5xDiscoveredCharacteristic.cpp</in>
+                <in>nRF5xGap.cpp</in>
+                <in>nRF5xGattClient.cpp</in>
+                <in>nRF5xGattServer.cpp</in>
+                <in>nRF5xServiceDiscovery.cpp</in>
+                <in>nRF5xn.cpp</in>
+              </df>
+            </df>
+            <df name="mbed-classic">
+              <df name="common">
+                <in>BusIn.cpp</in>
+                <in>BusInOut.cpp</in>
+                <in>BusOut.cpp</in>
+                <in>CAN.cpp</in>
+                <in>CallChain.cpp</in>
+                <in>Ethernet.cpp</in>
+                <in>FileBase.cpp</in>
+                <in>FileLike.cpp</in>
+                <in>FilePath.cpp</in>
+                <in>FileSystemLike.cpp</in>
+                <in>I2C.cpp</in>
+                <in>I2CSlave.cpp</in>
+                <in>InterruptIn.cpp</in>
+                <in>InterruptManager.cpp</in>
+                <in>LocalFileSystem.cpp</in>
+                <in>RawSerial.cpp</in>
+                <in>SPI.cpp</in>
+                <in>SPISlave.cpp</in>
+                <in>Serial.cpp</in>
+                <in>SerialBase.cpp</in>
+                <in>Stream.cpp</in>
+                <in>Ticker.cpp</in>
+                <in>Timeout.cpp</in>
+                <in>Timer.cpp</in>
+                <in>TimerEvent.cpp</in>
+                <in>assert.c</in>
+                <in>board.c</in>
+                <in>error.c</in>
+                <in>gpio.c</in>
+                <in>lp_ticker_api.c</in>
+                <in>mbed_interface.c</in>
+                <in>pinmap_common.c</in>
+                <in>retarget.cpp</in>
+                <in>rtc_time.c</in>
+                <in>semihost_api.c</in>
+                <in>ticker_api.c</in>
+                <in>us_ticker_api.c</in>
+                <in>wait_api.c</in>
+              </df>
+              <df name="targets">
+                <df name="cmsis">
+                  <df name="TARGET_NORDIC">
+                    <df name="TARGET_MCU_NRF51822">
+                      <in>cmsis_nvic.c</in>
+                      <in>system_nrf51.c</in>
+                    </df>
+                  </df>
+                </df>
+                <df name="hal">
+                  <df name="TARGET_NORDIC">
+                    <df name="TARGET_MCU_NRF51822">
+                      <in>analogin_api.c</in>
+                      <in>gpio_api.c</in>
+                      <in>gpio_irq_api.c</in>
+                      <in>i2c_api.c</in>
+                      <in>pinmap.c</in>
+                      <in>port_api.c</in>
+                      <in>pwmout_api.c</in>
+                      <in>serial_api.c</in>
+                      <in>sleep.c</in>
+                      <in>spi_api.c</in>
+                      <in>twi_master.c</in>
+                      <in>us_ticker.c</in>
+                    </df>
+                  </df>
+                </df>
+              </df>
+            </df>
+            <df name="nrf51-sdk">
+              <df name="source">
+                <df name="nordic_sdk">
+                  <df name="components">
+                    <df name="ble">
+                      <df name="ble_radio_notification">
+                        <in>ble_radio_notification.c</in>
+                      </df>
+                      <df name="ble_services">
+                        <df name="ble_dfu">
+                          <in>ble_dfu.c</in>
+                        </df>
+                      </df>
+                      <df name="common">
+                        <in>ble_advdata.c</in>
+                        <in>ble_conn_params.cpp</in>
+                        <in>ble_conn_state.c</in>
+                        <in>ble_srv_common.c</in>
+                      </df>
+                      <df name="device_manager">
+                        <in>device_manager_peripheral.c</in>
+                      </df>
+                      <df name="peer_manager">
+                        <in>id_manager.c</in>
+                        <in>peer_data.c</in>
+                        <in>peer_data_storage.c</in>
+                        <in>peer_database.c</in>
+                        <in>peer_id.c</in>
+                        <in>pm_buffer.c</in>
+                        <in>pm_mutex.c</in>
+                      </df>
+                    </df>
+                    <df name="drivers_nrf">
+                      <df name="ble_flash">
+                        <in>ble_flash.c</in>
+                      </df>
+                      <df name="delay">
+                        <in>nrf_delay.c</in>
+                      </df>
+                      <df name="hal">
+                        <in>nrf_ecb.c</in>
+                        <in>nrf_nvmc.c</in>
+                      </df>
+                      <df name="pstorage">
+                        <in>pstorage.c</in>
+                      </df>
+                    </df>
+                    <df name="libraries">
+                      <df name="bootloader_dfu">
+                        <in>bootloader_util.c</in>
+                        <in>dfu_app_handler.c</in>
+                        <in>dfu_init_template.c</in>
+                      </df>
+                      <df name="crc16">
+                        <in>crc16.c</in>
+                      </df>
+                      <df name="fds">
+                        <in>fds.c</in>
+                      </df>
+                      <df name="fstorage">
+                        <in>fstorage.c</in>
+                      </df>
+                      <df name="hci">
+                        <in>hci_mem_pool.c</in>
+                      </df>
+                      <df name="scheduler">
+                        <in>app_scheduler.c</in>
+                      </df>
+                      <df name="util">
+                        <in>app_error.c</in>
+                        <in>app_util_platform.c</in>
+                        <in>nrf_assert.c</in>
+                        <in>sdk_mapped_flags.c</in>
+                      </df>
+                    </df>
+                    <df name="softdevice">
+                      <df name="common">
+                        <df name="softdevice_handler">
+                          <in>softdevice_handler.c</in>
+                          <in>softdevice_handler_appsh.c</in>
+                        </df>
+                      </df>
+                    </df>
+                  </df>
+                </df>
+              </df>
+            </df>
+          </df>
         </df>
         <df name="nrf51-sdk">
           <df name="source">
@@ -2344,13 +2535,11 @@
             flavor2="8">
         <ccTool flags="0">
           <incDir>
-            <pElem>yotta_modules/mbed-classic/api</pElem>
             <pElem>yotta_modules/microbit-dal/inc/core</pElem>
+            <pElem>yotta_modules/mbed-classic/api</pElem>
             <pElem>Headers</pElem>
             <pElem>source</pElem>
-            <pElem>yotta_modules/mbed-classic/targets/cmsis/TARGET_NORDIC/TARGET_MCU_NRF51822</pElem>
             <pElem>yotta_modules/mbed-classic/targets/hal/TARGET_NORDIC/TARGET_MCU_NRF51822/TARGET_NRF51_MICROBIT</pElem>
-            <pElem>yotta_modules/mbed-classic/targets/hal/TARGET_NORDIC/TARGET_MCU_NRF51822</pElem>
             <pElem>/usr/local/Cellar/arm-none-eabi-gcc/5.0-2016-q2-update/arm-none-eabi/include/c++/5.4.1/arm-none-eabi/armv6-m/bits</pElem>
             <pElem>yotta_modules/mbed-classic/hal</pElem>
             <pElem>.</pElem>
@@ -2799,7 +2988,7 @@
             <pElem>yotta_modules/mbed-classic/targets/hal/TARGET_NORDIC/TARGET_MCU_NRF51822/TARGET_NRF51_MICROBIT</pElem>
             <pElem>/usr/local/Cellar/arm-none-eabi-gcc/5.0-2016-q2-update/arm-none-eabi/include/c++/5.4.1/arm-none-eabi/armv6-m/bits</pElem>
             <pElem>yotta_modules/mbed-classic/hal</pElem>
-            <pElem>build/bbc-microbit-classic-gcc</pElem>
+            <pElem>yotta_modules/mbed-classic/build/bbc-microbit-classic-gcc</pElem>
           </incDir>
         </ccTool>
       </item>
@@ -2815,7 +3004,7 @@
             <pElem>yotta_modules/mbed-classic/targets/hal/TARGET_NORDIC/TARGET_MCU_NRF51822/TARGET_NRF51_MICROBIT</pElem>
             <pElem>/usr/local/Cellar/arm-none-eabi-gcc/5.0-2016-q2-update/arm-none-eabi/include/c++/5.4.1/arm-none-eabi/armv6-m/bits</pElem>
             <pElem>yotta_modules/mbed-classic/hal</pElem>
-            <pElem>build/bbc-microbit-classic-gcc</pElem>
+            <pElem>yotta_modules/mbed-classic/build/bbc-microbit-classic-gcc</pElem>
           </incDir>
         </ccTool>
       </item>
@@ -2831,7 +3020,7 @@
             <pElem>yotta_modules/mbed-classic/targets/hal/TARGET_NORDIC/TARGET_MCU_NRF51822/TARGET_NRF51_MICROBIT</pElem>
             <pElem>/usr/local/Cellar/arm-none-eabi-gcc/5.0-2016-q2-update/arm-none-eabi/include/c++/5.4.1/arm-none-eabi/armv6-m/bits</pElem>
             <pElem>yotta_modules/mbed-classic/hal</pElem>
-            <pElem>build/bbc-microbit-classic-gcc</pElem>
+            <pElem>yotta_modules/mbed-classic/build/bbc-microbit-classic-gcc</pElem>
           </incDir>
         </ccTool>
       </item>
@@ -2842,7 +3031,7 @@
         <ccTool flags="0">
           <incDir>
             <pElem>/usr/local/Cellar/arm-none-eabi-gcc/5.0-2016-q2-update/arm-none-eabi/include/c++/5.4.1/arm-none-eabi/armv6-m/bits</pElem>
-            <pElem>build/bbc-microbit-classic-gcc</pElem>
+            <pElem>yotta_modules/mbed-classic/build/bbc-microbit-classic-gcc</pElem>
           </incDir>
         </ccTool>
       </item>
@@ -2854,6 +3043,7 @@
           <incDir>
             <pElem>yotta_modules/mbed-classic/common</pElem>
             <pElem>yotta_modules/mbed-classic/api</pElem>
+            <pElem>yotta_modules/mbed-classic/build/bbc-microbit-classic-gcc</pElem>
           </incDir>
         </ccTool>
       </item>
@@ -2864,7 +3054,7 @@
         <ccTool flags="0">
           <incDir>
             <pElem>/usr/local/Cellar/arm-none-eabi-gcc/5.0-2016-q2-update/arm-none-eabi/include/c++/5.4.1/arm-none-eabi/armv6-m/bits</pElem>
-            <pElem>build/bbc-microbit-classic-gcc</pElem>
+            <pElem>yotta_modules/mbed-classic/build/bbc-microbit-classic-gcc</pElem>
           </incDir>
         </ccTool>
       </item>
@@ -2878,7 +3068,7 @@
             <pElem>yotta_modules/mbed-classic/targets/hal/TARGET_NORDIC/TARGET_MCU_NRF51822/TARGET_NRF51_MICROBIT</pElem>
             <pElem>/usr/local/Cellar/arm-none-eabi-gcc/5.0-2016-q2-update/arm-none-eabi/include/c++/5.4.1/arm-none-eabi/armv6-m/bits</pElem>
             <pElem>yotta_modules/mbed-classic/api</pElem>
-            <pElem>build/bbc-microbit-classic-gcc</pElem>
+            <pElem>yotta_modules/mbed-classic/build/bbc-microbit-classic-gcc</pElem>
           </incDir>
         </ccTool>
       </item>
@@ -2891,7 +3081,7 @@
             <pElem>yotta_modules/mbed-classic/api</pElem>
             <pElem>yotta_modules/mbed-classic/common</pElem>
             <pElem>/usr/local/Cellar/arm-none-eabi-gcc/5.0-2016-q2-update/arm-none-eabi/include/c++/5.4.1/arm-none-eabi/armv6-m/bits</pElem>
-            <pElem>build/bbc-microbit-classic-gcc</pElem>
+            <pElem>yotta_modules/mbed-classic/build/bbc-microbit-classic-gcc</pElem>
           </incDir>
         </ccTool>
       </item>
@@ -2904,7 +3094,7 @@
             <pElem>yotta_modules/mbed-classic/common</pElem>
             <pElem>/usr/local/Cellar/arm-none-eabi-gcc/5.0-2016-q2-update/arm-none-eabi/include/c++/5.4.1/arm-none-eabi/armv6-m/bits</pElem>
             <pElem>yotta_modules/mbed-classic/api</pElem>
-            <pElem>build/bbc-microbit-classic-gcc</pElem>
+            <pElem>yotta_modules/mbed-classic/build/bbc-microbit-classic-gcc</pElem>
           </incDir>
         </ccTool>
       </item>
@@ -2917,7 +3107,7 @@
             <pElem>yotta_modules/mbed-classic/api</pElem>
             <pElem>yotta_modules/mbed-classic/common</pElem>
             <pElem>/usr/local/Cellar/arm-none-eabi-gcc/5.0-2016-q2-update/arm-none-eabi/include/c++/5.4.1/arm-none-eabi/armv6-m/bits</pElem>
-            <pElem>build/bbc-microbit-classic-gcc</pElem>
+            <pElem>yotta_modules/mbed-classic/build/bbc-microbit-classic-gcc</pElem>
           </incDir>
         </ccTool>
       </item>
@@ -2934,7 +3124,7 @@
             <pElem>/usr/local/Cellar/arm-none-eabi-gcc/5.0-2016-q2-update/arm-none-eabi/include/c++/5.4.1/arm-none-eabi/armv6-m/bits</pElem>
             <pElem>yotta_modules/mbed-classic/hal</pElem>
             <pElem>yotta_modules/mbed-classic/api</pElem>
-            <pElem>build/bbc-microbit-classic-gcc</pElem>
+            <pElem>yotta_modules/mbed-classic/build/bbc-microbit-classic-gcc</pElem>
           </incDir>
         </ccTool>
       </item>
@@ -2961,7 +3151,7 @@
             <pElem>yotta_modules/mbed-classic/targets/hal/TARGET_NORDIC/TARGET_MCU_NRF51822/TARGET_NRF51_MICROBIT</pElem>
             <pElem>/usr/local/Cellar/arm-none-eabi-gcc/5.0-2016-q2-update/arm-none-eabi/include/c++/5.4.1/arm-none-eabi/armv6-m/bits</pElem>
             <pElem>yotta_modules/mbed-classic/hal</pElem>
-            <pElem>build/bbc-microbit-classic-gcc</pElem>
+            <pElem>yotta_modules/mbed-classic/build/bbc-microbit-classic-gcc</pElem>
           </incDir>
         </ccTool>
       </item>
@@ -2975,6 +3165,7 @@
             <pElem>yotta_modules/mbed-classic/api</pElem>
             <pElem>yotta_modules/mbed-classic/targets/cmsis</pElem>
             <pElem>yotta_modules/mbed-classic/targets/cmsis/TARGET_NORDIC/TARGET_MCU_NRF51822</pElem>
+            <pElem>yotta_modules/mbed-classic/build/bbc-microbit-classic-gcc</pElem>
           </incDir>
         </ccTool>
       </item>
@@ -2985,7 +3176,7 @@
         <ccTool flags="0">
           <incDir>
             <pElem>/usr/local/Cellar/arm-none-eabi-gcc/5.0-2016-q2-update/arm-none-eabi/include/c++/5.4.1/arm-none-eabi/armv6-m/bits</pElem>
-            <pElem>build/bbc-microbit-classic-gcc</pElem>
+            <pElem>yotta_modules/mbed-classic/build/bbc-microbit-classic-gcc</pElem>
           </incDir>
         </ccTool>
       </item>
@@ -3002,7 +3193,7 @@
             <pElem>yotta_modules/mbed-classic/targets/hal/TARGET_NORDIC/TARGET_MCU_NRF51822</pElem>
             <pElem>/usr/local/Cellar/arm-none-eabi-gcc/5.0-2016-q2-update/arm-none-eabi/include/c++/5.4.1/arm-none-eabi/armv6-m/bits</pElem>
             <pElem>yotta_modules/mbed-classic/hal</pElem>
-            <pElem>build/bbc-microbit-classic-gcc</pElem>
+            <pElem>yotta_modules/mbed-classic/build/bbc-microbit-classic-gcc</pElem>
           </incDir>
         </ccTool>
       </item>
@@ -3019,7 +3210,7 @@
             <pElem>yotta_modules/mbed-classic/targets/hal/TARGET_NORDIC/TARGET_MCU_NRF51822</pElem>
             <pElem>/usr/local/Cellar/arm-none-eabi-gcc/5.0-2016-q2-update/arm-none-eabi/include/c++/5.4.1/arm-none-eabi/armv6-m/bits</pElem>
             <pElem>yotta_modules/mbed-classic/hal</pElem>
-            <pElem>build/bbc-microbit-classic-gcc</pElem>
+            <pElem>yotta_modules/mbed-classic/build/bbc-microbit-classic-gcc</pElem>
           </incDir>
         </ccTool>
       </item>
@@ -3036,7 +3227,7 @@
             <pElem>/usr/local/Cellar/arm-none-eabi-gcc/5.0-2016-q2-update/arm-none-eabi/include/c++/5.4.1/arm-none-eabi/armv6-m/bits</pElem>
             <pElem>yotta_modules/mbed-classic/hal</pElem>
             <pElem>yotta_modules/mbed-classic/api</pElem>
-            <pElem>build/bbc-microbit-classic-gcc</pElem>
+            <pElem>yotta_modules/mbed-classic/build/bbc-microbit-classic-gcc</pElem>
           </incDir>
         </ccTool>
       </item>
@@ -3053,7 +3244,7 @@
             <pElem>yotta_modules/mbed-classic/targets/hal/TARGET_NORDIC/TARGET_MCU_NRF51822</pElem>
             <pElem>/usr/local/Cellar/arm-none-eabi-gcc/5.0-2016-q2-update/arm-none-eabi/include/c++/5.4.1/arm-none-eabi/armv6-m/bits</pElem>
             <pElem>yotta_modules/mbed-classic/hal</pElem>
-            <pElem>build/bbc-microbit-classic-gcc</pElem>
+            <pElem>yotta_modules/mbed-classic/build/bbc-microbit-classic-gcc</pElem>
           </incDir>
         </ccTool>
       </item>
@@ -3070,7 +3261,7 @@
             <pElem>yotta_modules/mbed-classic/targets/hal/TARGET_NORDIC/TARGET_MCU_NRF51822</pElem>
             <pElem>/usr/local/Cellar/arm-none-eabi-gcc/5.0-2016-q2-update/arm-none-eabi/include/c++/5.4.1/arm-none-eabi/armv6-m/bits</pElem>
             <pElem>yotta_modules/mbed-classic/hal</pElem>
-            <pElem>build/bbc-microbit-classic-gcc</pElem>
+            <pElem>yotta_modules/mbed-classic/build/bbc-microbit-classic-gcc</pElem>
           </incDir>
         </ccTool>
       </item>
@@ -3083,7 +3274,7 @@
             <pElem>yotta_modules/mbed-classic/common</pElem>
             <pElem>yotta_modules/mbed-classic/api</pElem>
             <pElem>/usr/local/Cellar/arm-none-eabi-gcc/5.0-2016-q2-update/arm-none-eabi/include/c++/5.4.1/arm-none-eabi/armv6-m/bits</pElem>
-            <pElem>build/bbc-microbit-classic-gcc</pElem>
+            <pElem>yotta_modules/mbed-classic/build/bbc-microbit-classic-gcc</pElem>
           </incDir>
         </ccTool>
       </item>
@@ -3096,6 +3287,7 @@
             <pElem>yotta_modules/mbed-classic/common</pElem>
             <pElem>yotta_modules/mbed-classic/api</pElem>
             <pElem>yotta_modules/mbed-classic/hal</pElem>
+            <pElem>yotta_modules/mbed-classic/build/bbc-microbit-classic-gcc</pElem>
           </incDir>
         </ccTool>
       </item>
@@ -3107,6 +3299,7 @@
           <incDir>
             <pElem>yotta_modules/mbed-classic/common</pElem>
             <pElem>yotta_modules/mbed-classic/api</pElem>
+            <pElem>yotta_modules/mbed-classic/build/bbc-microbit-classic-gcc</pElem>
           </incDir>
         </ccTool>
       </item>
@@ -3120,7 +3313,7 @@
             <pElem>/usr/local/Cellar/arm-none-eabi-gcc/5.0-2016-q2-update/arm-none-eabi/include/c++/5.4.1/arm-none-eabi/armv6-m/bits</pElem>
             <pElem>yotta_modules/mbed-classic/hal</pElem>
             <pElem>yotta_modules/mbed-classic/api</pElem>
-            <pElem>build/bbc-microbit-classic-gcc</pElem>
+            <pElem>yotta_modules/mbed-classic/build/bbc-microbit-classic-gcc</pElem>
           </incDir>
         </ccTool>
       </item>
@@ -3133,6 +3326,7 @@
             <pElem>yotta_modules/mbed-classic/common</pElem>
             <pElem>yotta_modules/mbed-classic/hal</pElem>
             <pElem>yotta_modules/mbed-classic/api</pElem>
+            <pElem>yotta_modules/mbed-classic/build/bbc-microbit-classic-gcc</pElem>
           </incDir>
         </ccTool>
       </item>
@@ -3143,7 +3337,7 @@
         <cTool flags="2">
           <incDir>
             <pElem>yotta_modules/mbed-classic/common</pElem>
-            <pElem>yotta_modules/mbed-classic/api</pElem>
+            <pElem>yotta_modules/api</pElem>
           </incDir>
         </cTool>
       </item>
@@ -3158,6 +3352,7 @@
             <pElem>yotta_modules/mbed-classic/targets/hal/TARGET_NORDIC/TARGET_MCU_NRF51822/TARGET_NRF51_MICROBIT</pElem>
             <pElem>yotta_modules/mbed-classic/hal</pElem>
             <pElem>yotta_modules/mbed-classic/api</pElem>
+            <pElem>yotta_modules/mbed-classic/build/bbc-microbit-classic-gcc</pElem>
           </incDir>
         </cTool>
       </item>
@@ -3168,7 +3363,7 @@
         <cTool flags="2">
           <incDir>
             <pElem>yotta_modules/mbed-classic/common</pElem>
-            <pElem>build/bbc-microbit-classic-gcc</pElem>
+            <pElem>yotta_modules/mbed-classic/build/bbc-microbit-classic-gcc</pElem>
           </incDir>
         </cTool>
       </item>
@@ -3182,6 +3377,7 @@
             <pElem>yotta_modules/mbed-classic/targets/hal/TARGET_NORDIC/TARGET_MCU_NRF51822</pElem>
             <pElem>yotta_modules/mbed-classic/targets/hal/TARGET_NORDIC/TARGET_MCU_NRF51822/TARGET_NRF51_MICROBIT</pElem>
             <pElem>yotta_modules/mbed-classic/hal</pElem>
+            <pElem>yotta_modules/mbed-classic/build/bbc-microbit-classic-gcc</pElem>
           </incDir>
         </cTool>
       </item>
@@ -3199,7 +3395,7 @@
         <cTool flags="2">
           <incDir>
             <pElem>yotta_modules/mbed-classic/common</pElem>
-            <pElem>build/bbc-microbit-classic-gcc</pElem>
+            <pElem>yotta_modules/mbed-classic/build/bbc-microbit-classic-gcc</pElem>
           </incDir>
         </cTool>
       </item>
@@ -3213,6 +3409,7 @@
             <pElem>yotta_modules/mbed-classic/targets/hal/TARGET_NORDIC/TARGET_MCU_NRF51822/TARGET_NRF51_MICROBIT</pElem>
             <pElem>yotta_modules/mbed-classic/hal</pElem>
             <pElem>yotta_modules/mbed-classic/api</pElem>
+            <pElem>yotta_modules/mbed-classic/build/bbc-microbit-classic-gcc</pElem>
           </incDir>
         </cTool>
       </item>
@@ -3230,7 +3427,7 @@
             <pElem>yotta_modules/mbed-classic/targets/hal/TARGET_NORDIC/TARGET_MCU_NRF51822</pElem>
             <pElem>/usr/local/Cellar/arm-none-eabi-gcc/5.0-2016-q2-update/arm-none-eabi/include/c++/5.4.1/arm-none-eabi/armv6-m/bits</pElem>
             <pElem>yotta_modules/mbed-classic/hal</pElem>
-            <pElem>build/bbc-microbit-classic-gcc</pElem>
+            <pElem>yotta_modules/mbed-classic/build/bbc-microbit-classic-gcc</pElem>
           </incDir>
         </ccTool>
       </item>
@@ -3243,7 +3440,7 @@
             <pElem>yotta_modules/mbed-classic/common</pElem>
             <pElem>yotta_modules/mbed-classic/targets/cmsis</pElem>
             <pElem>yotta_modules/mbed-classic/hal</pElem>
-            <pElem>build/bbc-microbit-classic-gcc</pElem>
+            <pElem>yotta_modules/mbed-classic/build/bbc-microbit-classic-gcc</pElem>
           </incDir>
         </cTool>
       </item>
@@ -3263,6 +3460,7 @@
             <pElem>yotta_modules/mbed-classic/common</pElem>
             <pElem>yotta_modules/mbed-classic/targets/cmsis</pElem>
             <pElem>yotta_modules/mbed-classic/hal</pElem>
+            <pElem>yotta_modules/mbed-classic/build/bbc-microbit-classic-gcc</pElem>
           </incDir>
         </cTool>
       </item>
@@ -3274,6 +3472,7 @@
           <incDir>
             <pElem>yotta_modules/mbed-classic/common</pElem>
             <pElem>yotta_modules/mbed-classic/hal</pElem>
+            <pElem>yotta_modules/mbed-classic/build/bbc-microbit-classic-gcc</pElem>
           </incDir>
         </cTool>
       </item>
@@ -3285,6 +3484,7 @@
           <incDir>
             <pElem>yotta_modules/mbed-classic/common</pElem>
             <pElem>yotta_modules/mbed-classic/hal</pElem>
+            <pElem>yotta_modules/mbed-classic/build/bbc-microbit-classic-gcc</pElem>
           </incDir>
         </cTool>
       </item>
@@ -7532,6 +7732,7 @@
             <pElem>yotta_modules/mbed-classic/targets/cmsis/TARGET_NORDIC/TARGET_MCU_NRF51822</pElem>
             <pElem>yotta_modules/mbed-classic/targets/hal/TARGET_NORDIC/TARGET_MCU_NRF51822/TARGET_NRF51_MICROBIT</pElem>
             <pElem>yotta_modules/mbed-classic/hal</pElem>
+            <pElem>yotta_modules/mbed-classic/build/bbc-microbit-classic-gcc</pElem>
           </incDir>
         </cTool>
       </item>
@@ -7545,6 +7746,7 @@
             <pElem>yotta_modules/mbed-classic/targets/cmsis/TARGET_NORDIC/TARGET_MCU_NRF51822</pElem>
             <pElem>yotta_modules/mbed-classic/targets/hal/TARGET_NORDIC/TARGET_MCU_NRF51822/TARGET_NRF51_MICROBIT</pElem>
             <pElem>yotta_modules/mbed-classic/hal</pElem>
+            <pElem>yotta_modules/mbed-classic/build/bbc-microbit-classic-gcc</pElem>
           </incDir>
         </cTool>
       </item>
@@ -7559,6 +7761,7 @@
             <pElem>yotta_modules/mbed-classic/targets/cmsis/TARGET_NORDIC/TARGET_MCU_NRF51822</pElem>
             <pElem>yotta_modules/mbed-classic/targets/hal/TARGET_NORDIC/TARGET_MCU_NRF51822/TARGET_NRF51_MICROBIT</pElem>
             <pElem>yotta_modules/mbed-classic/hal</pElem>
+            <pElem>yotta_modules/mbed-classic/build/bbc-microbit-classic-gcc</pElem>
           </incDir>
         </cTool>
       </item>
@@ -7573,6 +7776,7 @@
             <pElem>yotta_modules/mbed-classic/targets/hal/TARGET_NORDIC/TARGET_MCU_NRF51822/TARGET_NRF51_MICROBIT</pElem>
             <pElem>yotta_modules/mbed-classic/hal</pElem>
             <pElem>yotta_modules/mbed-classic/api</pElem>
+            <pElem>yotta_modules/mbed-classic/build/bbc-microbit-classic-gcc</pElem>
           </incDir>
         </cTool>
       </item>
@@ -7585,6 +7789,7 @@
             <pElem>yotta_modules/mbed-classic/targets/hal/TARGET_NORDIC/TARGET_MCU_NRF51822</pElem>
             <pElem>yotta_modules/mbed-classic/targets/cmsis/TARGET_NORDIC/TARGET_MCU_NRF51822</pElem>
             <pElem>yotta_modules/mbed-classic/targets/hal/TARGET_NORDIC/TARGET_MCU_NRF51822/TARGET_NRF51_MICROBIT</pElem>
+            <pElem>yotta_modules/mbed-classic/build/bbc-microbit-classic-gcc</pElem>
           </incDir>
         </cTool>
       </item>
@@ -7598,6 +7803,7 @@
             <pElem>yotta_modules/mbed-classic/targets/cmsis/TARGET_NORDIC/TARGET_MCU_NRF51822</pElem>
             <pElem>yotta_modules/mbed-classic/targets/hal/TARGET_NORDIC/TARGET_MCU_NRF51822/TARGET_NRF51_MICROBIT</pElem>
             <pElem>yotta_modules/mbed-classic/hal</pElem>
+            <pElem>yotta_modules/mbed-classic/build/bbc-microbit-classic-gcc</pElem>
           </incDir>
         </cTool>
       </item>
@@ -7613,6 +7819,7 @@
             <pElem>yotta_modules/mbed-classic/targets/hal/TARGET_NORDIC/TARGET_MCU_NRF51822/TARGET_NRF51_MICROBIT</pElem>
             <pElem>yotta_modules/mbed-classic/hal</pElem>
             <pElem>yotta_modules/mbed-classic/api</pElem>
+            <pElem>yotta_modules/mbed-classic/build/bbc-microbit-classic-gcc</pElem>
           </incDir>
         </cTool>
       </item>
@@ -7627,6 +7834,7 @@
             <pElem>yotta_modules/mbed-classic/targets/cmsis/TARGET_NORDIC/TARGET_MCU_NRF51822</pElem>
             <pElem>yotta_modules/mbed-classic/targets/hal/TARGET_NORDIC/TARGET_MCU_NRF51822/TARGET_NRF51_MICROBIT</pElem>
             <pElem>yotta_modules/mbed-classic/hal</pElem>
+            <pElem>yotta_modules/mbed-classic/build/bbc-microbit-classic-gcc</pElem>
           </incDir>
         </cTool>
       </item>
@@ -7639,6 +7847,7 @@
             <pElem>yotta_modules/mbed-classic/targets/hal/TARGET_NORDIC/TARGET_MCU_NRF51822</pElem>
             <pElem>yotta_modules/mbed-classic/targets/cmsis</pElem>
             <pElem>yotta_modules/mbed-classic/targets/cmsis/TARGET_NORDIC/TARGET_MCU_NRF51822</pElem>
+            <pElem>yotta_modules/mbed-classic/build/bbc-microbit-classic-gcc</pElem>
           </incDir>
         </cTool>
       </item>
@@ -7653,6 +7862,7 @@
             <pElem>yotta_modules/mbed-classic/targets/hal/TARGET_NORDIC/TARGET_MCU_NRF51822/TARGET_NRF51_MICROBIT</pElem>
             <pElem>yotta_modules/mbed-classic/hal</pElem>
             <pElem>yotta_modules/mbed-classic/api</pElem>
+            <pElem>yotta_modules/mbed-classic/build/bbc-microbit-classic-gcc</pElem>
           </incDir>
         </cTool>
       </item>
@@ -7665,6 +7875,7 @@
             <pElem>yotta_modules/mbed-classic/targets/cmsis/TARGET_NORDIC/TARGET_MCU_NRF51822</pElem>
             <pElem>yotta_modules/mbed-classic/targets/hal/TARGET_NORDIC/TARGET_MCU_NRF51822</pElem>
             <pElem>yotta_modules/mbed-classic/targets/hal/TARGET_NORDIC/TARGET_MCU_NRF51822/TARGET_NRF51_MICROBIT</pElem>
+            <pElem>yotta_modules/mbed-classic/build/bbc-microbit-classic-gcc</pElem>
           </incDir>
         </cTool>
       </item>
@@ -7678,6 +7889,7 @@
             <pElem>yotta_modules/mbed-classic/targets/cmsis</pElem>
             <pElem>yotta_modules/mbed-classic/targets/cmsis/TARGET_NORDIC/TARGET_MCU_NRF51822</pElem>
             <pElem>yotta_modules/mbed-classic/hal</pElem>
+            <pElem>yotta_modules/mbed-classic/build/bbc-microbit-classic-gcc</pElem>
           </incDir>
         </cTool>
       </item>
@@ -9672,16 +9884,16 @@
             flavor2="8">
         <ccTool flags="0">
           <incDir>
-            <pElem>yotta_modules/ble/ble</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/ble/ble</pElem>
             <pElem>yotta_modules/microbit-dal/inc/core</pElem>
             <pElem>yotta_modules/microbit-dal/source/bluetooth</pElem>
             <pElem>/usr/local/Cellar/arm-none-eabi-gcc/5.0-2016-q2-update/arm-none-eabi/include/c++/5.4.1/arm-none-eabi/armv6-m/bits</pElem>
-            <pElem>yotta_modules/mbed-classic/api</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/mbed-classic/api</pElem>
             <pElem>yotta_modules/microbit-dal/inc/types</pElem>
             <pElem>yotta_modules/microbit-dal/inc/bluetooth</pElem>
             <pElem>yotta_modules/microbit-dal/inc/drivers</pElem>
-            <pElem>yotta_modules/ble</pElem>
-            <pElem>build/bbc-microbit-classic-gcc</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/ble</pElem>
+            <pElem>yotta_modules/microbit-dal/build/bbc-microbit-classic-gcc</pElem>
           </incDir>
         </ccTool>
       </item>
@@ -9715,17 +9927,17 @@
             flavor2="8">
         <ccTool flags="0">
           <incDir>
-            <pElem>yotta_modules/ble/ble</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/ble/ble</pElem>
             <pElem>yotta_modules/microbit-dal/inc/core</pElem>
             <pElem>yotta_modules/microbit-dal/source/bluetooth</pElem>
-            <pElem>yotta_modules/mbed-classic/targets/hal/TARGET_NORDIC/TARGET_MCU_NRF51822/TARGET_NRF51_MICROBIT</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/mbed-classic/targets/hal/TARGET_NORDIC/TARGET_MCU_NRF51822/TARGET_NRF51_MICROBIT</pElem>
             <pElem>/usr/local/Cellar/arm-none-eabi-gcc/5.0-2016-q2-update/arm-none-eabi/include/c++/5.4.1/arm-none-eabi/armv6-m/bits</pElem>
-            <pElem>yotta_modules/mbed-classic/api</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/mbed-classic/api</pElem>
             <pElem>yotta_modules/microbit-dal/inc/types</pElem>
             <pElem>yotta_modules/microbit-dal/inc/bluetooth</pElem>
             <pElem>yotta_modules/microbit-dal/inc/drivers</pElem>
-            <pElem>yotta_modules/ble</pElem>
-            <pElem>build/bbc-microbit-classic-gcc</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/ble</pElem>
+            <pElem>yotta_modules/microbit-dal/build/bbc-microbit-classic-gcc</pElem>
           </incDir>
         </ccTool>
       </item>
@@ -9735,19 +9947,19 @@
             flavor2="8">
         <ccTool flags="0">
           <incDir>
-            <pElem>yotta_modules/ble/ble</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/ble/ble</pElem>
             <pElem>yotta_modules/microbit-dal/source/bluetooth</pElem>
             <pElem>yotta_modules/microbit-dal/inc/core</pElem>
             <pElem>/usr/local/Cellar/arm-none-eabi-gcc/5.0-2016-q2-update/arm-none-eabi/include/c++/5.4.1/arm-none-eabi/armv6-m/bits</pElem>
-            <pElem>yotta_modules/mbed-classic/api</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/mbed-classic/api</pElem>
             <pElem>yotta_modules/microbit-dal/inc/types</pElem>
-            <pElem>yotta_modules/nrf51-sdk/source/nordic_sdk/components/softdevice/s130/headers</pElem>
-            <pElem>yotta_modules/nrf51-sdk/source/nordic_sdk/components/ble/common</pElem>
-            <pElem>yotta_modules/nrf51-sdk/source/nordic_sdk/components/ble/ble_services/ble_dfu</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/nrf51-sdk/source/nordic_sdk/components/softdevice/s130/headers</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/nrf51-sdk/source/nordic_sdk/components/ble/common</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/nrf51-sdk/source/nordic_sdk/components/ble/ble_services/ble_dfu</pElem>
             <pElem>yotta_modules/microbit-dal/inc/bluetooth</pElem>
-            <pElem>yotta_modules/nrf51-sdk/source/nordic_sdk/components/libraries/bootloader_dfu</pElem>
-            <pElem>yotta_modules/ble</pElem>
-            <pElem>build/bbc-microbit-classic-gcc</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/nrf51-sdk/source/nordic_sdk/components/libraries/bootloader_dfu</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/ble</pElem>
+            <pElem>yotta_modules/microbit-dal/build/bbc-microbit-classic-gcc</pElem>
           </incDir>
         </ccTool>
       </item>
@@ -9776,14 +9988,14 @@
         <ccTool flags="0">
           <incDir>
             <pElem>yotta_modules/microbit-dal/inc/core</pElem>
-            <pElem>yotta_modules/ble/ble</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/ble/ble</pElem>
             <pElem>yotta_modules/microbit-dal/inc/bluetooth</pElem>
             <pElem>yotta_modules/microbit-dal/source/bluetooth</pElem>
             <pElem>/usr/local/Cellar/arm-none-eabi-gcc/5.0-2016-q2-update/arm-none-eabi/include/c++/5.4.1/arm-none-eabi/armv6-m/bits</pElem>
-            <pElem>yotta_modules/mbed-classic/api</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/mbed-classic/api</pElem>
             <pElem>yotta_modules/microbit-dal/inc/drivers</pElem>
-            <pElem>yotta_modules/ble</pElem>
-            <pElem>build/bbc-microbit-classic-gcc</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/ble</pElem>
+            <pElem>yotta_modules/microbit-dal/build/bbc-microbit-classic-gcc</pElem>
           </incDir>
         </ccTool>
       </item>
@@ -9793,17 +10005,17 @@
             flavor2="8">
         <ccTool flags="0">
           <incDir>
-            <pElem>yotta_modules/ble/ble</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/ble/ble</pElem>
             <pElem>yotta_modules/microbit-dal/source/bluetooth</pElem>
             <pElem>yotta_modules/microbit-dal/inc/core</pElem>
-            <pElem>yotta_modules/mbed-classic/targets/hal/TARGET_NORDIC/TARGET_MCU_NRF51822/TARGET_NRF51_MICROBIT</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/mbed-classic/targets/hal/TARGET_NORDIC/TARGET_MCU_NRF51822/TARGET_NRF51_MICROBIT</pElem>
             <pElem>/usr/local/Cellar/arm-none-eabi-gcc/5.0-2016-q2-update/arm-none-eabi/include/c++/5.4.1/arm-none-eabi/armv6-m/bits</pElem>
-            <pElem>yotta_modules/mbed-classic/api</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/mbed-classic/api</pElem>
             <pElem>yotta_modules/microbit-dal/inc/drivers</pElem>
             <pElem>yotta_modules/microbit-dal/inc/types</pElem>
             <pElem>yotta_modules/microbit-dal/inc/bluetooth</pElem>
-            <pElem>yotta_modules/ble</pElem>
-            <pElem>build/bbc-microbit-classic-gcc</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/ble</pElem>
+            <pElem>yotta_modules/microbit-dal/build/bbc-microbit-classic-gcc</pElem>
           </incDir>
         </ccTool>
       </item>
@@ -9833,17 +10045,17 @@
             flavor2="8">
         <ccTool flags="0">
           <incDir>
-            <pElem>yotta_modules/ble/ble</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/ble/ble</pElem>
             <pElem>yotta_modules/microbit-dal/inc/core</pElem>
             <pElem>yotta_modules/microbit-dal/source/bluetooth</pElem>
-            <pElem>yotta_modules/mbed-classic/targets/hal/TARGET_NORDIC/TARGET_MCU_NRF51822/TARGET_NRF51_MICROBIT</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/mbed-classic/targets/hal/TARGET_NORDIC/TARGET_MCU_NRF51822/TARGET_NRF51_MICROBIT</pElem>
             <pElem>/usr/local/Cellar/arm-none-eabi-gcc/5.0-2016-q2-update/arm-none-eabi/include/c++/5.4.1/arm-none-eabi/armv6-m/bits</pElem>
-            <pElem>yotta_modules/mbed-classic/api</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/mbed-classic/api</pElem>
             <pElem>yotta_modules/microbit-dal/inc/drivers</pElem>
             <pElem>yotta_modules/microbit-dal/inc/types</pElem>
             <pElem>yotta_modules/microbit-dal/inc/bluetooth</pElem>
-            <pElem>yotta_modules/ble</pElem>
-            <pElem>build/bbc-microbit-classic-gcc</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/ble</pElem>
+            <pElem>yotta_modules/microbit-dal/build/bbc-microbit-classic-gcc</pElem>
           </incDir>
         </ccTool>
       </item>
@@ -9853,17 +10065,17 @@
             flavor2="8">
         <ccTool flags="0">
           <incDir>
-            <pElem>yotta_modules/ble/ble</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/ble/ble</pElem>
             <pElem>yotta_modules/microbit-dal/source/bluetooth</pElem>
             <pElem>yotta_modules/microbit-dal/inc/core</pElem>
             <pElem>yotta_modules/microbit-dal/inc/types</pElem>
             <pElem>/usr/local/Cellar/arm-none-eabi-gcc/5.0-2016-q2-update/arm-none-eabi/include/c++/5.4.1/arm-none-eabi/armv6-m/bits</pElem>
-            <pElem>yotta_modules/mbed-classic/targets/hal/TARGET_NORDIC/TARGET_MCU_NRF51822/TARGET_NRF51_MICROBIT</pElem>
-            <pElem>yotta_modules/mbed-classic/api</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/mbed-classic/targets/hal/TARGET_NORDIC/TARGET_MCU_NRF51822/TARGET_NRF51_MICROBIT</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/mbed-classic/api</pElem>
             <pElem>yotta_modules/microbit-dal/inc/drivers</pElem>
             <pElem>yotta_modules/microbit-dal/inc/bluetooth</pElem>
-            <pElem>yotta_modules/ble</pElem>
-            <pElem>build/bbc-microbit-classic-gcc</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/ble</pElem>
+            <pElem>yotta_modules/microbit-dal/build/bbc-microbit-classic-gcc</pElem>
           </incDir>
         </ccTool>
       </item>
@@ -9890,9 +10102,9 @@
           <incDir>
             <pElem>yotta_modules/microbit-dal/source/core</pElem>
             <pElem>/usr/local/Cellar/arm-none-eabi-gcc/5.0-2016-q2-update/arm-none-eabi/include/c++/5.4.1/arm-none-eabi/armv6-m/bits</pElem>
-            <pElem>yotta_modules/mbed-classic/api</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/mbed-classic/api</pElem>
             <pElem>yotta_modules/microbit-dal/inc/core</pElem>
-            <pElem>build/bbc-microbit-classic-gcc</pElem>
+            <pElem>yotta_modules/microbit-dal/build/bbc-microbit-classic-gcc</pElem>
           </incDir>
         </ccTool>
       </item>
@@ -9902,19 +10114,19 @@
             flavor2="8">
         <ccTool flags="0">
           <incDir>
-            <pElem>yotta_modules/mbed-classic/targets/cmsis</pElem>
-            <pElem>yotta_modules/nrf51-sdk/source/nordic_sdk/components/softdevice/s130/headers</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/mbed-classic/targets/cmsis</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/nrf51-sdk/source/nordic_sdk/components/softdevice/s130/headers</pElem>
             <pElem>yotta_modules/microbit-dal/source/core</pElem>
-            <pElem>yotta_modules/mbed-classic/api</pElem>
-            <pElem>yotta_modules/mbed-classic/targets/hal/TARGET_NORDIC/TARGET_MCU_NRF51822</pElem>
-            <pElem>yotta_modules/mbed-classic/targets/cmsis/TARGET_NORDIC/TARGET_MCU_NRF51822</pElem>
-            <pElem>yotta_modules/mbed-classic/targets/hal/TARGET_NORDIC/TARGET_MCU_NRF51822/TARGET_NRF51_MICROBIT</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/mbed-classic/api</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/mbed-classic/targets/hal/TARGET_NORDIC/TARGET_MCU_NRF51822</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/mbed-classic/targets/cmsis/TARGET_NORDIC/TARGET_MCU_NRF51822</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/mbed-classic/targets/hal/TARGET_NORDIC/TARGET_MCU_NRF51822/TARGET_NRF51_MICROBIT</pElem>
             <pElem>/usr/local/Cellar/arm-none-eabi-gcc/5.0-2016-q2-update/arm-none-eabi/include/c++/5.4.1/arm-none-eabi/armv6-m/bits</pElem>
-            <pElem>yotta_modules/mbed-classic/hal</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/mbed-classic/hal</pElem>
             <pElem>yotta_modules/microbit-dal/inc/types</pElem>
             <pElem>yotta_modules/microbit-dal/inc/drivers</pElem>
             <pElem>yotta_modules/microbit-dal/inc/core</pElem>
-            <pElem>build/bbc-microbit-classic-gcc</pElem>
+            <pElem>yotta_modules/microbit-dal/build/bbc-microbit-classic-gcc</pElem>
           </incDir>
         </ccTool>
       </item>
@@ -9926,11 +10138,11 @@
           <incDir>
             <pElem>yotta_modules/microbit-dal/inc/core</pElem>
             <pElem>yotta_modules/microbit-dal/source/core</pElem>
-            <pElem>yotta_modules/mbed-classic/targets/cmsis</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/mbed-classic/targets/cmsis</pElem>
             <pElem>/usr/local/Cellar/arm-none-eabi-gcc/5.0-2016-q2-update/arm-none-eabi/include/c++/5.4.1/arm-none-eabi/armv6-m/bits</pElem>
-            <pElem>yotta_modules/mbed-classic/api</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/mbed-classic/api</pElem>
             <pElem>yotta_modules/microbit-dal/inc/types</pElem>
-            <pElem>build/bbc-microbit-classic-gcc</pElem>
+            <pElem>yotta_modules/microbit-dal/build/bbc-microbit-classic-gcc</pElem>
           </incDir>
         </ccTool>
       </item>
@@ -9942,9 +10154,9 @@
           <incDir>
             <pElem>yotta_modules/microbit-dal/source/core</pElem>
             <pElem>/usr/local/Cellar/arm-none-eabi-gcc/5.0-2016-q2-update/arm-none-eabi/include/c++/5.4.1/arm-none-eabi/armv6-m/bits</pElem>
-            <pElem>yotta_modules/mbed-classic/api</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/mbed-classic/api</pElem>
             <pElem>yotta_modules/microbit-dal/inc/core</pElem>
-            <pElem>build/bbc-microbit-classic-gcc</pElem>
+            <pElem>yotta_modules/microbit-dal/build/bbc-microbit-classic-gcc</pElem>
           </incDir>
         </ccTool>
       </item>
@@ -9955,13 +10167,13 @@
         <ccTool flags="0">
           <incDir>
             <pElem>yotta_modules/microbit-dal/source/core</pElem>
-            <pElem>yotta_modules/mbed-classic/targets/cmsis</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/mbed-classic/targets/cmsis</pElem>
             <pElem>yotta_modules/microbit-dal/inc/core</pElem>
-            <pElem>yotta_modules/mbed-classic/targets/hal/TARGET_NORDIC/TARGET_MCU_NRF51822/TARGET_NRF51_MICROBIT</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/mbed-classic/targets/hal/TARGET_NORDIC/TARGET_MCU_NRF51822/TARGET_NRF51_MICROBIT</pElem>
             <pElem>/usr/local/Cellar/arm-none-eabi-gcc/5.0-2016-q2-update/arm-none-eabi/include/c++/5.4.1/arm-none-eabi/armv6-m/bits</pElem>
-            <pElem>yotta_modules/mbed-classic/api</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/mbed-classic/api</pElem>
             <pElem>yotta_modules/microbit-dal/inc/drivers</pElem>
-            <pElem>build/bbc-microbit-classic-gcc</pElem>
+            <pElem>yotta_modules/microbit-dal/build/bbc-microbit-classic-gcc</pElem>
           </incDir>
         </ccTool>
       </item>
@@ -9974,9 +10186,9 @@
             <pElem>yotta_modules/microbit-dal/source/core</pElem>
             <pElem>yotta_modules/microbit-dal/inc/core</pElem>
             <pElem>/usr/local/Cellar/arm-none-eabi-gcc/5.0-2016-q2-update/arm-none-eabi/include/c++/5.4.1/arm-none-eabi/armv6-m/bits</pElem>
-            <pElem>yotta_modules/mbed-classic/api</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/mbed-classic/api</pElem>
             <pElem>yotta_modules/microbit-dal/inc/types</pElem>
-            <pElem>build/bbc-microbit-classic-gcc</pElem>
+            <pElem>yotta_modules/microbit-dal/build/bbc-microbit-classic-gcc</pElem>
           </incDir>
         </ccTool>
       </item>
@@ -10002,16 +10214,16 @@
         <ccTool flags="0">
           <incDir>
             <pElem>yotta_modules/microbit-dal/source/drivers</pElem>
-            <pElem>yotta_modules/mbed-classic/targets/cmsis</pElem>
-            <pElem>yotta_modules/mbed-classic/api</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/mbed-classic/targets/cmsis</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/mbed-classic/api</pElem>
             <pElem>yotta_modules/microbit-dal/inc/core</pElem>
-            <pElem>yotta_modules/mbed-classic/targets/cmsis/TARGET_NORDIC/TARGET_MCU_NRF51822</pElem>
-            <pElem>yotta_modules/mbed-classic/targets/hal/TARGET_NORDIC/TARGET_MCU_NRF51822</pElem>
-            <pElem>yotta_modules/mbed-classic/targets/hal/TARGET_NORDIC/TARGET_MCU_NRF51822/TARGET_NRF51_MICROBIT</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/mbed-classic/targets/cmsis/TARGET_NORDIC/TARGET_MCU_NRF51822</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/mbed-classic/targets/hal/TARGET_NORDIC/TARGET_MCU_NRF51822</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/mbed-classic/targets/hal/TARGET_NORDIC/TARGET_MCU_NRF51822/TARGET_NRF51_MICROBIT</pElem>
             <pElem>/usr/local/Cellar/arm-none-eabi-gcc/5.0-2016-q2-update/arm-none-eabi/include/c++/5.4.1/arm-none-eabi/armv6-m/bits</pElem>
-            <pElem>yotta_modules/mbed-classic/hal</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/mbed-classic/hal</pElem>
             <pElem>yotta_modules/microbit-dal/inc/drivers</pElem>
-            <pElem>build/bbc-microbit-classic-gcc</pElem>
+            <pElem>yotta_modules/microbit-dal/build/bbc-microbit-classic-gcc</pElem>
           </incDir>
         </ccTool>
       </item>
@@ -10023,15 +10235,15 @@
           <incDir>
             <pElem>yotta_modules/microbit-dal/inc/core</pElem>
             <pElem>yotta_modules/microbit-dal/source/drivers</pElem>
-            <pElem>yotta_modules/mbed-classic/api</pElem>
-            <pElem>yotta_modules/mbed-classic/targets/hal/TARGET_NORDIC/TARGET_MCU_NRF51822</pElem>
-            <pElem>yotta_modules/mbed-classic/targets/cmsis/TARGET_NORDIC/TARGET_MCU_NRF51822</pElem>
-            <pElem>yotta_modules/mbed-classic/targets/hal/TARGET_NORDIC/TARGET_MCU_NRF51822/TARGET_NRF51_MICROBIT</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/mbed-classic/api</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/mbed-classic/targets/hal/TARGET_NORDIC/TARGET_MCU_NRF51822</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/mbed-classic/targets/cmsis/TARGET_NORDIC/TARGET_MCU_NRF51822</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/mbed-classic/targets/hal/TARGET_NORDIC/TARGET_MCU_NRF51822/TARGET_NRF51_MICROBIT</pElem>
             <pElem>/usr/local/Cellar/arm-none-eabi-gcc/5.0-2016-q2-update/arm-none-eabi/include/c++/5.4.1/arm-none-eabi/armv6-m/bits</pElem>
-            <pElem>yotta_modules/mbed-classic/hal</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/mbed-classic/hal</pElem>
             <pElem>yotta_modules/microbit-dal/inc/drivers</pElem>
             <pElem>yotta_modules/microbit-dal/inc/types</pElem>
-            <pElem>build/bbc-microbit-classic-gcc</pElem>
+            <pElem>yotta_modules/microbit-dal/build/bbc-microbit-classic-gcc</pElem>
           </incDir>
         </ccTool>
       </item>
@@ -10043,14 +10255,14 @@
           <incDir>
             <pElem>yotta_modules/microbit-dal/inc/core</pElem>
             <pElem>yotta_modules/microbit-dal/source/drivers</pElem>
-            <pElem>yotta_modules/mbed-classic/targets/hal/TARGET_NORDIC/TARGET_MCU_NRF51822</pElem>
-            <pElem>yotta_modules/mbed-classic/api</pElem>
-            <pElem>yotta_modules/mbed-classic/targets/hal/TARGET_NORDIC/TARGET_MCU_NRF51822/TARGET_NRF51_MICROBIT</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/mbed-classic/targets/hal/TARGET_NORDIC/TARGET_MCU_NRF51822</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/mbed-classic/api</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/mbed-classic/targets/hal/TARGET_NORDIC/TARGET_MCU_NRF51822/TARGET_NRF51_MICROBIT</pElem>
             <pElem>/usr/local/Cellar/arm-none-eabi-gcc/5.0-2016-q2-update/arm-none-eabi/include/c++/5.4.1/arm-none-eabi/armv6-m/bits</pElem>
             <pElem>yotta_modules/microbit-dal/inc/types</pElem>
             <pElem>yotta_modules/microbit-dal/inc/drivers</pElem>
-            <pElem>yotta_modules/mbed-classic/hal</pElem>
-            <pElem>build/bbc-microbit-classic-gcc</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/mbed-classic/hal</pElem>
+            <pElem>yotta_modules/microbit-dal/build/bbc-microbit-classic-gcc</pElem>
           </incDir>
         </ccTool>
       </item>
@@ -10062,15 +10274,15 @@
           <incDir>
             <pElem>yotta_modules/microbit-dal/inc/core</pElem>
             <pElem>yotta_modules/microbit-dal/source/drivers</pElem>
-            <pElem>yotta_modules/mbed-classic/api</pElem>
-            <pElem>yotta_modules/mbed-classic/targets/hal/TARGET_NORDIC/TARGET_MCU_NRF51822</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/mbed-classic/api</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/mbed-classic/targets/hal/TARGET_NORDIC/TARGET_MCU_NRF51822</pElem>
             <pElem>yotta_modules/microbit-dal/inc/drivers</pElem>
-            <pElem>yotta_modules/mbed-classic/targets/cmsis/TARGET_NORDIC/TARGET_MCU_NRF51822</pElem>
-            <pElem>yotta_modules/mbed-classic/targets/hal/TARGET_NORDIC/TARGET_MCU_NRF51822/TARGET_NRF51_MICROBIT</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/mbed-classic/targets/cmsis/TARGET_NORDIC/TARGET_MCU_NRF51822</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/mbed-classic/targets/hal/TARGET_NORDIC/TARGET_MCU_NRF51822/TARGET_NRF51_MICROBIT</pElem>
             <pElem>/usr/local/Cellar/arm-none-eabi-gcc/5.0-2016-q2-update/arm-none-eabi/include/c++/5.4.1/arm-none-eabi/armv6-m/bits</pElem>
-            <pElem>yotta_modules/mbed-classic/hal</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/mbed-classic/hal</pElem>
             <pElem>yotta_modules/microbit-dal/inc/types</pElem>
-            <pElem>build/bbc-microbit-classic-gcc</pElem>
+            <pElem>yotta_modules/microbit-dal/build/bbc-microbit-classic-gcc</pElem>
           </incDir>
         </ccTool>
       </item>
@@ -10084,10 +10296,10 @@
             <pElem>yotta_modules/microbit-dal/source/drivers</pElem>
             <pElem>yotta_modules/microbit-dal/inc/types</pElem>
             <pElem>yotta_modules/microbit-dal/inc/drivers</pElem>
-            <pElem>yotta_modules/mbed-classic/targets/hal/TARGET_NORDIC/TARGET_MCU_NRF51822/TARGET_NRF51_MICROBIT</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/mbed-classic/targets/hal/TARGET_NORDIC/TARGET_MCU_NRF51822/TARGET_NRF51_MICROBIT</pElem>
             <pElem>/usr/local/Cellar/arm-none-eabi-gcc/5.0-2016-q2-update/arm-none-eabi/include/c++/5.4.1/arm-none-eabi/armv6-m/bits</pElem>
-            <pElem>yotta_modules/mbed-classic/api</pElem>
-            <pElem>build/bbc-microbit-classic-gcc</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/mbed-classic/api</pElem>
+            <pElem>yotta_modules/microbit-dal/build/bbc-microbit-classic-gcc</pElem>
           </incDir>
         </ccTool>
       </item>
@@ -10118,16 +10330,16 @@
         <ccTool flags="0">
           <incDir>
             <pElem>yotta_modules/microbit-dal/source/drivers</pElem>
-            <pElem>yotta_modules/nrf51-sdk/source/nordic_sdk/components/drivers_nrf/delay</pElem>
-            <pElem>yotta_modules/mbed-classic/targets/cmsis/TARGET_NORDIC/TARGET_MCU_NRF51822</pElem>
-            <pElem>yotta_modules/mbed-classic/targets/hal/TARGET_NORDIC/TARGET_MCU_NRF51822/TARGET_NRF51_MICROBIT</pElem>
-            <pElem>yotta_modules/mbed-classic/targets/hal/TARGET_NORDIC/TARGET_MCU_NRF51822</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/nrf51-sdk/source/nordic_sdk/components/drivers_nrf/delay</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/mbed-classic/targets/cmsis/TARGET_NORDIC/TARGET_MCU_NRF51822</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/mbed-classic/targets/hal/TARGET_NORDIC/TARGET_MCU_NRF51822/TARGET_NRF51_MICROBIT</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/mbed-classic/targets/hal/TARGET_NORDIC/TARGET_MCU_NRF51822</pElem>
             <pElem>/usr/local/Cellar/arm-none-eabi-gcc/5.0-2016-q2-update/arm-none-eabi/include/c++/5.4.1/arm-none-eabi/armv6-m/bits</pElem>
-            <pElem>yotta_modules/mbed-classic/api</pElem>
-            <pElem>yotta_modules/mbed-classic/hal</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/mbed-classic/api</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/mbed-classic/hal</pElem>
             <pElem>yotta_modules/microbit-dal/inc/drivers</pElem>
             <pElem>yotta_modules/microbit-dal/inc/core</pElem>
-            <pElem>build/bbc-microbit-classic-gcc</pElem>
+            <pElem>yotta_modules/microbit-dal/build/bbc-microbit-classic-gcc</pElem>
           </incDir>
         </ccTool>
       </item>
@@ -10153,17 +10365,17 @@
             flavor2="8">
         <ccTool flags="0">
           <incDir>
-            <pElem>yotta_modules/mbed-classic/api</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/mbed-classic/api</pElem>
             <pElem>yotta_modules/microbit-dal/inc/core</pElem>
             <pElem>yotta_modules/microbit-dal/source/drivers</pElem>
-            <pElem>yotta_modules/mbed-classic/targets/hal/TARGET_NORDIC/TARGET_MCU_NRF51822</pElem>
-            <pElem>yotta_modules/mbed-classic/targets/cmsis/TARGET_NORDIC/TARGET_MCU_NRF51822</pElem>
-            <pElem>yotta_modules/mbed-classic/targets/hal/TARGET_NORDIC/TARGET_MCU_NRF51822/TARGET_NRF51_MICROBIT</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/mbed-classic/targets/hal/TARGET_NORDIC/TARGET_MCU_NRF51822</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/mbed-classic/targets/cmsis/TARGET_NORDIC/TARGET_MCU_NRF51822</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/mbed-classic/targets/hal/TARGET_NORDIC/TARGET_MCU_NRF51822/TARGET_NRF51_MICROBIT</pElem>
             <pElem>/usr/local/Cellar/arm-none-eabi-gcc/5.0-2016-q2-update/arm-none-eabi/include/c++/5.4.1/arm-none-eabi/armv6-m/bits</pElem>
-            <pElem>yotta_modules/mbed-classic/hal</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/mbed-classic/hal</pElem>
             <pElem>yotta_modules/microbit-dal/inc/types</pElem>
             <pElem>yotta_modules/microbit-dal/inc/drivers</pElem>
-            <pElem>build/bbc-microbit-classic-gcc</pElem>
+            <pElem>yotta_modules/microbit-dal/build/bbc-microbit-classic-gcc</pElem>
           </incDir>
         </ccTool>
       </item>
@@ -10176,11 +10388,11 @@
             <pElem>yotta_modules/microbit-dal/inc/core</pElem>
             <pElem>yotta_modules/microbit-dal/source/drivers</pElem>
             <pElem>yotta_modules/microbit-dal/inc/drivers</pElem>
-            <pElem>yotta_modules/mbed-classic/targets/cmsis</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/mbed-classic/targets/cmsis</pElem>
             <pElem>/usr/local/Cellar/arm-none-eabi-gcc/5.0-2016-q2-update/arm-none-eabi/include/c++/5.4.1/arm-none-eabi/armv6-m/bits</pElem>
-            <pElem>yotta_modules/mbed-classic/api</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/mbed-classic/api</pElem>
             <pElem>yotta_modules/microbit-dal/inc/types</pElem>
-            <pElem>build/bbc-microbit-classic-gcc</pElem>
+            <pElem>yotta_modules/microbit-dal/build/bbc-microbit-classic-gcc</pElem>
           </incDir>
         </ccTool>
       </item>
@@ -10194,9 +10406,9 @@
             <pElem>yotta_modules/microbit-dal/inc/drivers</pElem>
             <pElem>yotta_modules/microbit-dal/source/drivers</pElem>
             <pElem>/usr/local/Cellar/arm-none-eabi-gcc/5.0-2016-q2-update/arm-none-eabi/include/c++/5.4.1/arm-none-eabi/armv6-m/bits</pElem>
-            <pElem>yotta_modules/mbed-classic/api</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/mbed-classic/api</pElem>
             <pElem>yotta_modules/microbit-dal/inc/types</pElem>
-            <pElem>build/bbc-microbit-classic-gcc</pElem>
+            <pElem>yotta_modules/microbit-dal/build/bbc-microbit-classic-gcc</pElem>
           </incDir>
         </ccTool>
       </item>
@@ -10207,16 +10419,16 @@
         <ccTool flags="0">
           <incDir>
             <pElem>yotta_modules/microbit-dal/inc/core</pElem>
-            <pElem>yotta_modules/mbed-classic/api</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/mbed-classic/api</pElem>
             <pElem>yotta_modules/microbit-dal/inc/drivers</pElem>
             <pElem>yotta_modules/microbit-dal/source/drivers</pElem>
-            <pElem>yotta_modules/mbed-classic/targets/hal/TARGET_NORDIC/TARGET_MCU_NRF51822</pElem>
-            <pElem>yotta_modules/mbed-classic/targets/cmsis/TARGET_NORDIC/TARGET_MCU_NRF51822</pElem>
-            <pElem>yotta_modules/mbed-classic/targets/hal/TARGET_NORDIC/TARGET_MCU_NRF51822/TARGET_NRF51_MICROBIT</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/mbed-classic/targets/hal/TARGET_NORDIC/TARGET_MCU_NRF51822</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/mbed-classic/targets/cmsis/TARGET_NORDIC/TARGET_MCU_NRF51822</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/mbed-classic/targets/hal/TARGET_NORDIC/TARGET_MCU_NRF51822/TARGET_NRF51_MICROBIT</pElem>
             <pElem>/usr/local/Cellar/arm-none-eabi-gcc/5.0-2016-q2-update/arm-none-eabi/include/c++/5.4.1/arm-none-eabi/armv6-m/bits</pElem>
-            <pElem>yotta_modules/mbed-classic/hal</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/mbed-classic/hal</pElem>
             <pElem>yotta_modules/microbit-dal/inc/types</pElem>
-            <pElem>build/bbc-microbit-classic-gcc</pElem>
+            <pElem>yotta_modules/microbit-dal/build/bbc-microbit-classic-gcc</pElem>
           </incDir>
         </ccTool>
       </item>
@@ -10229,16 +10441,16 @@
             <pElem>yotta_modules/microbit-dal/inc/core</pElem>
             <pElem>yotta_modules/microbit-dal/inc/drivers</pElem>
             <pElem>yotta_modules/microbit-dal/source/drivers</pElem>
-            <pElem>yotta_modules/mbed-classic/targets/cmsis</pElem>
-            <pElem>yotta_modules/mbed-classic/targets/cmsis/TARGET_NORDIC/TARGET_MCU_NRF51822</pElem>
-            <pElem>yotta_modules/mbed-classic/targets/hal/TARGET_NORDIC/TARGET_MCU_NRF51822/TARGET_NRF51_MICROBIT</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/mbed-classic/targets/cmsis</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/mbed-classic/targets/cmsis/TARGET_NORDIC/TARGET_MCU_NRF51822</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/mbed-classic/targets/hal/TARGET_NORDIC/TARGET_MCU_NRF51822/TARGET_NRF51_MICROBIT</pElem>
             <pElem>/usr/local/Cellar/arm-none-eabi-gcc/5.0-2016-q2-update/arm-none-eabi/include/c++/5.4.1/arm-none-eabi/armv6-m/bits</pElem>
-            <pElem>yotta_modules/mbed-classic/api</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/mbed-classic/api</pElem>
             <pElem>yotta_modules/microbit-dal/inc/types</pElem>
-            <pElem>yotta_modules/ble/ble</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/ble/ble</pElem>
             <pElem>yotta_modules/microbit-dal/inc/bluetooth</pElem>
-            <pElem>yotta_modules/ble</pElem>
-            <pElem>build/bbc-microbit-classic-gcc</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/ble</pElem>
+            <pElem>yotta_modules/microbit-dal/build/bbc-microbit-classic-gcc</pElem>
           </incDir>
         </ccTool>
       </item>
@@ -10251,11 +10463,11 @@
             <pElem>yotta_modules/microbit-dal/source/drivers</pElem>
             <pElem>yotta_modules/microbit-dal/inc/core</pElem>
             <pElem>yotta_modules/microbit-dal/inc/types</pElem>
-            <pElem>yotta_modules/mbed-classic/targets/hal/TARGET_NORDIC/TARGET_MCU_NRF51822/TARGET_NRF51_MICROBIT</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/mbed-classic/targets/hal/TARGET_NORDIC/TARGET_MCU_NRF51822/TARGET_NRF51_MICROBIT</pElem>
             <pElem>/usr/local/Cellar/arm-none-eabi-gcc/5.0-2016-q2-update/arm-none-eabi/include/c++/5.4.1/arm-none-eabi/armv6-m/bits</pElem>
-            <pElem>yotta_modules/mbed-classic/api</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/mbed-classic/api</pElem>
             <pElem>yotta_modules/microbit-dal/inc/drivers</pElem>
-            <pElem>build/bbc-microbit-classic-gcc</pElem>
+            <pElem>yotta_modules/microbit-dal/build/bbc-microbit-classic-gcc</pElem>
           </incDir>
         </ccTool>
       </item>
@@ -10306,11 +10518,11 @@
             <pElem>yotta_modules/microbit-dal/inc/core</pElem>
             <pElem>yotta_modules/microbit-dal/inc/types</pElem>
             <pElem>yotta_modules/microbit-dal/inc/drivers</pElem>
-            <pElem>yotta_modules/mbed-classic/targets/cmsis/TARGET_NORDIC/TARGET_MCU_NRF51822</pElem>
-            <pElem>yotta_modules/mbed-classic/targets/hal/TARGET_NORDIC/TARGET_MCU_NRF51822/TARGET_NRF51_MICROBIT</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/mbed-classic/targets/cmsis/TARGET_NORDIC/TARGET_MCU_NRF51822</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/mbed-classic/targets/hal/TARGET_NORDIC/TARGET_MCU_NRF51822/TARGET_NRF51_MICROBIT</pElem>
             <pElem>/usr/local/Cellar/arm-none-eabi-gcc/5.0-2016-q2-update/arm-none-eabi/include/c++/5.4.1/arm-none-eabi/armv6-m/bits</pElem>
-            <pElem>yotta_modules/mbed-classic/api</pElem>
-            <pElem>build/bbc-microbit-classic-gcc</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/mbed-classic/api</pElem>
+            <pElem>yotta_modules/microbit-dal/build/bbc-microbit-classic-gcc</pElem>
           </incDir>
         </ccTool>
       </item>
@@ -10321,15 +10533,15 @@
         <ccTool flags="0">
           <incDir>
             <pElem>yotta_modules/microbit-dal/inc/core</pElem>
-            <pElem>yotta_modules/nrf51-sdk/source/nordic_sdk/components/softdevice/s130/headers</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/nrf51-sdk/source/nordic_sdk/components/softdevice/s130/headers</pElem>
             <pElem>yotta_modules/microbit-dal/inc/drivers</pElem>
             <pElem>yotta_modules/microbit-dal/source/drivers</pElem>
-            <pElem>yotta_modules/mbed-classic/targets/cmsis/TARGET_NORDIC/TARGET_MCU_NRF51822</pElem>
-            <pElem>yotta_modules/mbed-classic/targets/hal/TARGET_NORDIC/TARGET_MCU_NRF51822/TARGET_NRF51_MICROBIT</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/mbed-classic/targets/cmsis/TARGET_NORDIC/TARGET_MCU_NRF51822</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/mbed-classic/targets/hal/TARGET_NORDIC/TARGET_MCU_NRF51822/TARGET_NRF51_MICROBIT</pElem>
             <pElem>/usr/local/Cellar/arm-none-eabi-gcc/5.0-2016-q2-update/arm-none-eabi/include/c++/5.4.1/arm-none-eabi/armv6-m/bits</pElem>
-            <pElem>yotta_modules/mbed-classic/api</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/mbed-classic/api</pElem>
             <pElem>yotta_modules/microbit-dal/inc/types</pElem>
-            <pElem>build/bbc-microbit-classic-gcc</pElem>
+            <pElem>yotta_modules/microbit-dal/build/bbc-microbit-classic-gcc</pElem>
           </incDir>
         </ccTool>
       </item>
@@ -10342,10 +10554,10 @@
             <pElem>yotta_modules/microbit-dal/inc/drivers</pElem>
             <pElem>yotta_modules/microbit-dal/inc/core</pElem>
             <pElem>yotta_modules/microbit-dal/source/drivers</pElem>
-            <pElem>yotta_modules/mbed-classic/targets/hal/TARGET_NORDIC/TARGET_MCU_NRF51822/TARGET_NRF51_MICROBIT</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/mbed-classic/targets/hal/TARGET_NORDIC/TARGET_MCU_NRF51822/TARGET_NRF51_MICROBIT</pElem>
             <pElem>/usr/local/Cellar/arm-none-eabi-gcc/5.0-2016-q2-update/arm-none-eabi/include/c++/5.4.1/arm-none-eabi/armv6-m/bits</pElem>
-            <pElem>yotta_modules/mbed-classic/api</pElem>
-            <pElem>build/bbc-microbit-classic-gcc</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/mbed-classic/api</pElem>
+            <pElem>yotta_modules/microbit-dal/build/bbc-microbit-classic-gcc</pElem>
           </incDir>
         </ccTool>
       </item>
@@ -10356,12 +10568,12 @@
         <ccTool flags="0">
           <incDir>
             <pElem>yotta_modules/microbit-dal/inc/types</pElem>
-            <pElem>yotta_modules/mbed-classic/targets/hal/TARGET_NORDIC/TARGET_MCU_NRF51822/TARGET_NRF51_MICROBIT</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/mbed-classic/targets/hal/TARGET_NORDIC/TARGET_MCU_NRF51822/TARGET_NRF51_MICROBIT</pElem>
             <pElem>/usr/local/Cellar/arm-none-eabi-gcc/5.0-2016-q2-update/arm-none-eabi/include/c++/5.4.1/arm-none-eabi/armv6-m/bits</pElem>
-            <pElem>yotta_modules/mbed-classic/api</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/mbed-classic/api</pElem>
             <pElem>yotta_modules/microbit-dal/inc/drivers</pElem>
             <pElem>yotta_modules/microbit-dal/inc/core</pElem>
-            <pElem>build/bbc-microbit-classic-gcc</pElem>
+            <pElem>yotta_modules/microbit-dal/build/bbc-microbit-classic-gcc</pElem>
           </incDir>
         </ccTool>
       </item>
@@ -10373,9 +10585,9 @@
           <incDir>
             <pElem>yotta_modules/microbit-dal/inc/core</pElem>
             <pElem>/usr/local/Cellar/arm-none-eabi-gcc/5.0-2016-q2-update/arm-none-eabi/include/c++/5.4.1/arm-none-eabi/armv6-m/bits</pElem>
-            <pElem>yotta_modules/mbed-classic/api</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/mbed-classic/api</pElem>
             <pElem>yotta_modules/microbit-dal/inc/types</pElem>
-            <pElem>build/bbc-microbit-classic-gcc</pElem>
+            <pElem>yotta_modules/microbit-dal/build/bbc-microbit-classic-gcc</pElem>
           </incDir>
         </ccTool>
       </item>
@@ -10386,10 +10598,10 @@
         <ccTool flags="0">
           <incDir>
             <pElem>/usr/local/Cellar/arm-none-eabi-gcc/5.0-2016-q2-update/arm-none-eabi/include/c++/5.4.1/arm-none-eabi/armv6-m/bits</pElem>
-            <pElem>yotta_modules/mbed-classic/api</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/mbed-classic/api</pElem>
             <pElem>yotta_modules/microbit-dal/inc/types</pElem>
             <pElem>yotta_modules/microbit-dal/inc/core</pElem>
-            <pElem>build/bbc-microbit-classic-gcc</pElem>
+            <pElem>yotta_modules/microbit-dal/build/bbc-microbit-classic-gcc</pElem>
           </incDir>
         </ccTool>
       </item>
@@ -10401,11 +10613,11 @@
           <incDir>
             <pElem>yotta_modules/microbit-dal/inc/core</pElem>
             <pElem>yotta_modules/microbit-dal/inc/types</pElem>
-            <pElem>yotta_modules/mbed-classic/targets/hal/TARGET_NORDIC/TARGET_MCU_NRF51822/TARGET_NRF51_MICROBIT</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/mbed-classic/targets/hal/TARGET_NORDIC/TARGET_MCU_NRF51822/TARGET_NRF51_MICROBIT</pElem>
             <pElem>/usr/local/Cellar/arm-none-eabi-gcc/5.0-2016-q2-update/arm-none-eabi/include/c++/5.4.1/arm-none-eabi/armv6-m/bits</pElem>
-            <pElem>yotta_modules/mbed-classic/api</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/mbed-classic/api</pElem>
             <pElem>yotta_modules/microbit-dal/inc/drivers</pElem>
-            <pElem>build/bbc-microbit-classic-gcc</pElem>
+            <pElem>yotta_modules/microbit-dal/build/bbc-microbit-classic-gcc</pElem>
           </incDir>
         </ccTool>
       </item>
@@ -10415,13 +10627,13 @@
             flavor2="8">
         <ccTool flags="0">
           <incDir>
-            <pElem>yotta_modules/mbed-classic/targets/hal/TARGET_NORDIC/TARGET_MCU_NRF51822/TARGET_NRF51_MICROBIT</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/mbed-classic/targets/hal/TARGET_NORDIC/TARGET_MCU_NRF51822/TARGET_NRF51_MICROBIT</pElem>
             <pElem>/usr/local/Cellar/arm-none-eabi-gcc/5.0-2016-q2-update/arm-none-eabi/include/c++/5.4.1/arm-none-eabi/armv6-m/bits</pElem>
-            <pElem>yotta_modules/mbed-classic/api</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/mbed-classic/api</pElem>
             <pElem>yotta_modules/microbit-dal/inc/drivers</pElem>
             <pElem>yotta_modules/microbit-dal/inc/types</pElem>
             <pElem>yotta_modules/microbit-dal/inc/core</pElem>
-            <pElem>build/bbc-microbit-classic-gcc</pElem>
+            <pElem>yotta_modules/microbit-dal/build/bbc-microbit-classic-gcc</pElem>
           </incDir>
         </ccTool>
       </item>
@@ -10431,15 +10643,1291 @@
             flavor2="8">
         <ccTool flags="0">
           <incDir>
-            <pElem>yotta_modules/mbed-classic/targets/hal/TARGET_NORDIC/TARGET_MCU_NRF51822/TARGET_NRF51_MICROBIT</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/mbed-classic/targets/hal/TARGET_NORDIC/TARGET_MCU_NRF51822/TARGET_NRF51_MICROBIT</pElem>
             <pElem>/usr/local/Cellar/arm-none-eabi-gcc/5.0-2016-q2-update/arm-none-eabi/include/c++/5.4.1/arm-none-eabi/armv6-m/bits</pElem>
-            <pElem>yotta_modules/mbed-classic/api</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/mbed-classic/api</pElem>
             <pElem>yotta_modules/microbit-dal/inc/drivers</pElem>
             <pElem>yotta_modules/microbit-dal/inc/types</pElem>
             <pElem>yotta_modules/microbit-dal/inc/core</pElem>
-            <pElem>build/bbc-microbit-classic-gcc</pElem>
+            <pElem>yotta_modules/microbit-dal/build/bbc-microbit-classic-gcc</pElem>
           </incDir>
         </ccTool>
+      </item>
+      <item path="/Users/Wendelin/NetbeansProjects/MicroBit/RecordSavePlayAudioData/yotta_modules/microbit-dal/yotta_modules/ble-nrf51822/source/btle/btle.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+          <incDir>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/nrf51-sdk/source/nordic_sdk/components/softdevice/s130/headers</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/ble/ble</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/ble-nrf51822/source/btle</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/mbed-classic/targets/cmsis</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/ble-nrf51822/source/common</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/nrf51-sdk/source/nordic_sdk/components/device</pElem>
+            <pElem>/usr/local/Cellar/arm-none-eabi-gcc/5.0-2016-q2-update/arm-none-eabi/include/c++/5.4.1/arm-none-eabi/armv6-m/bits</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/mbed-classic/api</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/ble-nrf51822/source</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/nrf51-sdk/source/nordic_sdk/components/drivers_nrf/pstorage/config</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/nrf51-sdk/source/nordic_sdk/components/softdevice/common/softdevice_handler</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/nrf51-sdk/source/nordic_sdk/components/ble/device_manager</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/ble</pElem>
+            <pElem>yotta_modules/microbit-dal/build/bbc-microbit-classic-gcc</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="/Users/Wendelin/NetbeansProjects/MicroBit/RecordSavePlayAudioData/yotta_modules/microbit-dal/yotta_modules/ble-nrf51822/source/btle/btle_advertising.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+          <incDir>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/nrf51-sdk/source/nordic_sdk/components/softdevice/s130/headers</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/ble-nrf51822/source/btle</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/ble-nrf51822/source/common</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/ble/ble</pElem>
+            <pElem>yotta_modules/microbit-dal/build/bbc-microbit-classic-gcc</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="/Users/Wendelin/NetbeansProjects/MicroBit/RecordSavePlayAudioData/yotta_modules/microbit-dal/yotta_modules/ble-nrf51822/source/btle/btle_discovery.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+          <incDir>
+            <pElem>/usr/local/Cellar/arm-none-eabi-gcc/5.0-2016-q2-update/arm-none-eabi/include/c++/5.4.1/arm-none-eabi/armv6-m/bits</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/ble/ble</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/nrf51-sdk/source/nordic_sdk/components/softdevice/s130/headers</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/mbed-classic/api</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/ble</pElem>
+            <pElem>yotta_modules/microbit-dal/build/bbc-microbit-classic-gcc</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="/Users/Wendelin/NetbeansProjects/MicroBit/RecordSavePlayAudioData/yotta_modules/microbit-dal/yotta_modules/ble-nrf51822/source/btle/btle_gap.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+          <incDir>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/nrf51-sdk/source/nordic_sdk/components/softdevice/s130/headers</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/ble-nrf51822/source/btle</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/ble-nrf51822/source/common</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/ble/ble</pElem>
+            <pElem>yotta_modules/microbit-dal/build/bbc-microbit-classic-gcc</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="/Users/Wendelin/NetbeansProjects/MicroBit/RecordSavePlayAudioData/yotta_modules/microbit-dal/yotta_modules/ble-nrf51822/source/btle/btle_security.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+          <incDir>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/nrf51-sdk/source/nordic_sdk/components/softdevice/s130/headers</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/ble-nrf51822/source/btle</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/ble/ble</pElem>
+            <pElem>/usr/local/Cellar/arm-none-eabi-gcc/5.0-2016-q2-update/arm-none-eabi/include/c++/5.4.1/arm-none-eabi/armv6-m/bits</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/mbed-classic/api</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/nrf51-sdk/source/nordic_sdk/components/libraries/util</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/nrf51-sdk/source/nordic_sdk/components/ble/device_manager</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/ble-nrf51822/source</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/nrf51-sdk/source/nordic_sdk/components/drivers_nrf/pstorage</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/nrf51-sdk/source/nordic_sdk/components/ble/peer_manager</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/ble</pElem>
+            <pElem>yotta_modules/microbit-dal/build/bbc-microbit-classic-gcc</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="/Users/Wendelin/NetbeansProjects/MicroBit/RecordSavePlayAudioData/yotta_modules/microbit-dal/yotta_modules/ble-nrf51822/source/btle/custom/custom_helper.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="/Users/Wendelin/NetbeansProjects/MicroBit/RecordSavePlayAudioData/yotta_modules/microbit-dal/yotta_modules/ble-nrf51822/source/nRF5xCharacteristicDescriptorDiscoverer.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+          <incDir>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/nrf51-sdk/source/nordic_sdk/components/softdevice/s130/headers</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/ble/ble</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/ble-nrf51822/source</pElem>
+            <pElem>/usr/local/Cellar/arm-none-eabi-gcc/5.0-2016-q2-update/arm-none-eabi/include/c++/5.4.1/arm-none-eabi/armv6-m/bits</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/ble</pElem>
+            <pElem>yotta_modules/microbit-dal/build/bbc-microbit-classic-gcc</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="/Users/Wendelin/NetbeansProjects/MicroBit/RecordSavePlayAudioData/yotta_modules/microbit-dal/yotta_modules/ble-nrf51822/source/nRF5xDiscoveredCharacteristic.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+          <incDir>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/ble-nrf51822/source</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/ble/ble</pElem>
+            <pElem>/usr/local/Cellar/arm-none-eabi-gcc/5.0-2016-q2-update/arm-none-eabi/include/c++/5.4.1/arm-none-eabi/armv6-m/bits</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/nrf51-sdk/source/nordic_sdk/components/softdevice/s130/headers</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/ble</pElem>
+            <pElem>yotta_modules/microbit-dal/build/bbc-microbit-classic-gcc</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="/Users/Wendelin/NetbeansProjects/MicroBit/RecordSavePlayAudioData/yotta_modules/microbit-dal/yotta_modules/ble-nrf51822/source/nRF5xGap.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+          <incDir>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/ble/ble</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/nrf51-sdk/source/nordic_sdk/components/softdevice/s130/headers</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/ble-nrf51822/source</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/mbed-classic/api</pElem>
+            <pElem>/usr/local/Cellar/arm-none-eabi-gcc/5.0-2016-q2-update/arm-none-eabi/include/c++/5.4.1/arm-none-eabi/armv6-m/bits</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/mbed-classic/hal</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/ble-nrf51822/source/common</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/nrf51-sdk/source/nordic_sdk/components/ble/ble_radio_notification</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/ble-nrf51822/source/btle</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/ble</pElem>
+            <pElem>yotta_modules/microbit-dal/build/bbc-microbit-classic-gcc</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="/Users/Wendelin/NetbeansProjects/MicroBit/RecordSavePlayAudioData/yotta_modules/microbit-dal/yotta_modules/ble-nrf51822/source/nRF5xGattClient.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+          <incDir>
+            <pElem>/usr/local/Cellar/arm-none-eabi-gcc/5.0-2016-q2-update/arm-none-eabi/include/c++/5.4.1/arm-none-eabi/armv6-m/bits</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/ble/ble</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/ble</pElem>
+            <pElem>yotta_modules/microbit-dal/build/bbc-microbit-classic-gcc</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="/Users/Wendelin/NetbeansProjects/MicroBit/RecordSavePlayAudioData/yotta_modules/microbit-dal/yotta_modules/ble-nrf51822/source/nRF5xGattServer.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+          <incDir>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/nrf51-sdk/source/nordic_sdk/components/softdevice/s130/headers</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/ble/ble</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/ble-nrf51822/source</pElem>
+            <pElem>/usr/local/Cellar/arm-none-eabi-gcc/5.0-2016-q2-update/arm-none-eabi/include/c++/5.4.1/arm-none-eabi/armv6-m/bits</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/mbed-classic/api</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/ble-nrf51822/source/common</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/ble-nrf51822/source/btle/custom</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/ble</pElem>
+            <pElem>yotta_modules/microbit-dal/build/bbc-microbit-classic-gcc</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="/Users/Wendelin/NetbeansProjects/MicroBit/RecordSavePlayAudioData/yotta_modules/microbit-dal/yotta_modules/ble-nrf51822/source/nRF5xServiceDiscovery.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+          <incDir>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/ble/ble</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/nrf51-sdk/source/nordic_sdk/components/softdevice/s130/headers</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/ble-nrf51822/source</pElem>
+            <pElem>/usr/local/Cellar/arm-none-eabi-gcc/5.0-2016-q2-update/arm-none-eabi/include/c++/5.4.1/arm-none-eabi/armv6-m/bits</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/ble</pElem>
+            <pElem>yotta_modules/microbit-dal/build/bbc-microbit-classic-gcc</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="/Users/Wendelin/NetbeansProjects/MicroBit/RecordSavePlayAudioData/yotta_modules/microbit-dal/yotta_modules/ble-nrf51822/source/nRF5xn.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+          <incDir>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/ble/ble</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/nrf51-sdk/source/nordic_sdk/components/softdevice/s130/headers</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/ble-nrf51822/source</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/mbed-classic/api</pElem>
+            <pElem>/usr/local/Cellar/arm-none-eabi-gcc/5.0-2016-q2-update/arm-none-eabi/include/c++/5.4.1/arm-none-eabi/armv6-m/bits</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/ble-nrf51822/source/common</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/ble-nrf51822/source/btle</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/nrf51-sdk/source/nordic_sdk/components/softdevice/common/softdevice_handler</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/ble</pElem>
+            <pElem>yotta_modules/microbit-dal/build/bbc-microbit-classic-gcc</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="/Users/Wendelin/NetbeansProjects/MicroBit/RecordSavePlayAudioData/yotta_modules/microbit-dal/yotta_modules/ble/source/BLE.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+          <incDir>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/ble/source</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/ble/ble</pElem>
+            <pElem>/usr/local/Cellar/arm-none-eabi-gcc/5.0-2016-q2-update/arm-none-eabi/include/c++/5.4.1/arm-none-eabi/armv6-m/bits</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/mbed-classic/api</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/ble</pElem>
+            <pElem>yotta_modules/microbit-dal/build/bbc-microbit-classic-gcc</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="/Users/Wendelin/NetbeansProjects/MicroBit/RecordSavePlayAudioData/yotta_modules/microbit-dal/yotta_modules/ble/source/DiscoveredCharacteristic.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+          <incDir>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/ble/ble</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/ble/source</pElem>
+            <pElem>/usr/local/Cellar/arm-none-eabi-gcc/5.0-2016-q2-update/arm-none-eabi/include/c++/5.4.1/arm-none-eabi/armv6-m/bits</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/ble</pElem>
+            <pElem>yotta_modules/microbit-dal/build/bbc-microbit-classic-gcc</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="/Users/Wendelin/NetbeansProjects/MicroBit/RecordSavePlayAudioData/yotta_modules/microbit-dal/yotta_modules/ble/source/GapScanningParams.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+          <incDir>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/ble/source</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/ble/ble</pElem>
+            <pElem>/usr/local/Cellar/arm-none-eabi-gcc/5.0-2016-q2-update/arm-none-eabi/include/c++/5.4.1/arm-none-eabi/armv6-m/bits</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/ble</pElem>
+            <pElem>yotta_modules/microbit-dal/build/bbc-microbit-classic-gcc</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="/Users/Wendelin/NetbeansProjects/MicroBit/RecordSavePlayAudioData/yotta_modules/microbit-dal/yotta_modules/ble/source/services/UARTService.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+          <incDir>
+            <pElem>/usr/local/Cellar/arm-none-eabi-gcc/5.0-2016-q2-update/arm-none-eabi/include/c++/5.4.1/arm-none-eabi/armv6-m/bits</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/mbed-classic/api</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/ble/ble</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/ble/source/services</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/ble</pElem>
+            <pElem>yotta_modules/microbit-dal/build/bbc-microbit-classic-gcc</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="/Users/Wendelin/NetbeansProjects/MicroBit/RecordSavePlayAudioData/yotta_modules/microbit-dal/yotta_modules/ble/source/services/URIBeaconConfigService.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+          <incDir>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/ble/ble</pElem>
+            <pElem>/usr/local/Cellar/arm-none-eabi-gcc/5.0-2016-q2-update/arm-none-eabi/include/c++/5.4.1/arm-none-eabi/armv6-m/bits</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/mbed-classic/api</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/ble/source/services</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/ble</pElem>
+            <pElem>yotta_modules/microbit-dal/build/bbc-microbit-classic-gcc</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="/Users/Wendelin/NetbeansProjects/MicroBit/RecordSavePlayAudioData/yotta_modules/microbit-dal/yotta_modules/mbed-classic/common/BusIn.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+          <incDir>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/mbed-classic/common</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/mbed-classic/api</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/mbed-classic/targets/hal/TARGET_NORDIC/TARGET_MCU_NRF51822</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/mbed-classic/targets/hal/TARGET_NORDIC/TARGET_MCU_NRF51822/TARGET_NRF51_MICROBIT</pElem>
+            <pElem>/usr/local/Cellar/arm-none-eabi-gcc/5.0-2016-q2-update/arm-none-eabi/include/c++/5.4.1/arm-none-eabi/armv6-m/bits</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/mbed-classic/hal</pElem>
+            <pElem>yotta_modules/microbit-dal/build/bbc-microbit-classic-gcc</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="/Users/Wendelin/NetbeansProjects/MicroBit/RecordSavePlayAudioData/yotta_modules/microbit-dal/yotta_modules/mbed-classic/common/BusInOut.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+          <incDir>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/mbed-classic/common</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/mbed-classic/api</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/mbed-classic/targets/hal/TARGET_NORDIC/TARGET_MCU_NRF51822</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/mbed-classic/targets/hal/TARGET_NORDIC/TARGET_MCU_NRF51822/TARGET_NRF51_MICROBIT</pElem>
+            <pElem>/usr/local/Cellar/arm-none-eabi-gcc/5.0-2016-q2-update/arm-none-eabi/include/c++/5.4.1/arm-none-eabi/armv6-m/bits</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/mbed-classic/hal</pElem>
+            <pElem>yotta_modules/microbit-dal/build/bbc-microbit-classic-gcc</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="/Users/Wendelin/NetbeansProjects/MicroBit/RecordSavePlayAudioData/yotta_modules/microbit-dal/yotta_modules/mbed-classic/common/BusOut.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+          <incDir>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/mbed-classic/common</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/mbed-classic/api</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/mbed-classic/targets/hal/TARGET_NORDIC/TARGET_MCU_NRF51822</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/mbed-classic/targets/hal/TARGET_NORDIC/TARGET_MCU_NRF51822/TARGET_NRF51_MICROBIT</pElem>
+            <pElem>/usr/local/Cellar/arm-none-eabi-gcc/5.0-2016-q2-update/arm-none-eabi/include/c++/5.4.1/arm-none-eabi/armv6-m/bits</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/mbed-classic/hal</pElem>
+            <pElem>yotta_modules/microbit-dal/build/bbc-microbit-classic-gcc</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="/Users/Wendelin/NetbeansProjects/MicroBit/RecordSavePlayAudioData/yotta_modules/microbit-dal/yotta_modules/mbed-classic/common/CAN.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+          <incDir>
+            <pElem>/usr/local/Cellar/arm-none-eabi-gcc/5.0-2016-q2-update/arm-none-eabi/include/c++/5.4.1/arm-none-eabi/armv6-m/bits</pElem>
+            <pElem>yotta_modules/microbit-dal/build/bbc-microbit-classic-gcc</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="/Users/Wendelin/NetbeansProjects/MicroBit/RecordSavePlayAudioData/yotta_modules/microbit-dal/yotta_modules/mbed-classic/common/CallChain.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+          <incDir>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/mbed-classic/common</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/mbed-classic/api</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="/Users/Wendelin/NetbeansProjects/MicroBit/RecordSavePlayAudioData/yotta_modules/microbit-dal/yotta_modules/mbed-classic/common/Ethernet.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+          <incDir>
+            <pElem>/usr/local/Cellar/arm-none-eabi-gcc/5.0-2016-q2-update/arm-none-eabi/include/c++/5.4.1/arm-none-eabi/armv6-m/bits</pElem>
+            <pElem>yotta_modules/microbit-dal/build/bbc-microbit-classic-gcc</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="/Users/Wendelin/NetbeansProjects/MicroBit/RecordSavePlayAudioData/yotta_modules/microbit-dal/yotta_modules/mbed-classic/common/FileBase.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+          <incDir>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/mbed-classic/common</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/mbed-classic/targets/hal/TARGET_NORDIC/TARGET_MCU_NRF51822/TARGET_NRF51_MICROBIT</pElem>
+            <pElem>/usr/local/Cellar/arm-none-eabi-gcc/5.0-2016-q2-update/arm-none-eabi/include/c++/5.4.1/arm-none-eabi/armv6-m/bits</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/mbed-classic/api</pElem>
+            <pElem>yotta_modules/microbit-dal/build/bbc-microbit-classic-gcc</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="/Users/Wendelin/NetbeansProjects/MicroBit/RecordSavePlayAudioData/yotta_modules/microbit-dal/yotta_modules/mbed-classic/common/FileLike.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+          <incDir>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/mbed-classic/api</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/mbed-classic/common</pElem>
+            <pElem>/usr/local/Cellar/arm-none-eabi-gcc/5.0-2016-q2-update/arm-none-eabi/include/c++/5.4.1/arm-none-eabi/armv6-m/bits</pElem>
+            <pElem>yotta_modules/microbit-dal/build/bbc-microbit-classic-gcc</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="/Users/Wendelin/NetbeansProjects/MicroBit/RecordSavePlayAudioData/yotta_modules/microbit-dal/yotta_modules/mbed-classic/common/FilePath.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+          <incDir>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/mbed-classic/common</pElem>
+            <pElem>/usr/local/Cellar/arm-none-eabi-gcc/5.0-2016-q2-update/arm-none-eabi/include/c++/5.4.1/arm-none-eabi/armv6-m/bits</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/mbed-classic/api</pElem>
+            <pElem>yotta_modules/microbit-dal/build/bbc-microbit-classic-gcc</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="/Users/Wendelin/NetbeansProjects/MicroBit/RecordSavePlayAudioData/yotta_modules/microbit-dal/yotta_modules/mbed-classic/common/FileSystemLike.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+          <incDir>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/mbed-classic/api</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/mbed-classic/common</pElem>
+            <pElem>/usr/local/Cellar/arm-none-eabi-gcc/5.0-2016-q2-update/arm-none-eabi/include/c++/5.4.1/arm-none-eabi/armv6-m/bits</pElem>
+            <pElem>yotta_modules/microbit-dal/build/bbc-microbit-classic-gcc</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="/Users/Wendelin/NetbeansProjects/MicroBit/RecordSavePlayAudioData/yotta_modules/microbit-dal/yotta_modules/mbed-classic/common/I2C.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+          <incDir>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/mbed-classic/common</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/mbed-classic/targets/cmsis/TARGET_NORDIC/TARGET_MCU_NRF51822</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/mbed-classic/targets/hal/TARGET_NORDIC/TARGET_MCU_NRF51822/TARGET_NRF51_MICROBIT</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/mbed-classic/targets/hal/TARGET_NORDIC/TARGET_MCU_NRF51822</pElem>
+            <pElem>/usr/local/Cellar/arm-none-eabi-gcc/5.0-2016-q2-update/arm-none-eabi/include/c++/5.4.1/arm-none-eabi/armv6-m/bits</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/mbed-classic/hal</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/mbed-classic/api</pElem>
+            <pElem>yotta_modules/microbit-dal/build/bbc-microbit-classic-gcc</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="/Users/Wendelin/NetbeansProjects/MicroBit/RecordSavePlayAudioData/yotta_modules/microbit-dal/yotta_modules/mbed-classic/common/I2CSlave.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+          <incDir>
+            <pElem>/usr/local/Cellar/arm-none-eabi-gcc/5.0-2016-q2-update/arm-none-eabi/include/c++/5.4.1/arm-none-eabi/armv6-m/bits</pElem>
+            <pElem>yotta_modules/microbit-dal/build/bbc-microbit-classic-gcc</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="/Users/Wendelin/NetbeansProjects/MicroBit/RecordSavePlayAudioData/yotta_modules/microbit-dal/yotta_modules/mbed-classic/common/InterruptIn.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+          <incDir>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/mbed-classic/common</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/mbed-classic/api</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/mbed-classic/targets/hal/TARGET_NORDIC/TARGET_MCU_NRF51822</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/mbed-classic/targets/hal/TARGET_NORDIC/TARGET_MCU_NRF51822/TARGET_NRF51_MICROBIT</pElem>
+            <pElem>/usr/local/Cellar/arm-none-eabi-gcc/5.0-2016-q2-update/arm-none-eabi/include/c++/5.4.1/arm-none-eabi/armv6-m/bits</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/mbed-classic/hal</pElem>
+            <pElem>yotta_modules/microbit-dal/build/bbc-microbit-classic-gcc</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="/Users/Wendelin/NetbeansProjects/MicroBit/RecordSavePlayAudioData/yotta_modules/microbit-dal/yotta_modules/mbed-classic/common/InterruptManager.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+          <incDir>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/mbed-classic/common</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/mbed-classic/api</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/mbed-classic/targets/cmsis</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/mbed-classic/targets/cmsis/TARGET_NORDIC/TARGET_MCU_NRF51822</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="/Users/Wendelin/NetbeansProjects/MicroBit/RecordSavePlayAudioData/yotta_modules/microbit-dal/yotta_modules/mbed-classic/common/LocalFileSystem.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+          <incDir>
+            <pElem>/usr/local/Cellar/arm-none-eabi-gcc/5.0-2016-q2-update/arm-none-eabi/include/c++/5.4.1/arm-none-eabi/armv6-m/bits</pElem>
+            <pElem>yotta_modules/microbit-dal/build/bbc-microbit-classic-gcc</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="/Users/Wendelin/NetbeansProjects/MicroBit/RecordSavePlayAudioData/yotta_modules/microbit-dal/yotta_modules/mbed-classic/common/RawSerial.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+          <incDir>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/mbed-classic/api</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/mbed-classic/common</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/mbed-classic/targets/cmsis/TARGET_NORDIC/TARGET_MCU_NRF51822</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/mbed-classic/targets/hal/TARGET_NORDIC/TARGET_MCU_NRF51822/TARGET_NRF51_MICROBIT</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/mbed-classic/targets/hal/TARGET_NORDIC/TARGET_MCU_NRF51822</pElem>
+            <pElem>/usr/local/Cellar/arm-none-eabi-gcc/5.0-2016-q2-update/arm-none-eabi/include/c++/5.4.1/arm-none-eabi/armv6-m/bits</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/mbed-classic/hal</pElem>
+            <pElem>yotta_modules/microbit-dal/build/bbc-microbit-classic-gcc</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="/Users/Wendelin/NetbeansProjects/MicroBit/RecordSavePlayAudioData/yotta_modules/microbit-dal/yotta_modules/mbed-classic/common/SPI.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+          <incDir>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/mbed-classic/api</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/mbed-classic/common</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/mbed-classic/targets/cmsis/TARGET_NORDIC/TARGET_MCU_NRF51822</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/mbed-classic/targets/hal/TARGET_NORDIC/TARGET_MCU_NRF51822/TARGET_NRF51_MICROBIT</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/mbed-classic/targets/hal/TARGET_NORDIC/TARGET_MCU_NRF51822</pElem>
+            <pElem>/usr/local/Cellar/arm-none-eabi-gcc/5.0-2016-q2-update/arm-none-eabi/include/c++/5.4.1/arm-none-eabi/armv6-m/bits</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/mbed-classic/hal</pElem>
+            <pElem>yotta_modules/microbit-dal/build/bbc-microbit-classic-gcc</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="/Users/Wendelin/NetbeansProjects/MicroBit/RecordSavePlayAudioData/yotta_modules/microbit-dal/yotta_modules/mbed-classic/common/SPISlave.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+          <incDir>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/mbed-classic/common</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/mbed-classic/targets/cmsis/TARGET_NORDIC/TARGET_MCU_NRF51822</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/mbed-classic/targets/hal/TARGET_NORDIC/TARGET_MCU_NRF51822/TARGET_NRF51_MICROBIT</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/mbed-classic/targets/hal/TARGET_NORDIC/TARGET_MCU_NRF51822</pElem>
+            <pElem>/usr/local/Cellar/arm-none-eabi-gcc/5.0-2016-q2-update/arm-none-eabi/include/c++/5.4.1/arm-none-eabi/armv6-m/bits</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/mbed-classic/hal</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/mbed-classic/api</pElem>
+            <pElem>yotta_modules/microbit-dal/build/bbc-microbit-classic-gcc</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="/Users/Wendelin/NetbeansProjects/MicroBit/RecordSavePlayAudioData/yotta_modules/microbit-dal/yotta_modules/mbed-classic/common/Serial.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+          <incDir>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/mbed-classic/api</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/mbed-classic/common</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/mbed-classic/targets/cmsis/TARGET_NORDIC/TARGET_MCU_NRF51822</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/mbed-classic/targets/hal/TARGET_NORDIC/TARGET_MCU_NRF51822/TARGET_NRF51_MICROBIT</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/mbed-classic/targets/hal/TARGET_NORDIC/TARGET_MCU_NRF51822</pElem>
+            <pElem>/usr/local/Cellar/arm-none-eabi-gcc/5.0-2016-q2-update/arm-none-eabi/include/c++/5.4.1/arm-none-eabi/armv6-m/bits</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/mbed-classic/hal</pElem>
+            <pElem>yotta_modules/microbit-dal/build/bbc-microbit-classic-gcc</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="/Users/Wendelin/NetbeansProjects/MicroBit/RecordSavePlayAudioData/yotta_modules/microbit-dal/yotta_modules/mbed-classic/common/SerialBase.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+          <incDir>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/mbed-classic/api</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/mbed-classic/common</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/mbed-classic/targets/cmsis/TARGET_NORDIC/TARGET_MCU_NRF51822</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/mbed-classic/targets/hal/TARGET_NORDIC/TARGET_MCU_NRF51822/TARGET_NRF51_MICROBIT</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/mbed-classic/targets/hal/TARGET_NORDIC/TARGET_MCU_NRF51822</pElem>
+            <pElem>/usr/local/Cellar/arm-none-eabi-gcc/5.0-2016-q2-update/arm-none-eabi/include/c++/5.4.1/arm-none-eabi/armv6-m/bits</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/mbed-classic/hal</pElem>
+            <pElem>yotta_modules/microbit-dal/build/bbc-microbit-classic-gcc</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="/Users/Wendelin/NetbeansProjects/MicroBit/RecordSavePlayAudioData/yotta_modules/microbit-dal/yotta_modules/mbed-classic/common/Stream.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+          <incDir>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/mbed-classic/common</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/mbed-classic/api</pElem>
+            <pElem>/usr/local/Cellar/arm-none-eabi-gcc/5.0-2016-q2-update/arm-none-eabi/include/c++/5.4.1/arm-none-eabi/armv6-m/bits</pElem>
+            <pElem>yotta_modules/microbit-dal/build/bbc-microbit-classic-gcc</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="/Users/Wendelin/NetbeansProjects/MicroBit/RecordSavePlayAudioData/yotta_modules/microbit-dal/yotta_modules/mbed-classic/common/Ticker.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+          <incDir>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/mbed-classic/common</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/mbed-classic/api</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/mbed-classic/hal</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="/Users/Wendelin/NetbeansProjects/MicroBit/RecordSavePlayAudioData/yotta_modules/microbit-dal/yotta_modules/mbed-classic/common/Timeout.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+          <incDir>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/mbed-classic/common</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/mbed-classic/api</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="/Users/Wendelin/NetbeansProjects/MicroBit/RecordSavePlayAudioData/yotta_modules/microbit-dal/yotta_modules/mbed-classic/common/Timer.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+          <incDir>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/mbed-classic/common</pElem>
+            <pElem>/usr/local/Cellar/arm-none-eabi-gcc/5.0-2016-q2-update/arm-none-eabi/include/c++/5.4.1/arm-none-eabi/armv6-m/bits</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/mbed-classic/hal</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/mbed-classic/api</pElem>
+            <pElem>yotta_modules/microbit-dal/build/bbc-microbit-classic-gcc</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="/Users/Wendelin/NetbeansProjects/MicroBit/RecordSavePlayAudioData/yotta_modules/microbit-dal/yotta_modules/mbed-classic/common/TimerEvent.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+          <incDir>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/mbed-classic/common</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/mbed-classic/hal</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/mbed-classic/api</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="/Users/Wendelin/NetbeansProjects/MicroBit/RecordSavePlayAudioData/yotta_modules/microbit-dal/yotta_modules/mbed-classic/common/assert.c"
+            ex="false"
+            tool="0"
+            flavor2="3">
+        <cTool flags="2">
+          <incDir>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/mbed-classic/common</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/mbed-classic/api</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="/Users/Wendelin/NetbeansProjects/MicroBit/RecordSavePlayAudioData/yotta_modules/microbit-dal/yotta_modules/mbed-classic/common/board.c"
+            ex="false"
+            tool="0"
+            flavor2="3">
+        <cTool flags="2">
+          <incDir>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/mbed-classic/common</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/mbed-classic/targets/hal/TARGET_NORDIC/TARGET_MCU_NRF51822</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/mbed-classic/targets/hal/TARGET_NORDIC/TARGET_MCU_NRF51822/TARGET_NRF51_MICROBIT</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/mbed-classic/hal</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/mbed-classic/api</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="/Users/Wendelin/NetbeansProjects/MicroBit/RecordSavePlayAudioData/yotta_modules/microbit-dal/yotta_modules/mbed-classic/common/error.c"
+            ex="false"
+            tool="0"
+            flavor2="3">
+        <cTool flags="2">
+          <incDir>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/mbed-classic/common</pElem>
+            <pElem>yotta_modules/microbit-dal/build/bbc-microbit-classic-gcc</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="/Users/Wendelin/NetbeansProjects/MicroBit/RecordSavePlayAudioData/yotta_modules/microbit-dal/yotta_modules/mbed-classic/common/gpio.c"
+            ex="false"
+            tool="0"
+            flavor2="3">
+        <cTool flags="2">
+          <incDir>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/mbed-classic/common</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/mbed-classic/targets/hal/TARGET_NORDIC/TARGET_MCU_NRF51822</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/mbed-classic/targets/hal/TARGET_NORDIC/TARGET_MCU_NRF51822/TARGET_NRF51_MICROBIT</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/mbed-classic/hal</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="/Users/Wendelin/NetbeansProjects/MicroBit/RecordSavePlayAudioData/yotta_modules/microbit-dal/yotta_modules/mbed-classic/common/lp_ticker_api.c"
+            ex="false"
+            tool="0"
+            flavor2="3">
+        <cTool flags="2">
+        </cTool>
+      </item>
+      <item path="/Users/Wendelin/NetbeansProjects/MicroBit/RecordSavePlayAudioData/yotta_modules/microbit-dal/yotta_modules/mbed-classic/common/mbed_interface.c"
+            ex="false"
+            tool="0"
+            flavor2="3">
+        <cTool flags="2">
+          <incDir>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/mbed-classic/common</pElem>
+            <pElem>yotta_modules/microbit-dal/build/bbc-microbit-classic-gcc</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="/Users/Wendelin/NetbeansProjects/MicroBit/RecordSavePlayAudioData/yotta_modules/microbit-dal/yotta_modules/mbed-classic/common/pinmap_common.c"
+            ex="false"
+            tool="0"
+            flavor2="3">
+        <cTool flags="2">
+          <incDir>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/mbed-classic/common</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/mbed-classic/targets/hal/TARGET_NORDIC/TARGET_MCU_NRF51822/TARGET_NRF51_MICROBIT</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/mbed-classic/hal</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/mbed-classic/api</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="/Users/Wendelin/NetbeansProjects/MicroBit/RecordSavePlayAudioData/yotta_modules/microbit-dal/yotta_modules/mbed-classic/common/retarget.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+          <incDir>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/mbed-classic/api</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/mbed-classic/common</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/mbed-classic/targets/cmsis</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/mbed-classic/targets/cmsis/TARGET_NORDIC/TARGET_MCU_NRF51822</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/mbed-classic/targets/hal/TARGET_NORDIC/TARGET_MCU_NRF51822/TARGET_NRF51_MICROBIT</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/mbed-classic/targets/hal/TARGET_NORDIC/TARGET_MCU_NRF51822</pElem>
+            <pElem>/usr/local/Cellar/arm-none-eabi-gcc/5.0-2016-q2-update/arm-none-eabi/include/c++/5.4.1/arm-none-eabi/armv6-m/bits</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/mbed-classic/hal</pElem>
+            <pElem>yotta_modules/microbit-dal/build/bbc-microbit-classic-gcc</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="/Users/Wendelin/NetbeansProjects/MicroBit/RecordSavePlayAudioData/yotta_modules/microbit-dal/yotta_modules/mbed-classic/common/rtc_time.c"
+            ex="false"
+            tool="0"
+            flavor2="3">
+        <cTool flags="2">
+          <incDir>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/mbed-classic/common</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/mbed-classic/targets/cmsis</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/mbed-classic/hal</pElem>
+            <pElem>yotta_modules/microbit-dal/build/bbc-microbit-classic-gcc</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="/Users/Wendelin/NetbeansProjects/MicroBit/RecordSavePlayAudioData/yotta_modules/microbit-dal/yotta_modules/mbed-classic/common/semihost_api.c"
+            ex="false"
+            tool="0"
+            flavor2="3">
+        <cTool flags="2">
+        </cTool>
+      </item>
+      <item path="/Users/Wendelin/NetbeansProjects/MicroBit/RecordSavePlayAudioData/yotta_modules/microbit-dal/yotta_modules/mbed-classic/common/ticker_api.c"
+            ex="false"
+            tool="0"
+            flavor2="3">
+        <cTool flags="2">
+          <incDir>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/mbed-classic/common</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/mbed-classic/targets/cmsis</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/mbed-classic/hal</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="/Users/Wendelin/NetbeansProjects/MicroBit/RecordSavePlayAudioData/yotta_modules/microbit-dal/yotta_modules/mbed-classic/common/us_ticker_api.c"
+            ex="false"
+            tool="0"
+            flavor2="3">
+        <cTool flags="2">
+          <incDir>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/mbed-classic/common</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/mbed-classic/hal</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="/Users/Wendelin/NetbeansProjects/MicroBit/RecordSavePlayAudioData/yotta_modules/microbit-dal/yotta_modules/mbed-classic/common/wait_api.c"
+            ex="false"
+            tool="0"
+            flavor2="3">
+        <cTool flags="2">
+          <incDir>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/mbed-classic/common</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/mbed-classic/hal</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="/Users/Wendelin/NetbeansProjects/MicroBit/RecordSavePlayAudioData/yotta_modules/microbit-dal/yotta_modules/mbed-classic/targets/cmsis/TARGET_NORDIC/TARGET_MCU_NRF51822/cmsis_nvic.c"
+            ex="false"
+            tool="0"
+            flavor2="3">
+        <cTool flags="2">
+        </cTool>
+      </item>
+      <item path="/Users/Wendelin/NetbeansProjects/MicroBit/RecordSavePlayAudioData/yotta_modules/microbit-dal/yotta_modules/mbed-classic/targets/cmsis/TARGET_NORDIC/TARGET_MCU_NRF51822/system_nrf51.c"
+            ex="false"
+            tool="0"
+            flavor2="3">
+        <cTool flags="2">
+        </cTool>
+      </item>
+      <item path="/Users/Wendelin/NetbeansProjects/MicroBit/RecordSavePlayAudioData/yotta_modules/microbit-dal/yotta_modules/mbed-classic/targets/hal/TARGET_NORDIC/TARGET_MCU_NRF51822/analogin_api.c"
+            ex="false"
+            tool="0"
+            flavor2="3">
+        <cTool flags="2">
+          <incDir>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/mbed-classic/targets/hal/TARGET_NORDIC/TARGET_MCU_NRF51822</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/mbed-classic/targets/cmsis/TARGET_NORDIC/TARGET_MCU_NRF51822</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/mbed-classic/targets/hal/TARGET_NORDIC/TARGET_MCU_NRF51822/TARGET_NRF51_MICROBIT</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/mbed-classic/hal</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="/Users/Wendelin/NetbeansProjects/MicroBit/RecordSavePlayAudioData/yotta_modules/microbit-dal/yotta_modules/mbed-classic/targets/hal/TARGET_NORDIC/TARGET_MCU_NRF51822/gpio_api.c"
+            ex="false"
+            tool="0"
+            flavor2="3">
+        <cTool flags="2">
+          <incDir>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/mbed-classic/targets/hal/TARGET_NORDIC/TARGET_MCU_NRF51822</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/mbed-classic/targets/cmsis/TARGET_NORDIC/TARGET_MCU_NRF51822</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/mbed-classic/targets/hal/TARGET_NORDIC/TARGET_MCU_NRF51822/TARGET_NRF51_MICROBIT</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/mbed-classic/hal</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="/Users/Wendelin/NetbeansProjects/MicroBit/RecordSavePlayAudioData/yotta_modules/microbit-dal/yotta_modules/mbed-classic/targets/hal/TARGET_NORDIC/TARGET_MCU_NRF51822/gpio_irq_api.c"
+            ex="false"
+            tool="0"
+            flavor2="3">
+        <cTool flags="2">
+          <incDir>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/mbed-classic/targets/hal/TARGET_NORDIC/TARGET_MCU_NRF51822</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/mbed-classic/targets/cmsis</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/mbed-classic/targets/cmsis/TARGET_NORDIC/TARGET_MCU_NRF51822</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/mbed-classic/targets/hal/TARGET_NORDIC/TARGET_MCU_NRF51822/TARGET_NRF51_MICROBIT</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/mbed-classic/hal</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="/Users/Wendelin/NetbeansProjects/MicroBit/RecordSavePlayAudioData/yotta_modules/microbit-dal/yotta_modules/mbed-classic/targets/hal/TARGET_NORDIC/TARGET_MCU_NRF51822/i2c_api.c"
+            ex="false"
+            tool="0"
+            flavor2="3">
+        <cTool flags="2">
+          <incDir>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/mbed-classic/targets/hal/TARGET_NORDIC/TARGET_MCU_NRF51822</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/mbed-classic/targets/cmsis/TARGET_NORDIC/TARGET_MCU_NRF51822</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/mbed-classic/targets/hal/TARGET_NORDIC/TARGET_MCU_NRF51822/TARGET_NRF51_MICROBIT</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/mbed-classic/hal</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/mbed-classic/api</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="/Users/Wendelin/NetbeansProjects/MicroBit/RecordSavePlayAudioData/yotta_modules/microbit-dal/yotta_modules/mbed-classic/targets/hal/TARGET_NORDIC/TARGET_MCU_NRF51822/pinmap.c"
+            ex="false"
+            tool="0"
+            flavor2="3">
+        <cTool flags="2">
+          <incDir>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/mbed-classic/targets/hal/TARGET_NORDIC/TARGET_MCU_NRF51822</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/mbed-classic/targets/cmsis/TARGET_NORDIC/TARGET_MCU_NRF51822</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/mbed-classic/targets/hal/TARGET_NORDIC/TARGET_MCU_NRF51822/TARGET_NRF51_MICROBIT</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="/Users/Wendelin/NetbeansProjects/MicroBit/RecordSavePlayAudioData/yotta_modules/microbit-dal/yotta_modules/mbed-classic/targets/hal/TARGET_NORDIC/TARGET_MCU_NRF51822/port_api.c"
+            ex="false"
+            tool="0"
+            flavor2="3">
+        <cTool flags="2">
+          <incDir>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/mbed-classic/targets/hal/TARGET_NORDIC/TARGET_MCU_NRF51822</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/mbed-classic/targets/cmsis/TARGET_NORDIC/TARGET_MCU_NRF51822</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/mbed-classic/targets/hal/TARGET_NORDIC/TARGET_MCU_NRF51822/TARGET_NRF51_MICROBIT</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/mbed-classic/hal</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="/Users/Wendelin/NetbeansProjects/MicroBit/RecordSavePlayAudioData/yotta_modules/microbit-dal/yotta_modules/mbed-classic/targets/hal/TARGET_NORDIC/TARGET_MCU_NRF51822/pwmout_api.c"
+            ex="false"
+            tool="0"
+            flavor2="3">
+        <cTool flags="2">
+          <incDir>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/mbed-classic/targets/hal/TARGET_NORDIC/TARGET_MCU_NRF51822</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/mbed-classic/targets/cmsis</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/mbed-classic/targets/cmsis/TARGET_NORDIC/TARGET_MCU_NRF51822</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/mbed-classic/targets/hal/TARGET_NORDIC/TARGET_MCU_NRF51822/TARGET_NRF51_MICROBIT</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/mbed-classic/hal</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/mbed-classic/api</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="/Users/Wendelin/NetbeansProjects/MicroBit/RecordSavePlayAudioData/yotta_modules/microbit-dal/yotta_modules/mbed-classic/targets/hal/TARGET_NORDIC/TARGET_MCU_NRF51822/serial_api.c"
+            ex="false"
+            tool="0"
+            flavor2="3">
+        <cTool flags="2">
+          <incDir>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/mbed-classic/targets/hal/TARGET_NORDIC/TARGET_MCU_NRF51822</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/mbed-classic/targets/cmsis</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/mbed-classic/targets/cmsis/TARGET_NORDIC/TARGET_MCU_NRF51822</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/mbed-classic/targets/hal/TARGET_NORDIC/TARGET_MCU_NRF51822/TARGET_NRF51_MICROBIT</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/mbed-classic/hal</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="/Users/Wendelin/NetbeansProjects/MicroBit/RecordSavePlayAudioData/yotta_modules/microbit-dal/yotta_modules/mbed-classic/targets/hal/TARGET_NORDIC/TARGET_MCU_NRF51822/sleep.c"
+            ex="false"
+            tool="0"
+            flavor2="3">
+        <cTool flags="2">
+          <incDir>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/mbed-classic/targets/hal/TARGET_NORDIC/TARGET_MCU_NRF51822</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/mbed-classic/targets/cmsis</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/mbed-classic/targets/cmsis/TARGET_NORDIC/TARGET_MCU_NRF51822</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="/Users/Wendelin/NetbeansProjects/MicroBit/RecordSavePlayAudioData/yotta_modules/microbit-dal/yotta_modules/mbed-classic/targets/hal/TARGET_NORDIC/TARGET_MCU_NRF51822/spi_api.c"
+            ex="false"
+            tool="0"
+            flavor2="3">
+        <cTool flags="2">
+          <incDir>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/mbed-classic/targets/hal/TARGET_NORDIC/TARGET_MCU_NRF51822</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/mbed-classic/targets/cmsis/TARGET_NORDIC/TARGET_MCU_NRF51822</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/mbed-classic/targets/hal/TARGET_NORDIC/TARGET_MCU_NRF51822/TARGET_NRF51_MICROBIT</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/mbed-classic/hal</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/mbed-classic/api</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="/Users/Wendelin/NetbeansProjects/MicroBit/RecordSavePlayAudioData/yotta_modules/microbit-dal/yotta_modules/mbed-classic/targets/hal/TARGET_NORDIC/TARGET_MCU_NRF51822/twi_master.c"
+            ex="false"
+            tool="0"
+            flavor2="3">
+        <cTool flags="2">
+          <incDir>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/mbed-classic/targets/cmsis/TARGET_NORDIC/TARGET_MCU_NRF51822</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/mbed-classic/targets/hal/TARGET_NORDIC/TARGET_MCU_NRF51822</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/mbed-classic/targets/hal/TARGET_NORDIC/TARGET_MCU_NRF51822/TARGET_NRF51_MICROBIT</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="/Users/Wendelin/NetbeansProjects/MicroBit/RecordSavePlayAudioData/yotta_modules/microbit-dal/yotta_modules/mbed-classic/targets/hal/TARGET_NORDIC/TARGET_MCU_NRF51822/us_ticker.c"
+            ex="false"
+            tool="0"
+            flavor2="3">
+        <cTool flags="2">
+          <incDir>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/mbed-classic/targets/hal/TARGET_NORDIC/TARGET_MCU_NRF51822</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/mbed-classic/targets/cmsis</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/mbed-classic/targets/cmsis/TARGET_NORDIC/TARGET_MCU_NRF51822</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/mbed-classic/hal</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="/Users/Wendelin/NetbeansProjects/MicroBit/RecordSavePlayAudioData/yotta_modules/microbit-dal/yotta_modules/nrf51-sdk/source/nordic_sdk/components/ble/ble_radio_notification/ble_radio_notification.c"
+            ex="false"
+            tool="0"
+            flavor2="3">
+        <cTool flags="1">
+        </cTool>
+      </item>
+      <item path="/Users/Wendelin/NetbeansProjects/MicroBit/RecordSavePlayAudioData/yotta_modules/microbit-dal/yotta_modules/nrf51-sdk/source/nordic_sdk/components/ble/ble_services/ble_dfu/ble_dfu.c"
+            ex="false"
+            tool="0"
+            flavor2="3">
+        <cTool flags="1">
+        </cTool>
+      </item>
+      <item path="/Users/Wendelin/NetbeansProjects/MicroBit/RecordSavePlayAudioData/yotta_modules/microbit-dal/yotta_modules/nrf51-sdk/source/nordic_sdk/components/ble/common/ble_advdata.c"
+            ex="false"
+            tool="0"
+            flavor2="3">
+        <cTool flags="1">
+          <incDir>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/nrf51-sdk/source/nordic_sdk/components/softdevice/s130/headers</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/nrf51-sdk/source/nordic_sdk/components/ble/common</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/nrf51-sdk/source/nordic_sdk/components/libraries/util</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="/Users/Wendelin/NetbeansProjects/MicroBit/RecordSavePlayAudioData/yotta_modules/microbit-dal/yotta_modules/nrf51-sdk/source/nordic_sdk/components/ble/common/ble_conn_params.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="/Users/Wendelin/NetbeansProjects/MicroBit/RecordSavePlayAudioData/yotta_modules/microbit-dal/yotta_modules/nrf51-sdk/source/nordic_sdk/components/ble/common/ble_conn_state.c"
+            ex="false"
+            tool="0"
+            flavor2="3">
+        <cTool flags="1">
+          <incDir>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/nrf51-sdk/source/nordic_sdk/components/ble/common</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/nrf51-sdk/source/nordic_sdk/components/softdevice/s130/headers</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/nrf51-sdk/source/nordic_sdk/components/libraries/util</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="/Users/Wendelin/NetbeansProjects/MicroBit/RecordSavePlayAudioData/yotta_modules/microbit-dal/yotta_modules/nrf51-sdk/source/nordic_sdk/components/ble/common/ble_srv_common.c"
+            ex="false"
+            tool="0"
+            flavor2="3">
+        <cTool flags="1">
+          <incDir>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/nrf51-sdk/source/nordic_sdk/components/softdevice/s130/headers</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/nrf51-sdk/source/nordic_sdk/components/ble/common</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="/Users/Wendelin/NetbeansProjects/MicroBit/RecordSavePlayAudioData/yotta_modules/microbit-dal/yotta_modules/nrf51-sdk/source/nordic_sdk/components/ble/device_manager/device_manager_peripheral.c"
+            ex="false"
+            tool="0"
+            flavor2="3">
+        <cTool flags="1">
+        </cTool>
+      </item>
+      <item path="/Users/Wendelin/NetbeansProjects/MicroBit/RecordSavePlayAudioData/yotta_modules/microbit-dal/yotta_modules/nrf51-sdk/source/nordic_sdk/components/ble/peer_manager/id_manager.c"
+            ex="false"
+            tool="0"
+            flavor2="3">
+        <cTool flags="1">
+          <incDir>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/nrf51-sdk/source/nordic_sdk/components/softdevice/s130/headers</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/nrf51-sdk/source/nordic_sdk/components/ble/peer_manager</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/nrf51-sdk/source/nordic_sdk/components/libraries/util</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/nrf51-sdk/source/nordic_sdk/components/ble/common</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="/Users/Wendelin/NetbeansProjects/MicroBit/RecordSavePlayAudioData/yotta_modules/microbit-dal/yotta_modules/nrf51-sdk/source/nordic_sdk/components/ble/peer_manager/peer_data.c"
+            ex="false"
+            tool="0"
+            flavor2="3">
+        <cTool flags="1">
+          <incDir>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/nrf51-sdk/source/nordic_sdk/components/ble/peer_manager</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/nrf51-sdk/source/nordic_sdk/components/softdevice/s130/headers</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/nrf51-sdk/source/nordic_sdk/components/ble/common</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/nrf51-sdk/source/nordic_sdk/components/libraries/util</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/nrf51-sdk/source/nordic_sdk/components/libraries/fds</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="/Users/Wendelin/NetbeansProjects/MicroBit/RecordSavePlayAudioData/yotta_modules/microbit-dal/yotta_modules/nrf51-sdk/source/nordic_sdk/components/ble/peer_manager/peer_data_storage.c"
+            ex="false"
+            tool="0"
+            flavor2="3">
+        <cTool flags="1">
+          <incDir>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/nrf51-sdk/source/nordic_sdk/components/ble/peer_manager</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/nrf51-sdk/source/nordic_sdk/components/libraries/util</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/nrf51-sdk/source/nordic_sdk/components/softdevice/s130/headers</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/nrf51-sdk/source/nordic_sdk/components/ble/common</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/nrf51-sdk/source/nordic_sdk/components/libraries/fds</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="/Users/Wendelin/NetbeansProjects/MicroBit/RecordSavePlayAudioData/yotta_modules/microbit-dal/yotta_modules/nrf51-sdk/source/nordic_sdk/components/ble/peer_manager/peer_database.c"
+            ex="false"
+            tool="0"
+            flavor2="3">
+        <cTool flags="1">
+          <incDir>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/nrf51-sdk/source/nordic_sdk/components/ble/peer_manager</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/nrf51-sdk/source/nordic_sdk/components/softdevice/s130/headers</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/nrf51-sdk/source/nordic_sdk/components/ble/common</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/nrf51-sdk/source/nordic_sdk/components/libraries/util</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="/Users/Wendelin/NetbeansProjects/MicroBit/RecordSavePlayAudioData/yotta_modules/microbit-dal/yotta_modules/nrf51-sdk/source/nordic_sdk/components/ble/peer_manager/peer_id.c"
+            ex="false"
+            tool="0"
+            flavor2="3">
+        <cTool flags="1">
+          <incDir>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/nrf51-sdk/source/nordic_sdk/components/ble/peer_manager</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="/Users/Wendelin/NetbeansProjects/MicroBit/RecordSavePlayAudioData/yotta_modules/microbit-dal/yotta_modules/nrf51-sdk/source/nordic_sdk/components/ble/peer_manager/pm_buffer.c"
+            ex="false"
+            tool="0"
+            flavor2="3">
+        <cTool flags="1">
+          <incDir>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/nrf51-sdk/source/nordic_sdk/components/ble/peer_manager</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/nrf51-sdk/source/nordic_sdk/components/libraries/util</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="/Users/Wendelin/NetbeansProjects/MicroBit/RecordSavePlayAudioData/yotta_modules/microbit-dal/yotta_modules/nrf51-sdk/source/nordic_sdk/components/ble/peer_manager/pm_mutex.c"
+            ex="false"
+            tool="0"
+            flavor2="3">
+        <cTool flags="1">
+          <incDir>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/nrf51-sdk/source/nordic_sdk/components/ble/peer_manager</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/nrf51-sdk/source/nordic_sdk/components/libraries/util</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="/Users/Wendelin/NetbeansProjects/MicroBit/RecordSavePlayAudioData/yotta_modules/microbit-dal/yotta_modules/nrf51-sdk/source/nordic_sdk/components/drivers_nrf/ble_flash/ble_flash.c"
+            ex="false"
+            tool="0"
+            flavor2="3">
+        <cTool flags="1">
+        </cTool>
+      </item>
+      <item path="/Users/Wendelin/NetbeansProjects/MicroBit/RecordSavePlayAudioData/yotta_modules/microbit-dal/yotta_modules/nrf51-sdk/source/nordic_sdk/components/drivers_nrf/delay/nrf_delay.c"
+            ex="false"
+            tool="0"
+            flavor2="3">
+        <cTool flags="1">
+        </cTool>
+      </item>
+      <item path="/Users/Wendelin/NetbeansProjects/MicroBit/RecordSavePlayAudioData/yotta_modules/microbit-dal/yotta_modules/nrf51-sdk/source/nordic_sdk/components/drivers_nrf/hal/nrf_ecb.c"
+            ex="false"
+            tool="0"
+            flavor2="3">
+        <cTool flags="1">
+        </cTool>
+      </item>
+      <item path="/Users/Wendelin/NetbeansProjects/MicroBit/RecordSavePlayAudioData/yotta_modules/microbit-dal/yotta_modules/nrf51-sdk/source/nordic_sdk/components/drivers_nrf/hal/nrf_nvmc.c"
+            ex="false"
+            tool="0"
+            flavor2="3">
+        <cTool flags="1">
+        </cTool>
+      </item>
+      <item path="/Users/Wendelin/NetbeansProjects/MicroBit/RecordSavePlayAudioData/yotta_modules/microbit-dal/yotta_modules/nrf51-sdk/source/nordic_sdk/components/drivers_nrf/pstorage/pstorage.c"
+            ex="false"
+            tool="0"
+            flavor2="3">
+        <cTool flags="1">
+        </cTool>
+      </item>
+      <item path="/Users/Wendelin/NetbeansProjects/MicroBit/RecordSavePlayAudioData/yotta_modules/microbit-dal/yotta_modules/nrf51-sdk/source/nordic_sdk/components/libraries/bootloader_dfu/bootloader_util.c"
+            ex="false"
+            tool="0"
+            flavor2="3">
+        <cTool flags="1">
+          <incDir>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/nrf51-sdk/source/nordic_sdk/components/libraries/bootloader_dfu</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="/Users/Wendelin/NetbeansProjects/MicroBit/RecordSavePlayAudioData/yotta_modules/microbit-dal/yotta_modules/nrf51-sdk/source/nordic_sdk/components/libraries/bootloader_dfu/dfu_app_handler.c"
+            ex="false"
+            tool="0"
+            flavor2="3">
+        <cTool flags="1">
+          <incDir>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/nrf51-sdk/source/nordic_sdk/components/softdevice/s130/headers</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/nrf51-sdk/source/nordic_sdk/components/libraries/bootloader_dfu</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/mbed-classic/targets/cmsis</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/nrf51-sdk/source/nordic_sdk/components/ble/common</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/nrf51-sdk/source/nordic_sdk/components/ble/ble_services/ble_dfu</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/nrf51-sdk/source/nordic_sdk/components/ble/device_manager</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/nrf51-sdk/source/nordic_sdk/components/device</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/nrf51-sdk/source/nordic_sdk/components/libraries/util</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="/Users/Wendelin/NetbeansProjects/MicroBit/RecordSavePlayAudioData/yotta_modules/microbit-dal/yotta_modules/nrf51-sdk/source/nordic_sdk/components/libraries/bootloader_dfu/dfu_init_template.c"
+            ex="false"
+            tool="0"
+            flavor2="3">
+        <cTool flags="1">
+          <incDir>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/nrf51-sdk/source/nordic_sdk/components/libraries/bootloader_dfu</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="/Users/Wendelin/NetbeansProjects/MicroBit/RecordSavePlayAudioData/yotta_modules/microbit-dal/yotta_modules/nrf51-sdk/source/nordic_sdk/components/libraries/crc16/crc16.c"
+            ex="false"
+            tool="0"
+            flavor2="3">
+        <cTool flags="1">
+        </cTool>
+      </item>
+      <item path="/Users/Wendelin/NetbeansProjects/MicroBit/RecordSavePlayAudioData/yotta_modules/microbit-dal/yotta_modules/nrf51-sdk/source/nordic_sdk/components/libraries/fds/fds.c"
+            ex="false"
+            tool="0"
+            flavor2="3">
+        <cTool flags="1">
+        </cTool>
+      </item>
+      <item path="/Users/Wendelin/NetbeansProjects/MicroBit/RecordSavePlayAudioData/yotta_modules/microbit-dal/yotta_modules/nrf51-sdk/source/nordic_sdk/components/libraries/fstorage/fstorage.c"
+            ex="false"
+            tool="0"
+            flavor2="3">
+        <cTool flags="1">
+        </cTool>
+      </item>
+      <item path="/Users/Wendelin/NetbeansProjects/MicroBit/RecordSavePlayAudioData/yotta_modules/microbit-dal/yotta_modules/nrf51-sdk/source/nordic_sdk/components/libraries/hci/hci_mem_pool.c"
+            ex="false"
+            tool="0"
+            flavor2="3">
+        <cTool flags="1">
+        </cTool>
+      </item>
+      <item path="/Users/Wendelin/NetbeansProjects/MicroBit/RecordSavePlayAudioData/yotta_modules/microbit-dal/yotta_modules/nrf51-sdk/source/nordic_sdk/components/libraries/scheduler/app_scheduler.c"
+            ex="false"
+            tool="0"
+            flavor2="3">
+        <cTool flags="1">
+        </cTool>
+      </item>
+      <item path="/Users/Wendelin/NetbeansProjects/MicroBit/RecordSavePlayAudioData/yotta_modules/microbit-dal/yotta_modules/nrf51-sdk/source/nordic_sdk/components/libraries/util/app_error.c"
+            ex="false"
+            tool="0"
+            flavor2="3">
+        <cTool flags="1">
+          <incDir>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/nrf51-sdk/source/nordic_sdk/components/libraries/util</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/mbed-classic/targets/cmsis</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="/Users/Wendelin/NetbeansProjects/MicroBit/RecordSavePlayAudioData/yotta_modules/microbit-dal/yotta_modules/nrf51-sdk/source/nordic_sdk/components/libraries/util/app_util_platform.c"
+            ex="false"
+            tool="0"
+            flavor2="3">
+        <cTool flags="1">
+          <incDir>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/nrf51-sdk/source/nordic_sdk/components/libraries/util</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/mbed-classic/targets/cmsis</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="/Users/Wendelin/NetbeansProjects/MicroBit/RecordSavePlayAudioData/yotta_modules/microbit-dal/yotta_modules/nrf51-sdk/source/nordic_sdk/components/libraries/util/nrf_assert.c"
+            ex="false"
+            tool="0"
+            flavor2="3">
+        <cTool flags="1">
+        </cTool>
+      </item>
+      <item path="/Users/Wendelin/NetbeansProjects/MicroBit/RecordSavePlayAudioData/yotta_modules/microbit-dal/yotta_modules/nrf51-sdk/source/nordic_sdk/components/libraries/util/sdk_mapped_flags.c"
+            ex="false"
+            tool="0"
+            flavor2="3">
+        <cTool flags="1">
+          <incDir>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/nrf51-sdk/source/nordic_sdk/components/libraries/util</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="/Users/Wendelin/NetbeansProjects/MicroBit/RecordSavePlayAudioData/yotta_modules/microbit-dal/yotta_modules/nrf51-sdk/source/nordic_sdk/components/softdevice/common/softdevice_handler/softdevice_handler.c"
+            ex="false"
+            tool="0"
+            flavor2="3">
+        <cTool flags="1">
+          <incDir>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/nrf51-sdk/source/nordic_sdk/components/softdevice/s130/headers</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/nrf51-sdk/source/nordic_sdk/components/softdevice/common/softdevice_handler</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/nrf51-sdk/source/nordic_sdk/components/device</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/nrf51-sdk/source/nordic_sdk/components/libraries/util</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="/Users/Wendelin/NetbeansProjects/MicroBit/RecordSavePlayAudioData/yotta_modules/microbit-dal/yotta_modules/nrf51-sdk/source/nordic_sdk/components/softdevice/common/softdevice_handler/softdevice_handler_appsh.c"
+            ex="false"
+            tool="0"
+            flavor2="3">
+        <cTool flags="1">
+          <incDir>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/nrf51-sdk/source/nordic_sdk/components/softdevice/common/softdevice_handler</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/nrf51-sdk/source/nordic_sdk/components/libraries/util</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/nrf51-sdk/source/nordic_sdk/components/libraries/scheduler</pElem>
+          </incDir>
+        </cTool>
       </item>
       <item path="/Users/Wendelin/NetbeansProjects/MicroBit/RecordSavePlayAudioData/yotta_modules/microbit/source/MicroBit.cpp"
             ex="false"
@@ -10797,6 +12285,7 @@
         <cTool>
           <incDir>
             <pElem>yotta_modules/mbed-classic/targets/cmsis/TARGET_NORDIC/TARGET_MCU_NRF51822</pElem>
+            <pElem>yotta_modules/mbed-classic/build/bbc-microbit-classic-gcc</pElem>
           </incDir>
         </cTool>
       </folder>
@@ -10827,6 +12316,149 @@
             <pElem>yotta_modules/microbit-dal/source/types</pElem>
           </incDir>
         </ccTool>
+      </folder>
+      <folder path="0/yotta_modules/microbit-dal/yotta_modules/ble-nrf51822/source/btle/custom">
+        <ccTool>
+          <incDir>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/nrf51-sdk/source/nordic_sdk/components/softdevice/s130/headers</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/ble-nrf51822/source/btle/custom</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/ble/ble</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/ble-nrf51822/source/common</pElem>
+            <pElem>/usr/local/Cellar/arm-none-eabi-gcc/5.0-2016-q2-update/arm-none-eabi/include/c++/5.4.1/arm-none-eabi/armv6-m/bits</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/ble</pElem>
+            <pElem>yotta_modules/microbit-dal/build/bbc-microbit-classic-gcc</pElem>
+          </incDir>
+        </ccTool>
+      </folder>
+      <folder path="0/yotta_modules/microbit-dal/yotta_modules/mbed-classic/targets/cmsis">
+        <cTool>
+          <incDir>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/mbed-classic/targets/cmsis/TARGET_NORDIC/TARGET_MCU_NRF51822</pElem>
+          </incDir>
+        </cTool>
+      </folder>
+      <folder path="0/yotta_modules/microbit-dal/yotta_modules/nrf51-sdk">
+        <ccTool>
+          <incDir>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/nrf51-sdk/source/nordic_sdk/components/softdevice/s130/headers</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/nrf51-sdk/source/nordic_sdk/components/ble/common</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/mbed-classic/api</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/nrf51-sdk/source/nordic_sdk/components/libraries/util</pElem>
+            <pElem>/usr/local/Cellar/arm-none-eabi-gcc/5.0-2016-q2-update/arm-none-eabi/include/c++/5.4.1/arm-none-eabi/armv6-m/bits</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/mbed-classic/hal</pElem>
+            <pElem>yotta_modules/microbit-dal/build/bbc-microbit-classic-gcc</pElem>
+          </incDir>
+        </ccTool>
+      </folder>
+      <folder path="0/yotta_modules/microbit-dal/yotta_modules/nrf51-sdk/source/nordic_sdk/components/ble/ble_radio_notification">
+        <cTool>
+          <incDir>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/nrf51-sdk/source/nordic_sdk/components/softdevice/s130/headers</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/nrf51-sdk/source/nordic_sdk/components/ble/ble_radio_notification</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/nrf51-sdk/source/nordic_sdk/components/device</pElem>
+          </incDir>
+        </cTool>
+      </folder>
+      <folder path="0/yotta_modules/microbit-dal/yotta_modules/nrf51-sdk/source/nordic_sdk/components/ble/ble_services">
+        <cTool>
+          <incDir>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/nrf51-sdk/source/nordic_sdk/components/softdevice/s130/headers</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/nrf51-sdk/source/nordic_sdk/components/ble/ble_services/ble_dfu</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/nrf51-sdk/source/nordic_sdk/components/libraries/util</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/nrf51-sdk/source/nordic_sdk/components/ble/common</pElem>
+          </incDir>
+        </cTool>
+      </folder>
+      <folder path="0/yotta_modules/microbit-dal/yotta_modules/nrf51-sdk/source/nordic_sdk/components/ble/device_manager">
+        <cTool>
+          <incDir>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/nrf51-sdk/source/nordic_sdk/components/softdevice/s130/headers</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/nrf51-sdk/source/nordic_sdk/components/ble/device_manager</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/nrf51-sdk/source/nordic_sdk/components/libraries/util</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/nrf51-sdk/source/nordic_sdk/components/drivers_nrf/pstorage/config</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/nrf51-sdk/source/nordic_sdk/components/drivers_nrf/pstorage</pElem>
+          </incDir>
+        </cTool>
+      </folder>
+      <folder path="0/yotta_modules/microbit-dal/yotta_modules/nrf51-sdk/source/nordic_sdk/components/drivers_nrf/ble_flash">
+        <cTool>
+          <incDir>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/nrf51-sdk/source/nordic_sdk/components/softdevice/s130/headers</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/nrf51-sdk/source/nordic_sdk/components/drivers_nrf/ble_flash</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/nrf51-sdk/source/nordic_sdk/components/device</pElem>
+          </incDir>
+        </cTool>
+      </folder>
+      <folder path="0/yotta_modules/microbit-dal/yotta_modules/nrf51-sdk/source/nordic_sdk/components/drivers_nrf/delay">
+        <cTool>
+          <incDir>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/nrf51-sdk/source/nordic_sdk/components/drivers_nrf/delay</pElem>
+            <pElem>yotta_modules/microbit-dal/build/bbc-microbit-classic-gcc</pElem>
+          </incDir>
+        </cTool>
+      </folder>
+      <folder path="0/yotta_modules/microbit-dal/yotta_modules/nrf51-sdk/source/nordic_sdk/components/drivers_nrf/hal">
+        <cTool>
+          <incDir>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/nrf51-sdk/source/nordic_sdk/components/drivers_nrf/hal</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/nrf51-sdk/source/nordic_sdk/components/device</pElem>
+          </incDir>
+        </cTool>
+      </folder>
+      <folder path="0/yotta_modules/microbit-dal/yotta_modules/nrf51-sdk/source/nordic_sdk/components/drivers_nrf/pstorage">
+        <cTool>
+          <incDir>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/nrf51-sdk/source/nordic_sdk/components/drivers_nrf/pstorage/config</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/nrf51-sdk/source/nordic_sdk/components/softdevice/s130/headers</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/nrf51-sdk/source/nordic_sdk/components/drivers_nrf/pstorage</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/nrf51-sdk/source/nordic_sdk/components/device</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/nrf51-sdk/source/nordic_sdk/components/libraries/util</pElem>
+          </incDir>
+        </cTool>
+      </folder>
+      <folder path="0/yotta_modules/microbit-dal/yotta_modules/nrf51-sdk/source/nordic_sdk/components/libraries/crc16">
+        <cTool>
+          <incDir>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/nrf51-sdk/source/nordic_sdk/components/libraries/crc16</pElem>
+            <pElem>yotta_modules/microbit-dal/build/bbc-microbit-classic-gcc</pElem>
+          </incDir>
+        </cTool>
+      </folder>
+      <folder path="0/yotta_modules/microbit-dal/yotta_modules/nrf51-sdk/source/nordic_sdk/components/libraries/fds">
+        <cTool>
+          <incDir>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/nrf51-sdk/source/nordic_sdk/components/libraries/fds</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/nrf51-sdk/source/nordic_sdk/components/libraries/util</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/nrf51-sdk/source/nordic_sdk/components/libraries/fstorage</pElem>
+          </incDir>
+        </cTool>
+      </folder>
+      <folder path="0/yotta_modules/microbit-dal/yotta_modules/nrf51-sdk/source/nordic_sdk/components/libraries/fstorage">
+        <cTool>
+          <incDir>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/nrf51-sdk/source/nordic_sdk/components/softdevice/s130/headers</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/nrf51-sdk/source/nordic_sdk/components/libraries/fstorage</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/nrf51-sdk/source/nordic_sdk/components/device</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/nrf51-sdk/source/nordic_sdk/components/libraries/util</pElem>
+            <pElem>yotta_modules/microbit-dal/build/bbc-microbit-classic-gcc</pElem>
+          </incDir>
+        </cTool>
+      </folder>
+      <folder path="0/yotta_modules/microbit-dal/yotta_modules/nrf51-sdk/source/nordic_sdk/components/libraries/hci">
+        <cTool>
+          <incDir>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/nrf51-sdk/source/nordic_sdk/components/libraries/hci</pElem>
+            <pElem>yotta_modules/microbit-dal/build/bbc-microbit-classic-gcc</pElem>
+          </incDir>
+        </cTool>
+      </folder>
+      <folder path="0/yotta_modules/microbit-dal/yotta_modules/nrf51-sdk/source/nordic_sdk/components/libraries/scheduler">
+        <cTool>
+          <incDir>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/nrf51-sdk/source/nordic_sdk/components/libraries/scheduler</pElem>
+            <pElem>yotta_modules/microbit-dal/yotta_modules/nrf51-sdk/source/nordic_sdk/components/libraries/util</pElem>
+          </incDir>
+        </cTool>
       </folder>
       <folder path="0/yotta_modules/nrf51-sdk">
         <ccTool>

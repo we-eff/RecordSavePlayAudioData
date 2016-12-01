@@ -38,8 +38,9 @@ int main()
     Button buttonRecord(MICROBIT_PIN_BUTTON_A, MICROBIT_ID_BUTTON_A); // initialization
     Button buttonPlay(MICROBIT_PIN_BUTTON_B, MICROBIT_ID_BUTTON_B);
 
-    Audio microphonecheck12whatisthis;
     Display LEDs;
+    Audio microphonecheck12whatisthis;
+    
     
     LEDs.displayReadySign(); // initialization finished
 

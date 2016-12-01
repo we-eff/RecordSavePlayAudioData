@@ -59,7 +59,7 @@ static NRF_TIMER_Type *Timers[1] = {
     NRF_TIMER2
 };
 
-uint16_t PERIOD            = 20000 / TIMER_PRECISION;  //20ms
+uint16_t PERIOD            = 20000 / TIMER_PRECISION; // unchanged due to no effect, apparently //20ms
 uint8_t PWM_taken[NO_PWMS] = {0, 0, 0};
 uint16_t PULSE_WIDTH[NO_PWMS] = {1, 1, 1}; //set to 1 instead of 0
 uint16_t ACTUAL_PULSE[NO_PWMS] = {0, 0, 0};
@@ -234,8 +234,8 @@ void pwmout_init(pwmout_t *obj, PinName pin)
 
     timer_init((uint8_t)pwm);
 
-    //default to 20ms: standard for servos, and fine for e.g. brightness control
-    pwmout_period_ms(obj, 20);
+    // changed to 24us (multiple of 4 ... TIMER_PRECISION) to get 41,667kHz //default to 20ms: standard for servos, and fine for e.g. brightness control
+    pwmout_period_us(obj, 24);
     pwmout_write    (obj, 0);
 }
 
@@ -301,7 +301,7 @@ void pwmout_period_us(pwmout_t *obj, int us)
     NRF_TIMER2->TASKS_STOP        = 1;
 
     if (periodInTicks>((1 << 16) - 1)) {
-        PERIOD = (1 << 16) - 1; //131ms
+        PERIOD = (1 << 16) - 1; // 65535 ... 16bit value max //131ms
     } else if (periodInTicks<5) {
         PERIOD = 5;
     } else {
